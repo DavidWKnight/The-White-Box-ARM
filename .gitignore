@@ -77,9 +77,6 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# STM HAL Files
-*.ioc
-
 # linker/asm files
 *.ld
 *.s
