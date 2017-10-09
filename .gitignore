@@ -78,7 +78,6 @@ Mkfile.old
 dkms.conf
 
 # STM HAL Files
-Drivers/
 *.ioc
 
 # linker/asm files
