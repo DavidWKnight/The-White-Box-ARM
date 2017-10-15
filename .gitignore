@@ -80,7 +80,3 @@ dkms.conf
 # linker/asm files
 *.ld
 *.s
-
-# Openocd files
-*.cfg
-
