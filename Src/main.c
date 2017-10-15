@@ -114,7 +114,10 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   while (1) {
-    
+    LL_GPIO_WriteOutputPort(GPIOC, LL_GPIO_PIN_ALL);
+    LL_mDelay(500);
+    LL_GPIO_WriteOutputPort(GPIOC, ~LL_GPIO_PIN_ALL);
+    LL_mDelay(500);
   }
   /* USER CODE END 2 */
 
