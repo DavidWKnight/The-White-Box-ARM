@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccaVgDzc.s 			page 1
+ARM GAS  /tmp/ccOQDBe5.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -25,7 +25,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
   22              		.thumb_func
   23              		.fpu fpv4-sp-d16
   25              	HAL_I2CEx_ConfigAnalogFilter:
-  26              	.LFB309:
+  26              	.LFB1499:
   27              		.file 1 "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c"
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****           (++) HAL_I2CEx_DisableWakeUp()
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****     (#) Configure the enable or disable of fast mode plus driving capability using the functions :
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****           (++) HAL_I2CEx_EnableFastModePlus()
-ARM GAS  /tmp/ccaVgDzc.s 			page 2
+ARM GAS  /tmp/ccOQDBe5.s 			page 2
 
 
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****           (++) HAL_I2CEx_DisableFastModePlus()
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   * @{
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   */
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
-ARM GAS  /tmp/ccaVgDzc.s 			page 3
+ARM GAS  /tmp/ccOQDBe5.s 			page 3
 
 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /** @defgroup I2CEx_Exported_Functions_Group1 Extended features functions
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  132:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  133:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****     __HAL_I2C_ENABLE(hi2c);
  134:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
-ARM GAS  /tmp/ccaVgDzc.s 			page 4
+ARM GAS  /tmp/ccOQDBe5.s 			page 4
 
 
  135:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****     hi2c->State = HAL_I2C_STATE_READY;
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  135:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
   76              		.loc 1 135 0 discriminator 2
   77 0048 2023     		movs	r3, #32
-ARM GAS  /tmp/ccaVgDzc.s 			page 5
+ARM GAS  /tmp/ccOQDBe5.s 			page 5
 
 
   78 004a 80F84130 		strb	r3, [r0, #65]
@@ -262,7 +262,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
   91              		.loc 1 146 0
   92 005a 7047     		bx	lr
   93              		.cfi_endproc
-  94              	.LFE309:
+  94              	.LFE1499:
   96              		.section	.text.HAL_I2CEx_ConfigDigitalFilter,"ax",%progbits
   97              		.align	1
   98              		.global	HAL_I2CEx_ConfigDigitalFilter
@@ -271,7 +271,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  101              		.thumb_func
  102              		.fpu fpv4-sp-d16
  104              	HAL_I2CEx_ConfigDigitalFilter:
- 105              	.LFB310:
+ 105              	.LFB1500:
  147:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  148:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /**
  149:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   * @brief  Configure I2C Digital noise filter.
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  112              		.loc 1 163 0
  113 0000 90F84130 		ldrb	r3, [r0, #65]	@ zero_extendqisi2
  114 0004 DBB2     		uxtb	r3, r3
-ARM GAS  /tmp/ccaVgDzc.s 			page 6
+ARM GAS  /tmp/ccOQDBe5.s 			page 6
 
 
  115 0006 202B     		cmp	r3, #32
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  171:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  133              		.loc 1 171 0 discriminator 2
  134 0022 0268     		ldr	r2, [r0]
-ARM GAS  /tmp/ccaVgDzc.s 			page 7
+ARM GAS  /tmp/ccOQDBe5.s 			page 7
 
 
  135 0024 1368     		ldr	r3, [r2]
@@ -410,7 +410,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  170              		.loc 1 198 0
  171 0056 7047     		bx	lr
  172              		.cfi_endproc
- 173              	.LFE310:
+ 173              	.LFE1500:
  175              		.section	.text.HAL_I2CEx_EnableWakeUp,"ax",%progbits
  176              		.align	1
  177              		.global	HAL_I2CEx_EnableWakeUp
@@ -418,11 +418,11 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  179              		.thumb
  180              		.thumb_func
  181              		.fpu fpv4-sp-d16
-ARM GAS  /tmp/ccaVgDzc.s 			page 8
+ARM GAS  /tmp/ccOQDBe5.s 			page 8
 
 
  183              	HAL_I2CEx_EnableWakeUp:
- 184              	.LFB311:
+ 184              	.LFB1501:
  199:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  200:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /**
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   * @brief  Enable I2C wakeup from stop mode.
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  200              	.LVL18:
  201              	.L15:
  214:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
-ARM GAS  /tmp/ccaVgDzc.s 			page 9
+ARM GAS  /tmp/ccOQDBe5.s 			page 9
 
 
  202              		.loc 1 214 0
@@ -535,10 +535,10 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  242              		.loc 1 237 0
  243 0052 7047     		bx	lr
  244              		.cfi_endproc
- 245              	.LFE311:
+ 245              	.LFE1501:
  247              		.section	.text.HAL_I2CEx_DisableWakeUp,"ax",%progbits
  248              		.align	1
-ARM GAS  /tmp/ccaVgDzc.s 			page 10
+ARM GAS  /tmp/ccOQDBe5.s 			page 10
 
 
  249              		.global	HAL_I2CEx_DisableWakeUp
@@ -547,7 +547,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  252              		.thumb_func
  253              		.fpu fpv4-sp-d16
  255              	HAL_I2CEx_DisableWakeUp:
- 256              	.LFB312:
+ 256              	.LFB1502:
  238:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  239:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /**
  240:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   * @brief  Disable I2C wakeup from stop mode.
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  274:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****     return HAL_BUSY;
  268              		.loc 1 274 0
  269 000a 0220     		movs	r0, #2
-ARM GAS  /tmp/ccaVgDzc.s 			page 11
+ARM GAS  /tmp/ccOQDBe5.s 			page 11
 
 
  270              	.LVL23:
@@ -658,12 +658,12 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  275:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   }
  276:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** }
  314              		.loc 1 276 0
-ARM GAS  /tmp/ccaVgDzc.s 			page 12
+ARM GAS  /tmp/ccOQDBe5.s 			page 12
 
 
  315 0052 7047     		bx	lr
  316              		.cfi_endproc
- 317              	.LFE312:
+ 317              	.LFE1502:
  319              		.section	.text.HAL_I2CEx_EnableFastModePlus,"ax",%progbits
  320              		.align	1
  321              		.global	HAL_I2CEx_EnableFastModePlus
@@ -672,7 +672,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  324              		.thumb_func
  325              		.fpu fpv4-sp-d16
  327              	HAL_I2CEx_EnableFastModePlus:
- 328              	.LFB313:
+ 328              	.LFB1503:
  277:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  278:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /**
  279:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   * @brief Enable the I2C fast mode plus driving capability.
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  346 0012 0193     		str	r3, [sp, #4]
  347 0014 019B     		ldr	r3, [sp, #4]
  348              	.LBE2:
-ARM GAS  /tmp/ccaVgDzc.s 			page 13
+ARM GAS  /tmp/ccOQDBe5.s 			page 13
 
 
  302:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
@@ -743,7 +743,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  364 0024 00100240 		.word	1073876992
  365 0028 00000140 		.word	1073807360
  366              		.cfi_endproc
- 367              	.LFE313:
+ 367              	.LFE1503:
  369              		.section	.text.HAL_I2CEx_DisableFastModePlus,"ax",%progbits
  370              		.align	1
  371              		.global	HAL_I2CEx_DisableFastModePlus
@@ -752,7 +752,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  374              		.thumb_func
  375              		.fpu fpv4-sp-d16
  377              	HAL_I2CEx_DisableFastModePlus:
- 378              	.LFB314:
+ 378              	.LFB1504:
  306:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** 
  307:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c **** /**
  308:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c ****   * @brief Disable the I2C fast mode plus driving capability.
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  381              		@ args = 0, pretend = 0, frame = 8
  382              		@ frame_needed = 0, uses_anonymous_args = 0
  383              		@ link register save eliminated.
-ARM GAS  /tmp/ccaVgDzc.s 			page 14
+ARM GAS  /tmp/ccOQDBe5.s 			page 14
 
 
  384              	.LVL30:
@@ -823,7 +823,7 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  414 0024 00100240 		.word	1073876992
  415 0028 00000140 		.word	1073807360
  416              		.cfi_endproc
- 417              	.LFE314:
+ 417              	.LFE1504:
  419              		.text
  420              	.Letext0:
  421              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
@@ -831,35 +831,37 @@ ARM GAS  /tmp/ccaVgDzc.s 			page 1
  423              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  424              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
  425              		.file 6 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
- 426              		.file 7 "/usr/arm-none-eabi/include/sys/lock.h"
- 427              		.file 8 "/usr/arm-none-eabi/include/sys/_types.h"
- 428              		.file 9 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
- 429              		.file 10 "/usr/arm-none-eabi/include/sys/reent.h"
- 430              		.file 11 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
- 431              		.file 12 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
- 432              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h"
-ARM GAS  /tmp/ccaVgDzc.s 			page 15
+ 426              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
+ 427              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h"
+ 428              		.file 9 "/usr/arm-none-eabi/include/sys/lock.h"
+ 429              		.file 10 "/usr/arm-none-eabi/include/sys/_types.h"
+ 430              		.file 11 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
+ 431              		.file 12 "/usr/arm-none-eabi/include/sys/reent.h"
+ 432              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
+ARM GAS  /tmp/ccOQDBe5.s 			page 15
 
 
-ARM GAS  /tmp/ccaVgDzc.s 			page 16
+ 433              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
+ 434              		.file 15 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h"
+ARM GAS  /tmp/ccOQDBe5.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_i2c_ex.c
-     /tmp/ccaVgDzc.s:18     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 $t
-     /tmp/ccaVgDzc.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 HAL_I2CEx_ConfigAnalogFilter
-     /tmp/ccaVgDzc.s:97     .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 $t
-     /tmp/ccaVgDzc.s:104    .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 HAL_I2CEx_ConfigDigitalFilter
-     /tmp/ccaVgDzc.s:176    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 $t
-     /tmp/ccaVgDzc.s:183    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 HAL_I2CEx_EnableWakeUp
-     /tmp/ccaVgDzc.s:248    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 $t
-     /tmp/ccaVgDzc.s:255    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 HAL_I2CEx_DisableWakeUp
-     /tmp/ccaVgDzc.s:320    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 $t
-     /tmp/ccaVgDzc.s:327    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 HAL_I2CEx_EnableFastModePlus
-     /tmp/ccaVgDzc.s:364    .text.HAL_I2CEx_EnableFastModePlus:0000000000000024 $d
-     /tmp/ccaVgDzc.s:370    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 $t
-     /tmp/ccaVgDzc.s:377    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 HAL_I2CEx_DisableFastModePlus
-     /tmp/ccaVgDzc.s:414    .text.HAL_I2CEx_DisableFastModePlus:0000000000000024 $d
+     /tmp/ccOQDBe5.s:18     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 $t
+     /tmp/ccOQDBe5.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:0000000000000000 HAL_I2CEx_ConfigAnalogFilter
+     /tmp/ccOQDBe5.s:97     .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 $t
+     /tmp/ccOQDBe5.s:104    .text.HAL_I2CEx_ConfigDigitalFilter:0000000000000000 HAL_I2CEx_ConfigDigitalFilter
+     /tmp/ccOQDBe5.s:176    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 $t
+     /tmp/ccOQDBe5.s:183    .text.HAL_I2CEx_EnableWakeUp:0000000000000000 HAL_I2CEx_EnableWakeUp
+     /tmp/ccOQDBe5.s:248    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 $t
+     /tmp/ccOQDBe5.s:255    .text.HAL_I2CEx_DisableWakeUp:0000000000000000 HAL_I2CEx_DisableWakeUp
+     /tmp/ccOQDBe5.s:320    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 $t
+     /tmp/ccOQDBe5.s:327    .text.HAL_I2CEx_EnableFastModePlus:0000000000000000 HAL_I2CEx_EnableFastModePlus
+     /tmp/ccOQDBe5.s:364    .text.HAL_I2CEx_EnableFastModePlus:0000000000000024 $d
+     /tmp/ccOQDBe5.s:370    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 $t
+     /tmp/ccOQDBe5.s:377    .text.HAL_I2CEx_DisableFastModePlus:0000000000000000 HAL_I2CEx_DisableFastModePlus
+     /tmp/ccOQDBe5.s:414    .text.HAL_I2CEx_DisableFastModePlus:0000000000000024 $d
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

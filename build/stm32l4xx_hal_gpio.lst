@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc2DqO2C.s 			page 1
+ARM GAS  /tmp/ccbwpf2A.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -25,7 +25,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
   22              		.thumb_func
   23              		.fpu fpv4-sp-d16
   25              	HAL_GPIO_Init:
-  26              	.LFB309:
+  26              	.LFB1499:
   27              		.file 1 "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c"
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     (+) In Output or Alternate mode, each IO can be configured on open-drain or push-pull
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         type and the IO speed can be selected depending on the VDD value.
-ARM GAS  /tmp/cc2DqO2C.s 			page 2
+ARM GAS  /tmp/ccbwpf2A.s 			page 2
 
 
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     (#) The HSE oscillator pins OSC_IN/OSC_OUT can be used as
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         general purpose PH0 and PH1, respectively, when the HSE oscillator is off.
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         The HSE has priority over the GPIO function.
-ARM GAS  /tmp/cc2DqO2C.s 			page 3
+ARM GAS  /tmp/ccbwpf2A.s 			page 3
 
 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define GPIO_MODE_IT          ((uint32_t)0x00010000)
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define GPIO_MODE_EVT         ((uint32_t)0x00020000)
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define RISING_EDGE           ((uint32_t)0x00100000)
-ARM GAS  /tmp/cc2DqO2C.s 			page 4
+ARM GAS  /tmp/ccbwpf2A.s 			page 4
 
 
  146:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #define FALLING_EDGE          ((uint32_t)0x00200000)
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
   37              		.cfi_offset 5, -16
   38              		.cfi_offset 6, -12
   39              		.cfi_offset 7, -8
-ARM GAS  /tmp/cc2DqO2C.s 			page 5
+ARM GAS  /tmp/ccbwpf2A.s 			page 5
 
 
   40              		.cfi_offset 14, -4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
   64 0022 0F69     		ldr	r7, [r1, #16]
   65 0024 07FA06F6 		lsl	r6, r7, r6
   66 0028 3443     		orrs	r4, r4, r6
-ARM GAS  /tmp/cc2DqO2C.s 			page 6
+ARM GAS  /tmp/ccbwpf2A.s 			page 6
 
 
   67              	.LVL5:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
   96 004c 3E43     		orrs	r6, r6, r7
   97              	.LVL12:
  246:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         GPIOx->OTYPER = temp;
-ARM GAS  /tmp/cc2DqO2C.s 			page 7
+ARM GAS  /tmp/ccbwpf2A.s 			page 7
 
 
   98              		.loc 1 246 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  272:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       {
  273:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         /* Enable SYSCFG Clock */
  274:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         __HAL_RCC_SYSCFG_CLK_ENABLE();
-ARM GAS  /tmp/cc2DqO2C.s 			page 8
+ARM GAS  /tmp/ccbwpf2A.s 			page 8
 
 
  127              		.loc 1 274 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  177 00d2 67D0     		beq	.L24
  178              		.loc 1 278 0
  179 00d4 0726     		movs	r6, #7
-ARM GAS  /tmp/cc2DqO2C.s 			page 9
+ARM GAS  /tmp/ccbwpf2A.s 			page 9
 
 
  180              	.L9:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  218              		.loc 1 294 0
  219 010a 42EA0506 		orr	r6, r2, r5
  220              	.LVL27:
-ARM GAS  /tmp/cc2DqO2C.s 			page 10
+ARM GAS  /tmp/ccbwpf2A.s 			page 10
 
 
  221              	.L11:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  256              		.loc 1 313 0
  257 0138 254A     		ldr	r2, .L26+12
  258              	.LVL34:
-ARM GAS  /tmp/cc2DqO2C.s 			page 11
+ARM GAS  /tmp/ccbwpf2A.s 			page 11
 
 
  259 013a D460     		str	r4, [r2, #12]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  301              	.LVL41:
  228:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  302              		.loc 1 228 0
-ARM GAS  /tmp/cc2DqO2C.s 			page 12
+ARM GAS  /tmp/ccbwpf2A.s 			page 12
 
 
  303 0178 0660     		str	r6, [r0]
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  349 01b6 8EE7     		b	.L9
  350              	.L19:
  351 01b8 0426     		movs	r6, #4
-ARM GAS  /tmp/cc2DqO2C.s 			page 13
+ARM GAS  /tmp/ccbwpf2A.s 			page 13
 
 
  352 01ba 8CE7     		b	.L9
@@ -743,7 +743,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  369 01cc 00040048 		.word	1207960576
  370 01d0 00040140 		.word	1073808384
  371              		.cfi_endproc
- 372              	.LFE309:
+ 372              	.LFE1499:
  374              		.section	.text.HAL_GPIO_DeInit,"ax",%progbits
  375              		.align	1
  376              		.global	HAL_GPIO_DeInit
@@ -752,7 +752,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  379              		.thumb_func
  380              		.fpu fpv4-sp-d16
  382              	HAL_GPIO_DeInit:
- 383              	.LFB310:
+ 383              	.LFB1500:
  320:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  321:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /**
  322:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @brief  De-initialize the GPIOx peripheral registers to their default reset values.
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  334:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   /* Check the parameters */
  335:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   assert_param(IS_GPIO_ALL_INSTANCE(GPIOx));
  336:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   assert_param(IS_GPIO_PIN(GPIO_Pin));
-ARM GAS  /tmp/cc2DqO2C.s 			page 14
+ARM GAS  /tmp/ccbwpf2A.s 			page 14
 
 
  337:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  407              		.loc 1 374 0
  408 000e 0625     		movs	r5, #6
  409 0010 00E0     		b	.L31
-ARM GAS  /tmp/cc2DqO2C.s 			page 15
+ARM GAS  /tmp/ccbwpf2A.s 			page 15
 
 
  410              	.L33:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  444 0040 0EF1080E 		add	lr, lr, #8
  445 0044 50F82EC0 		ldr	ip, [r0, lr, lsl #2]
  446 0048 02F00705 		and	r5, r2, #7
-ARM GAS  /tmp/cc2DqO2C.s 			page 16
+ARM GAS  /tmp/ccbwpf2A.s 			page 16
 
 
  447 004c AD00     		lsls	r5, r5, #2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  492 00a2 13D0     		beq	.L35
  374:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       {
  493              		.loc 1 374 0 discriminator 5
-ARM GAS  /tmp/cc2DqO2C.s 			page 17
+ARM GAS  /tmp/ccbwpf2A.s 			page 17
 
 
  494 00a4 05F58065 		add	r5, r5, #1024
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  542 00f6 1C60     		str	r4, [r3]
  381:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  543              		.loc 1 381 0
-ARM GAS  /tmp/cc2DqO2C.s 			page 18
+ARM GAS  /tmp/ccbwpf2A.s 			page 18
 
 
  544 00f8 5C68     		ldr	r4, [r3, #4]
@@ -1059,7 +1059,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  575 0114 00040048 		.word	1207960576
  576 0118 00040140 		.word	1073808384
  577              		.cfi_endproc
- 578              	.LFE310:
+ 578              	.LFE1500:
  580              		.section	.text.HAL_GPIO_ReadPin,"ax",%progbits
  581              		.align	1
  582              		.global	HAL_GPIO_ReadPin
@@ -1068,7 +1068,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  585              		.thumb_func
  586              		.fpu fpv4-sp-d16
  588              	HAL_GPIO_ReadPin:
- 589              	.LFB311:
+ 589              	.LFB1501:
  392:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  393:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /**
  394:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @}
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  398:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****  *  @brief GPIO Read, Write, Toggle, Lock and EXTI management functions.
  399:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****  *
  400:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** @verbatim
-ARM GAS  /tmp/cc2DqO2C.s 			page 19
+ARM GAS  /tmp/ccbwpf2A.s 			page 19
 
 
  401:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****  ===============================================================================
@@ -1136,9 +1136,9 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  609              	.LVL68:
  610 000c 7047     		bx	lr
  611              		.cfi_endproc
- 612              	.LFE311:
+ 612              	.LFE1501:
  614              		.section	.text.HAL_GPIO_WritePin,"ax",%progbits
-ARM GAS  /tmp/cc2DqO2C.s 			page 20
+ARM GAS  /tmp/ccbwpf2A.s 			page 20
 
 
  615              		.align	1
@@ -1148,7 +1148,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  619              		.thumb_func
  620              		.fpu fpv4-sp-d16
  622              	HAL_GPIO_WritePin:
- 623              	.LFB312:
+ 623              	.LFB1502:
  433:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  434:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /**
  435:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @brief  Set or clear the selected data port bit.
@@ -1196,9 +1196,9 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  637 0006 8161     		str	r1, [r0, #24]
  638 0008 7047     		bx	lr
  639              		.cfi_endproc
- 640              	.LFE312:
+ 640              	.LFE1502:
  642              		.section	.text.HAL_GPIO_TogglePin,"ax",%progbits
-ARM GAS  /tmp/cc2DqO2C.s 			page 21
+ARM GAS  /tmp/ccbwpf2A.s 			page 21
 
 
  643              		.align	1
@@ -1208,7 +1208,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  647              		.thumb_func
  648              		.fpu fpv4-sp-d16
  650              	HAL_GPIO_TogglePin:
- 651              	.LFB313:
+ 651              	.LFB1503:
  463:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   }
  464:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** }
  465:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
@@ -1237,7 +1237,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  662 0004 4161     		str	r1, [r0, #20]
  663 0006 7047     		bx	lr
  664              		.cfi_endproc
- 665              	.LFE313:
+ 665              	.LFE1503:
  667              		.section	.text.HAL_GPIO_LockPin,"ax",%progbits
  668              		.align	1
  669              		.global	HAL_GPIO_LockPin
@@ -1246,7 +1246,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  672              		.thumb_func
  673              		.fpu fpv4-sp-d16
  675              	HAL_GPIO_LockPin:
- 676              	.LFB314:
+ 676              	.LFB1504:
  478:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** }
  479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  480:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /**
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @param  GPIOx: where x can be (A..H) to select the GPIO peripheral for STM32L4 family
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @param  GPIO_Pin: specifies the port bits to be locked.
  488:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   *         This parameter can be any combination of GPIO_Pin_x where x can be (0..15).
-ARM GAS  /tmp/cc2DqO2C.s 			page 22
+ARM GAS  /tmp/ccbwpf2A.s 			page 22
 
 
  489:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @retval None
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  512:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     return HAL_OK;
  513:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   }
  514:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   else
-ARM GAS  /tmp/cc2DqO2C.s 			page 23
+ARM GAS  /tmp/ccbwpf2A.s 			page 23
 
 
  515:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   {
@@ -1346,7 +1346,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  725              	.LVL75:
  726 002c FBE7     		b	.L59
  727              		.cfi_endproc
- 728              	.LFE314:
+ 728              	.LFE1504:
  730              		.section	.text.HAL_GPIO_EXTI_Callback,"ax",%progbits
  731              		.align	1
  732              		.weak	HAL_GPIO_EXTI_Callback
@@ -1355,7 +1355,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  735              		.thumb_func
  736              		.fpu fpv4-sp-d16
  738              	HAL_GPIO_EXTI_Callback:
- 739              	.LFB316:
+ 739              	.LFB1506:
  519:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  520:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /**
  521:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @brief  Handle EXTI interrupt request.
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  538:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @retval None
  539:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   */
  540:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** __weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-ARM GAS  /tmp/cc2DqO2C.s 			page 24
+ARM GAS  /tmp/ccbwpf2A.s 			page 24
 
 
  541:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** {
@@ -1390,7 +1390,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  745              	.LVL76:
  746 0000 7047     		bx	lr
  747              		.cfi_endproc
- 748              	.LFE316:
+ 748              	.LFE1506:
  750              		.section	.text.HAL_GPIO_EXTI_IRQHandler,"ax",%progbits
  751              		.align	1
  752              		.global	HAL_GPIO_EXTI_IRQHandler
@@ -1399,7 +1399,7 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  755              		.thumb_func
  756              		.fpu fpv4-sp-d16
  758              	HAL_GPIO_EXTI_IRQHandler:
- 759              	.LFB315:
+ 759              	.LFB1505:
  526:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   /* EXTI line interrupt detected */
  760              		.loc 1 526 0
  761              		.cfi_startproc
@@ -1438,12 +1438,12 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  789              	.L69:
  790 0016 00BF     		.align	2
  791              	.L68:
-ARM GAS  /tmp/cc2DqO2C.s 			page 25
+ARM GAS  /tmp/ccbwpf2A.s 			page 25
 
 
  792 0018 00040140 		.word	1073808384
  793              		.cfi_endproc
- 794              	.LFE315:
+ 794              	.LFE1505:
  796              		.text
  797              	.Letext0:
  798              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
@@ -1451,37 +1451,39 @@ ARM GAS  /tmp/cc2DqO2C.s 			page 1
  800              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
  801              		.file 5 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
  802              		.file 6 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
- 803              		.file 7 "/usr/arm-none-eabi/include/sys/lock.h"
- 804              		.file 8 "/usr/arm-none-eabi/include/sys/_types.h"
- 805              		.file 9 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
- 806              		.file 10 "/usr/arm-none-eabi/include/sys/reent.h"
- 807              		.file 11 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h"
- 808              		.file 12 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
- 809              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  /tmp/cc2DqO2C.s 			page 26
+ 803              		.file 7 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
+ 804              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h"
+ 805              		.file 9 "/usr/arm-none-eabi/include/sys/lock.h"
+ 806              		.file 10 "/usr/arm-none-eabi/include/sys/_types.h"
+ 807              		.file 11 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
+ 808              		.file 12 "/usr/arm-none-eabi/include/sys/reent.h"
+ 809              		.file 13 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h"
+ 810              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
+ 811              		.file 15 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
+ARM GAS  /tmp/ccbwpf2A.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_gpio.c
-     /tmp/cc2DqO2C.s:18     .text.HAL_GPIO_Init:0000000000000000 $t
-     /tmp/cc2DqO2C.s:25     .text.HAL_GPIO_Init:0000000000000000 HAL_GPIO_Init
-     /tmp/cc2DqO2C.s:367    .text.HAL_GPIO_Init:00000000000001c4 $d
-     /tmp/cc2DqO2C.s:375    .text.HAL_GPIO_DeInit:0000000000000000 $t
-     /tmp/cc2DqO2C.s:382    .text.HAL_GPIO_DeInit:0000000000000000 HAL_GPIO_DeInit
-     /tmp/cc2DqO2C.s:574    .text.HAL_GPIO_DeInit:0000000000000110 $d
-     /tmp/cc2DqO2C.s:581    .text.HAL_GPIO_ReadPin:0000000000000000 $t
-     /tmp/cc2DqO2C.s:588    .text.HAL_GPIO_ReadPin:0000000000000000 HAL_GPIO_ReadPin
-     /tmp/cc2DqO2C.s:615    .text.HAL_GPIO_WritePin:0000000000000000 $t
-     /tmp/cc2DqO2C.s:622    .text.HAL_GPIO_WritePin:0000000000000000 HAL_GPIO_WritePin
-     /tmp/cc2DqO2C.s:643    .text.HAL_GPIO_TogglePin:0000000000000000 $t
-     /tmp/cc2DqO2C.s:650    .text.HAL_GPIO_TogglePin:0000000000000000 HAL_GPIO_TogglePin
-     /tmp/cc2DqO2C.s:668    .text.HAL_GPIO_LockPin:0000000000000000 $t
-     /tmp/cc2DqO2C.s:675    .text.HAL_GPIO_LockPin:0000000000000000 HAL_GPIO_LockPin
-     /tmp/cc2DqO2C.s:731    .text.HAL_GPIO_EXTI_Callback:0000000000000000 $t
-     /tmp/cc2DqO2C.s:738    .text.HAL_GPIO_EXTI_Callback:0000000000000000 HAL_GPIO_EXTI_Callback
-     /tmp/cc2DqO2C.s:751    .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 $t
-     /tmp/cc2DqO2C.s:758    .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 HAL_GPIO_EXTI_IRQHandler
-     /tmp/cc2DqO2C.s:792    .text.HAL_GPIO_EXTI_IRQHandler:0000000000000018 $d
+     /tmp/ccbwpf2A.s:18     .text.HAL_GPIO_Init:0000000000000000 $t
+     /tmp/ccbwpf2A.s:25     .text.HAL_GPIO_Init:0000000000000000 HAL_GPIO_Init
+     /tmp/ccbwpf2A.s:367    .text.HAL_GPIO_Init:00000000000001c4 $d
+     /tmp/ccbwpf2A.s:375    .text.HAL_GPIO_DeInit:0000000000000000 $t
+     /tmp/ccbwpf2A.s:382    .text.HAL_GPIO_DeInit:0000000000000000 HAL_GPIO_DeInit
+     /tmp/ccbwpf2A.s:574    .text.HAL_GPIO_DeInit:0000000000000110 $d
+     /tmp/ccbwpf2A.s:581    .text.HAL_GPIO_ReadPin:0000000000000000 $t
+     /tmp/ccbwpf2A.s:588    .text.HAL_GPIO_ReadPin:0000000000000000 HAL_GPIO_ReadPin
+     /tmp/ccbwpf2A.s:615    .text.HAL_GPIO_WritePin:0000000000000000 $t
+     /tmp/ccbwpf2A.s:622    .text.HAL_GPIO_WritePin:0000000000000000 HAL_GPIO_WritePin
+     /tmp/ccbwpf2A.s:643    .text.HAL_GPIO_TogglePin:0000000000000000 $t
+     /tmp/ccbwpf2A.s:650    .text.HAL_GPIO_TogglePin:0000000000000000 HAL_GPIO_TogglePin
+     /tmp/ccbwpf2A.s:668    .text.HAL_GPIO_LockPin:0000000000000000 $t
+     /tmp/ccbwpf2A.s:675    .text.HAL_GPIO_LockPin:0000000000000000 HAL_GPIO_LockPin
+     /tmp/ccbwpf2A.s:731    .text.HAL_GPIO_EXTI_Callback:0000000000000000 $t
+     /tmp/ccbwpf2A.s:738    .text.HAL_GPIO_EXTI_Callback:0000000000000000 HAL_GPIO_EXTI_Callback
+     /tmp/ccbwpf2A.s:751    .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 $t
+     /tmp/ccbwpf2A.s:758    .text.HAL_GPIO_EXTI_IRQHandler:0000000000000000 HAL_GPIO_EXTI_IRQHandler
+     /tmp/ccbwpf2A.s:792    .text.HAL_GPIO_EXTI_IRQHandler:0000000000000018 $d
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS
