@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc8MJhc5.s 			page 1
+ARM GAS  /tmp/ccXv8PX1.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-ARM GAS  /tmp/cc8MJhc5.s 			page 2
+ARM GAS  /tmp/ccXv8PX1.s 			page 2
 
 
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   *
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c **** #define IS_LL_SPI_DATAWIDTH(__VALUE__) (((__VALUE__) == LL_SPI_DATAWIDTH_4BIT)  \
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****                                      || ((__VALUE__) == LL_SPI_DATAWIDTH_5BIT)  \
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****                                      || ((__VALUE__) == LL_SPI_DATAWIDTH_6BIT)  \
-ARM GAS  /tmp/cc8MJhc5.s 			page 3
+ARM GAS  /tmp/ccXv8PX1.s 			page 3
 
 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****                                      || ((__VALUE__) == LL_SPI_DATAWIDTH_7BIT)  \
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  143:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   * @brief  De-initialize the SPI registers to their default reset values.
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   * @param  SPIx SPI Instance
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   * @retval An ErrorStatus enumeration value:
-ARM GAS  /tmp/cc8MJhc5.s 			page 4
+ARM GAS  /tmp/ccXv8PX1.s 			page 4
 
 
  146:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   *          - SUCCESS: SPI registers are de-initialized
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  177:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****     status = SUCCESS;
  178:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   }
  179:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c **** #endif /* SPI2 */
-ARM GAS  /tmp/cc8MJhc5.s 			page 5
+ARM GAS  /tmp/ccXv8PX1.s 			page 5
 
 
  180:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c **** #if defined(SPI3)
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
   27:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
   28:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * Redistribution and use in source and binary forms, with or without modification,
   29:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * are permitted provided that the following conditions are met:
-ARM GAS  /tmp/cc8MJhc5.s 			page 6
+ARM GAS  /tmp/ccXv8PX1.s 			page 6
 
 
   30:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *   1. Redistributions of source code must retain the above copyright notice,
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
   84:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @{
   85:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
   86:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
-ARM GAS  /tmp/cc8MJhc5.s 			page 7
+ARM GAS  /tmp/ccXv8PX1.s 			page 7
 
 
   87:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /** @defgroup BUS_LL_EC_AHB1_GRP1_PERIPH  AHB1 GRP1 PERIPH
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  141:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #define LL_AHB2_GRP1_PERIPH_AES            RCC_AHB2ENR_AESEN
  142:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #endif /* AES */
  143:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #if defined(HASH)
-ARM GAS  /tmp/cc8MJhc5.s 			page 8
+ARM GAS  /tmp/ccXv8PX1.s 			page 8
 
 
  144:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #define LL_AHB2_GRP1_PERIPH_HASH           RCC_AHB2ENR_HASHEN
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  198:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #define LL_APB1_GRP1_PERIPH_LCD            RCC_APB1ENR1_LCDEN
  199:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #endif /* LCD */
  200:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #if defined(RCC_APB1ENR1_RTCAPBEN)
-ARM GAS  /tmp/cc8MJhc5.s 			page 9
+ARM GAS  /tmp/ccXv8PX1.s 			page 9
 
 
  201:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #define LL_APB1_GRP1_PERIPH_RTCAPB         RCC_APB1ENR1_RTCAPBEN
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  255:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @}
  256:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
  257:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
-ARM GAS  /tmp/cc8MJhc5.s 			page 10
+ARM GAS  /tmp/ccXv8PX1.s 			page 10
 
 
  258:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /** @defgroup BUS_LL_EC_APB2_GRP1_PERIPH  APB2 GRP1 PERIPH
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  312:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @{
  313:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
  314:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
-ARM GAS  /tmp/cc8MJhc5.s 			page 11
+ARM GAS  /tmp/ccXv8PX1.s 			page 11
 
 
  315:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /** @defgroup BUS_LL_EF_AHB1 AHB1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  369:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_GFXMMU (*)
  370:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
  371:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
-ARM GAS  /tmp/cc8MJhc5.s 			page 12
+ARM GAS  /tmp/ccXv8PX1.s 			page 12
 
 
  372:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @retval State of Periphs (1 or 0).
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  426:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_GFXMMU (*)
  427:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
  428:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
-ARM GAS  /tmp/cc8MJhc5.s 			page 13
+ARM GAS  /tmp/ccXv8PX1.s 			page 13
 
 
  429:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @retval None
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  483:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_TSC
  484:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_DMA2D (*)
  485:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_GFXMMU (*)
-ARM GAS  /tmp/cc8MJhc5.s 			page 14
+ARM GAS  /tmp/ccXv8PX1.s 			page 14
 
 
  486:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  540:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOBEN       LL_AHB2_GRP1_EnableClock\n
  541:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOCEN       LL_AHB2_GRP1_EnableClock\n
  542:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIODEN       LL_AHB2_GRP1_EnableClock\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 15
+ARM GAS  /tmp/ccXv8PX1.s 			page 15
 
 
  543:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOEEN       LL_AHB2_GRP1_EnableClock\n
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  597:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOIEN       LL_AHB2_GRP1_IsEnabledClock\n
  598:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      OTGFSEN       LL_AHB2_GRP1_IsEnabledClock\n
  599:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      ADCEN         LL_AHB2_GRP1_IsEnabledClock\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 16
+ARM GAS  /tmp/ccXv8PX1.s 			page 16
 
 
  600:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      DCMIEN        LL_AHB2_GRP1_IsEnabledClock\n
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  654:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOB
  655:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOC
  656:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOD (*)
-ARM GAS  /tmp/cc8MJhc5.s 			page 17
+ARM GAS  /tmp/ccXv8PX1.s 			page 17
 
 
  657:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOE (*)
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  711:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_DCMI (*)
  712:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_AES (*)
  713:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_HASH (*)
-ARM GAS  /tmp/cc8MJhc5.s 			page 18
+ARM GAS  /tmp/ccXv8PX1.s 			page 18
 
 
  714:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_RNG
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  768:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** __STATIC_INLINE void LL_AHB2_GRP1_ReleaseReset(uint32_t Periphs)
  769:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** {
  770:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   CLEAR_BIT(RCC->AHB2RSTR, Periphs);
-ARM GAS  /tmp/cc8MJhc5.s 			page 19
+ARM GAS  /tmp/ccXv8PX1.s 			page 19
 
 
  771:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** }
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  825:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** }
  826:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
  827:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
-ARM GAS  /tmp/cc8MJhc5.s 			page 20
+ARM GAS  /tmp/ccXv8PX1.s 			page 20
 
 
  828:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable AHB2 peripheral clocks in Sleep and Stop modes
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  882:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @{
  883:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
  884:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
-ARM GAS  /tmp/cc8MJhc5.s 			page 21
+ARM GAS  /tmp/ccXv8PX1.s 			page 21
 
 
  885:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  939:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB3_GRP1_PERIPH_OSPI2 (*)
  940:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
  941:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
-ARM GAS  /tmp/cc8MJhc5.s 			page 22
+ARM GAS  /tmp/ccXv8PX1.s 			page 22
 
 
  942:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @retval None
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  996:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB3SMENR    OSPI2SMEN     LL_AHB3_GRP1_EnableClockStopSleep
  997:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
  998:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB3_GRP1_PERIPH_FMC (*)
-ARM GAS  /tmp/cc8MJhc5.s 			page 23
+ARM GAS  /tmp/ccXv8PX1.s 			page 23
 
 
  999:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB3_GRP1_PERIPH_QSPI (*)
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1053:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     WWDGEN        LL_APB1_GRP1_EnableClock\n
 1054:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     SPI2EN        LL_APB1_GRP1_EnableClock\n
 1055:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     SPI3EN        LL_APB1_GRP1_EnableClock\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 24
+ARM GAS  /tmp/ccXv8PX1.s 			page 24
 
 
 1056:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     USART2EN      LL_APB1_GRP1_EnableClock\n
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1110:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
 1111:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
 1112:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Enable APB1 peripherals clock.
-ARM GAS  /tmp/cc8MJhc5.s 			page 25
+ARM GAS  /tmp/ccXv8PX1.s 			page 25
 
 
 1113:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll APB1ENR2     LPUART1EN     LL_APB1_GRP2_EnableClock\n
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1167:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM5 (*)
 1168:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM6
 1169:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM7
-ARM GAS  /tmp/cc8MJhc5.s 			page 26
+ARM GAS  /tmp/ccXv8PX1.s 			page 26
 
 
 1170:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_LCD (*)
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1224:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     TIM5EN        LL_APB1_GRP1_DisableClock\n
 1225:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     TIM6EN        LL_APB1_GRP1_DisableClock\n
 1226:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     TIM7EN        LL_APB1_GRP1_DisableClock\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 27
+ARM GAS  /tmp/ccXv8PX1.s 			page 27
 
 
 1227:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     LCDEN         LL_APB1_GRP1_DisableClock\n
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1281:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** }
 1282:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
 1283:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
-ARM GAS  /tmp/cc8MJhc5.s 			page 28
+ARM GAS  /tmp/ccXv8PX1.s 			page 28
 
 
 1284:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable APB1 peripherals clock.
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1338:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_SPI2 (*)
 1339:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_SPI3
 1340:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_USART2
-ARM GAS  /tmp/cc8MJhc5.s 			page 29
+ARM GAS  /tmp/ccXv8PX1.s 			page 29
 
 
 1341:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_USART3 (*)
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1395:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    SPI3RST       LL_APB1_GRP1_ReleaseReset\n
 1396:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    USART2RST     LL_APB1_GRP1_ReleaseReset\n
 1397:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    USART3RST     LL_APB1_GRP1_ReleaseReset\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 30
+ARM GAS  /tmp/ccXv8PX1.s 			page 30
 
 
 1398:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    UART4RST      LL_APB1_GRP1_ReleaseReset\n
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1452:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
 1453:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_ALL
 1454:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_LPUART1
-ARM GAS  /tmp/cc8MJhc5.s 			page 31
+ARM GAS  /tmp/ccXv8PX1.s 			page 31
 
 
 1455:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_I2C4 (*)
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1509:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_UART4 (*)
 1510:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_UART5 (*)
 1511:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_I2C1
-ARM GAS  /tmp/cc8MJhc5.s 			page 32
+ARM GAS  /tmp/ccXv8PX1.s 			page 32
 
 
 1512:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_I2C2 (*)
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1566:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   TIM7SMEN      LL_APB1_GRP1_DisableClockStopSleep\n
 1567:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   LCDSMEN       LL_APB1_GRP1_DisableClockStopSleep\n
 1568:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   RTCAPBSMEN    LL_APB1_GRP1_DisableClockStopSleep\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 33
+ARM GAS  /tmp/ccXv8PX1.s 			page 33
 
 
 1569:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   WWDGSMEN      LL_APB1_GRP1_DisableClockStopSleep\n
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1623:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
 1624:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable APB1 peripheral clocks in Sleep and Stop modes
 1625:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll APB1SMENR2   LPUART1SMEN   LL_APB1_GRP2_DisableClockStopSleep\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 34
+ARM GAS  /tmp/ccXv8PX1.s 			page 34
 
 
 1626:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR2   I2C4SMEN      LL_APB1_GRP2_DisableClockStopSleep\n
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1680:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_SAI2 (*)
 1681:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_DFSDM1 (*)
 1682:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_LTDC (*)
-ARM GAS  /tmp/cc8MJhc5.s 			page 35
+ARM GAS  /tmp/ccXv8PX1.s 			page 35
 
 
 1683:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_DSI (*)
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1737:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** }
 1738:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
 1739:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
-ARM GAS  /tmp/cc8MJhc5.s 			page 36
+ARM GAS  /tmp/ccXv8PX1.s 			page 36
 
 
 1740:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable APB2 peripherals clock.
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1794:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB2RSTR     DSIRST        LL_APB2_GRP1_ForceReset
 1795:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
 1796:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_ALL
-ARM GAS  /tmp/cc8MJhc5.s 			page 37
+ARM GAS  /tmp/ccXv8PX1.s 			page 37
 
 
 1797:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_SYSCFG
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
 1841:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_SPI1
 1842:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_TIM8 (*)
 1843:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_USART1
-ARM GAS  /tmp/cc8MJhc5.s 			page 38
+ARM GAS  /tmp/ccXv8PX1.s 			page 38
 
 
 1844:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_TIM15
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  108              	.LVL12:
  109              	.L8:
  110              	.LBB26:
-ARM GAS  /tmp/cc8MJhc5.s 			page 39
+ARM GAS  /tmp/ccXv8PX1.s 			page 39
 
 
  111              	.LBB27:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  153              		.loc 1 205 0
  154              		.cfi_startproc
  155              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cc8MJhc5.s 			page 40
+ARM GAS  /tmp/ccXv8PX1.s 			page 40
 
 
  156              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
   49:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
   50:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** 
   51:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** #if defined (SPI1) || defined (SPI2) || defined (SPI3)
-ARM GAS  /tmp/cc8MJhc5.s 			page 41
+ARM GAS  /tmp/ccXv8PX1.s 			page 41
 
 
   52:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  106:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****                                          This feature can be modified afterwards using unitary func
  107:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** 
  108:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   uint32_t BitOrder;                /*!< Specifies whether data transfers start from MSB or LSB bit
-ARM GAS  /tmp/cc8MJhc5.s 			page 42
+ARM GAS  /tmp/ccXv8PX1.s 			page 42
 
 
  109:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****                                          This parameter can be a value of @ref SPI_LL_EC_BIT_ORDER.
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  163:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
  164:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** #define LL_SPI_MODE_MASTER                 (SPI_CR1_MSTR | SPI_CR1_SSI)    /*!< Master configuratio
  165:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** #define LL_SPI_MODE_SLAVE                  0x00000000U                     /*!< Slave configuration
-ARM GAS  /tmp/cc8MJhc5.s 			page 43
+ARM GAS  /tmp/ccXv8PX1.s 			page 43
 
 
  166:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** /**
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  220:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** 
  221:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** /** @defgroup SPI_LL_EC_TRANSFER_MODE Transfer Mode
  222:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @{
-ARM GAS  /tmp/cc8MJhc5.s 			page 44
+ARM GAS  /tmp/ccXv8PX1.s 			page 44
 
 
  223:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  277:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** #define LL_SPI_CRC_16BIT                   (SPI_CR1_CRCL)            /*!< 16-bit CRC length */
  278:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** /**
  279:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @}
-ARM GAS  /tmp/cc8MJhc5.s 			page 45
+ARM GAS  /tmp/ccXv8PX1.s 			page 45
 
 
  280:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  334:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
  335:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** 
  336:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** /**
-ARM GAS  /tmp/cc8MJhc5.s 			page 46
+ARM GAS  /tmp/ccXv8PX1.s 			page 46
 
 
  337:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @brief  Write a value in SPI register
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  391:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** 
  392:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** /**
  393:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @brief  Check if SPI peripheral is enabled
-ARM GAS  /tmp/cc8MJhc5.s 			page 47
+ARM GAS  /tmp/ccXv8PX1.s 			page 47
 
 
  394:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @rmtoll CR1          SPE           LL_SPI_IsEnabled
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  178 0010 22F0BF02 		bic	r2, r2, #191
  179 0014 0B68     		ldr	r3, [r1]
  180 0016 4C68     		ldr	r4, [r1, #4]
-ARM GAS  /tmp/cc8MJhc5.s 			page 48
+ARM GAS  /tmp/ccXv8PX1.s 			page 48
 
 
  181 0018 2343     		orrs	r3, r3, r4
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  210 0052 0120     		movs	r0, #1
  211              	.LVL18:
  212              	.L12:
-ARM GAS  /tmp/cc8MJhc5.s 			page 49
+ARM GAS  /tmp/ccXv8PX1.s 			page 49
 
 
  261:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_spi.c ****   }
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  437:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @param  SPIx SPI Instance
  438:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @param  Standard This parameter can be one of the following values:
  439:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_PROTOCOL_MOTOROLA
-ARM GAS  /tmp/cc8MJhc5.s 			page 50
+ARM GAS  /tmp/ccXv8PX1.s 			page 50
 
 
  440:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_PROTOCOL_TI
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  494:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @rmtoll CR1          CPOL          LL_SPI_SetClockPolarity
  495:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @param  SPIx SPI Instance
  496:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @param  ClockPolarity This parameter can be one of the following values:
-ARM GAS  /tmp/cc8MJhc5.s 			page 51
+ARM GAS  /tmp/ccXv8PX1.s 			page 51
 
 
  497:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_POLARITY_LOW
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  551:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_BAUDRATEPRESCALER_DIV128
  552:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_BAUDRATEPRESCALER_DIV256
  553:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
-ARM GAS  /tmp/cc8MJhc5.s 			page 52
+ARM GAS  /tmp/ccXv8PX1.s 			page 52
 
 
  554:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** __STATIC_INLINE uint32_t LL_SPI_GetBaudRatePrescaler(SPI_TypeDef *SPIx)
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  608:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @brief  Get transfer direction mode
  609:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @rmtoll CR1          RXONLY        LL_SPI_GetTransferDirection\n
  610:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         CR1          BIDIMODE      LL_SPI_GetTransferDirection\n
-ARM GAS  /tmp/cc8MJhc5.s 			page 53
+ARM GAS  /tmp/ccXv8PX1.s 			page 53
 
 
  611:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         CR1          BIDIOE        LL_SPI_GetTransferDirection
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  665:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_DATAWIDTH_15BIT
  666:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   *         @arg @ref LL_SPI_DATAWIDTH_16BIT
  667:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   */
-ARM GAS  /tmp/cc8MJhc5.s 			page 54
+ARM GAS  /tmp/ccXv8PX1.s 			page 54
 
 
  668:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** __STATIC_INLINE uint32_t LL_SPI_GetDataWidth(SPI_TypeDef *SPIx)
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  722:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @note   This bit should be written only when SPI is disabled (SPE = 0) for correct operation.
  723:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @rmtoll CR1          CRCEN         LL_SPI_DisableCRC
  724:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @param  SPIx SPI Instance
-ARM GAS  /tmp/cc8MJhc5.s 			page 55
+ARM GAS  /tmp/ccXv8PX1.s 			page 55
 
 
  725:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   * @retval None
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  779:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** __STATIC_INLINE void LL_SPI_SetCRCNext(SPI_TypeDef *SPIx)
  780:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** {
  781:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h ****   SET_BIT(SPIx->CR1, SPI_CR1_CRCNEXT);
-ARM GAS  /tmp/cc8MJhc5.s 			page 56
+ARM GAS  /tmp/ccXv8PX1.s 			page 56
 
 
  782:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_spi.h **** }
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  260              		@ args = 0, pretend = 0, frame = 0
  261              		@ frame_needed = 0, uses_anonymous_args = 0
  262              		@ link register save eliminated.
-ARM GAS  /tmp/cc8MJhc5.s 			page 57
+ARM GAS  /tmp/ccXv8PX1.s 			page 57
 
 
  263              	.LVL24:
@@ -3413,18 +3413,18 @@ ARM GAS  /tmp/cc8MJhc5.s 			page 1
  302              		.file 13 "/usr/arm-none-eabi/include/sys/_types.h"
  303              		.file 14 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
  304              		.file 15 "/usr/arm-none-eabi/include/sys/reent.h"
-ARM GAS  /tmp/cc8MJhc5.s 			page 58
+ARM GAS  /tmp/ccXv8PX1.s 			page 58
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_ll_spi.c
-     /tmp/cc8MJhc5.s:18     .text.LL_SPI_DeInit:0000000000000000 $t
-     /tmp/cc8MJhc5.s:25     .text.LL_SPI_DeInit:0000000000000000 LL_SPI_DeInit
-     /tmp/cc8MJhc5.s:136    .text.LL_SPI_DeInit:0000000000000060 $d
-     /tmp/cc8MJhc5.s:144    .text.LL_SPI_Init:0000000000000000 $t
-     /tmp/cc8MJhc5.s:151    .text.LL_SPI_Init:0000000000000000 LL_SPI_Init
-     /tmp/cc8MJhc5.s:249    .text.LL_SPI_StructInit:0000000000000000 $t
-     /tmp/cc8MJhc5.s:256    .text.LL_SPI_StructInit:0000000000000000 LL_SPI_StructInit
+     /tmp/ccXv8PX1.s:18     .text.LL_SPI_DeInit:0000000000000000 $t
+     /tmp/ccXv8PX1.s:25     .text.LL_SPI_DeInit:0000000000000000 LL_SPI_DeInit
+     /tmp/ccXv8PX1.s:136    .text.LL_SPI_DeInit:0000000000000060 $d
+     /tmp/ccXv8PX1.s:144    .text.LL_SPI_Init:0000000000000000 $t
+     /tmp/ccXv8PX1.s:151    .text.LL_SPI_Init:0000000000000000 LL_SPI_Init
+     /tmp/ccXv8PX1.s:249    .text.LL_SPI_StructInit:0000000000000000 $t
+     /tmp/ccXv8PX1.s:256    .text.LL_SPI_StructInit:0000000000000000 LL_SPI_StructInit
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

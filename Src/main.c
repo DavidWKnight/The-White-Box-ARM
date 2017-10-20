@@ -40,7 +40,7 @@
 #include "stm32l4xx_hal.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "lcd.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -88,7 +88,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -112,11 +112,36 @@ int main(void)
   MX_DAC1_Init();
 
   /* USER CODE BEGIN 2 */
+  init_LCD();
+  unsigned int i;
+  char line1[] = "Hello World!        ";
+  for(i = 0; i < LCD_line_length; i++){
+    LCD_write_data(line1[i]);
+  }
+  
+  LCD_cursor_pos(2, 1);
+  char line2[] = "My name is David    ";
+  for(i = 0; i < LCD_line_length; i++){
+    LCD_write_data(line2[i]);
+  }
+
+  LCD_cursor_pos(3, 1);
+  char line3[] = "Knight and this is  ";
+  for(i = 0; i < LCD_line_length; i++){
+    LCD_write_data(line3[i]);
+  }
+
+  LCD_cursor_pos(4, 1);
+  char line4[] = "my project.         ";
+  for(i = 0; i < LCD_line_length; i++){
+    LCD_write_data(line4[i]);
+  }
+
 
   while (1) {
-    LL_GPIO_WriteOutputPort(GPIOC, LL_GPIO_PIN_ALL);
+    LL_GPIO_SetOutputPin(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_11 | LL_GPIO_PIN_12 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15);
     LL_mDelay(500);
-    LL_GPIO_WriteOutputPort(GPIOC, ~LL_GPIO_PIN_ALL);
+    LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_11 | LL_GPIO_PIN_12 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15);
     LL_mDelay(500);
   }
   /* USER CODE END 2 */
@@ -749,6 +774,9 @@ static void MX_GPIO_Init(void)
   LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_1|LL_GPIO_PIN_2);
 
   /**/
+  LL_GPIO_ResetOutputPin(GPIOA, LL_GPIO_PIN_12|LL_GPIO_PIN_14|LL_GPIO_PIN_15);
+
+  /**/
   GPIO_InitStruct.Pin = LL_GPIO_PIN_13|LL_GPIO_PIN_14|LL_GPIO_PIN_15|LL_GPIO_PIN_8 
                           |LL_GPIO_PIN_9|LL_GPIO_PIN_10|LL_GPIO_PIN_11|LL_GPIO_PIN_12;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
@@ -779,6 +807,14 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /**/
+  GPIO_InitStruct.Pin = LL_GPIO_PIN_12|LL_GPIO_PIN_14|LL_GPIO_PIN_15;
+  GPIO_InitStruct.Mode = LL_GPIO_MODE_OUTPUT;
+  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
+  GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
+  LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /**/
   GPIO_InitStruct.Pin = LL_GPIO_PIN_2;
