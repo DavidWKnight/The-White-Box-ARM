@@ -368,151 +368,151 @@ F 3 "" H 4000 7050 50  0001 C CNN
 	1    3900 7200
 	1    0    0    -1  
 $EndComp
-Text Label 1000 850  2    60   ~ 0
+Text Label 1150 1050 2    60   ~ 0
 PC10
-Text Label 1000 950  2    60   ~ 0
+Text Label 1150 1150 2    60   ~ 0
 PC12
-Text Label 1000 1050 2    60   ~ 0
+Text Label 1150 1250 2    60   ~ 0
 VDD
-Text Label 1000 1150 2    60   ~ 0
+Text Label 1150 1350 2    60   ~ 0
 BOOT0
-Text Label 1000 1450 2    60   ~ 0
+Text Label 1150 1650 2    60   ~ 0
 PA13
-Text Label 1000 1550 2    60   ~ 0
+Text Label 1150 1750 2    60   ~ 0
 PA14
-Text Label 1000 1650 2    60   ~ 0
+Text Label 1150 1850 2    60   ~ 0
 PA15
-Text Label 1000 1750 2    60   ~ 0
+Text Label 1150 1950 2    60   ~ 0
 GND
-Text Label 1000 1850 2    60   ~ 0
+Text Label 1150 2050 2    60   ~ 0
 PB7
-Text Label 1000 1950 2    60   ~ 0
+Text Label 1150 2150 2    60   ~ 0
 PC13
-Text Label 1000 2050 2    60   ~ 0
+Text Label 1150 2250 2    60   ~ 0
 PC14
-Text Label 1000 2150 2    60   ~ 0
+Text Label 1150 2350 2    60   ~ 0
 PC15
-Text Label 1000 2250 2    60   ~ 0
+Text Label 1150 2450 2    60   ~ 0
 PH0
-Text Label 1000 2350 2    60   ~ 0
+Text Label 1150 2550 2    60   ~ 0
 PH1
-Text Label 1000 2450 2    60   ~ 0
+Text Label 1150 2650 2    60   ~ 0
 VBAT
-Text Label 1000 2550 2    60   ~ 0
+Text Label 1150 2750 2    60   ~ 0
 PC2
-Text Label 1000 2650 2    60   ~ 0
+Text Label 1150 2850 2    60   ~ 0
 PC3
-Text Label 1500 850  0    60   ~ 0
+Text Label 2150 1050 0    60   ~ 0
 PC11
-Text Label 1500 950  0    60   ~ 0
+Text Label 2150 1150 0    60   ~ 0
 PD2
-Text Label 1500 1050 0    60   ~ 0
+Text Label 2150 1250 0    60   ~ 0
 E5V
-Text Label 1500 1150 0    60   ~ 0
+Text Label 2150 1350 0    60   ~ 0
 GND
-NoConn ~ 1500 1250
-Text Label 1500 1350 0    60   ~ 0
+NoConn ~ 2150 1450
+Text Label 2150 1550 0    60   ~ 0
 IOREF
-Text Label 1500 1550 0    60   ~ 0
+Text Label 2150 1750 0    60   ~ 0
 3V3
-Text Label 1500 1850 0    60   ~ 0
+Text Label 2150 2050 0    60   ~ 0
 GND
-Text Label 1500 1750 0    60   ~ 0
+Text Label 2150 1950 0    60   ~ 0
 GND
-Text Label 1500 1650 0    60   ~ 0
+Text Label 2150 1850 0    60   ~ 0
 5V
-Text Label 1500 1950 0    60   ~ 0
+Text Label 2150 2150 0    60   ~ 0
 VIN
-NoConn ~ 1500 2050
-Text Label 1500 2150 0    60   ~ 0
+NoConn ~ 2150 2250
+Text Label 2150 2350 0    60   ~ 0
 PA0
-Text Label 1500 2250 0    60   ~ 0
+Text Label 2150 2450 0    60   ~ 0
 PA1
-Text Label 1500 2350 0    60   ~ 0
+Text Label 2150 2550 0    60   ~ 0
 PA4
-Text Label 1500 2450 0    60   ~ 0
+Text Label 2150 2650 0    60   ~ 0
 PB0
-Text Label 1500 2550 0    60   ~ 0
+Text Label 2150 2750 0    60   ~ 0
 PC1
-Text Label 1500 2650 0    60   ~ 0
+Text Label 2150 2850 0    60   ~ 0
 PC0
-Text Label 2150 850  2    60   ~ 0
+Text Label 2750 1050 2    60   ~ 0
 PC9
-Text Label 2150 950  2    60   ~ 0
+Text Label 2750 1150 2    60   ~ 0
 PB8
-Text Label 2150 1050 2    60   ~ 0
+Text Label 2750 1250 2    60   ~ 0
 PB9
-Text Label 2150 1150 2    60   ~ 0
+Text Label 2750 1350 2    60   ~ 0
 AVDD
-Text Label 2150 1250 2    60   ~ 0
+Text Label 2750 1450 2    60   ~ 0
 GND
-Text Label 2150 1350 2    60   ~ 0
+Text Label 2750 1550 2    60   ~ 0
 PA5
-Text Label 2150 1450 2    60   ~ 0
+Text Label 2750 1650 2    60   ~ 0
 PA6
-Text Label 2150 1550 2    60   ~ 0
+Text Label 2750 1750 2    60   ~ 0
 PA7
-Text Label 2150 1650 2    60   ~ 0
+Text Label 2750 1850 2    60   ~ 0
 PB6
-Text Label 2150 1750 2    60   ~ 0
+Text Label 2750 1950 2    60   ~ 0
 PC7
-Text Label 2150 1850 2    60   ~ 0
+Text Label 2750 2050 2    60   ~ 0
 PA9
-Text Label 2150 1950 2    60   ~ 0
+Text Label 2750 2150 2    60   ~ 0
 PA8
-Text Label 2150 2050 2    60   ~ 0
+Text Label 2750 2250 2    60   ~ 0
 PB10
-Text Label 2150 2150 2    60   ~ 0
+Text Label 2750 2350 2    60   ~ 0
 PB4
-Text Label 2150 2250 2    60   ~ 0
+Text Label 2750 2450 2    60   ~ 0
 PB5
-Text Label 2150 2350 2    60   ~ 0
+Text Label 2750 2550 2    60   ~ 0
 PB3
-Text Label 2150 2450 2    60   ~ 0
+Text Label 2750 2650 2    60   ~ 0
 PA10
-Text Label 2150 2550 2    60   ~ 0
+Text Label 2750 2750 2    60   ~ 0
 PA2
-Text Label 2150 2650 2    60   ~ 0
+Text Label 2750 2850 2    60   ~ 0
 PA3
-Text Label 2650 850  0    60   ~ 0
+Text Label 3700 1050 0    60   ~ 0
 PC8
-Text Label 2650 950  0    60   ~ 0
+Text Label 3700 1150 0    60   ~ 0
 PC6
-Text Label 2650 1050 0    60   ~ 0
+Text Label 3700 1250 0    60   ~ 0
 PC5
-Text Label 2650 1150 0    60   ~ 0
+Text Label 3700 1350 0    60   ~ 0
 U5V
-Text Label 2650 1350 0    60   ~ 0
+Text Label 3700 1550 0    60   ~ 0
 PA12
-Text Label 2650 1450 0    60   ~ 0
+Text Label 3700 1650 0    60   ~ 0
 PA11
-Text Label 2650 1550 0    60   ~ 0
+Text Label 3700 1750 0    60   ~ 0
 PB12
-Text Label 2650 1650 0    60   ~ 0
+Text Label 3700 1850 0    60   ~ 0
 PB11
-Text Label 2650 1750 0    60   ~ 0
+Text Label 3700 1950 0    60   ~ 0
 GND
-Text Label 2650 1850 0    60   ~ 0
+Text Label 3700 2050 0    60   ~ 0
 PB2
-Text Label 2650 1950 0    60   ~ 0
+Text Label 3700 2150 0    60   ~ 0
 PB1
-Text Label 2650 2350 0    60   ~ 0
+Text Label 3700 2550 0    60   ~ 0
 AGND
-Text Label 2650 2450 0    60   ~ 0
+Text Label 3700 2650 0    60   ~ 0
 PC4
-Text Label 2650 2050 0    60   ~ 0
+Text Label 3700 2250 0    60   ~ 0
 PB15
-Text Label 2650 2150 0    60   ~ 0
+Text Label 3700 2350 0    60   ~ 0
 PB14
-Text Label 2650 2250 0    60   ~ 0
+Text Label 3700 2450 0    60   ~ 0
 PB13
-NoConn ~ 1000 1250
-NoConn ~ 1000 1350
-Text Label 1500 1450 0    60   ~ 0
+NoConn ~ 1150 1450
+NoConn ~ 1150 1550
+Text Label 2150 1650 0    60   ~ 0
 RESET
-NoConn ~ 2650 1250
-NoConn ~ 2650 2550
-NoConn ~ 2650 2650
+NoConn ~ 3700 1450
+NoConn ~ 3700 2750
+NoConn ~ 3700 2850
 Text Label 8600 6350 0    60   ~ 0
 PA2
 Text Label 8600 6450 0    60   ~ 0
@@ -553,46 +553,20 @@ Text Label 9400 5850 2    60   ~ 0
 PC14
 Text Label 9400 5950 2    60   ~ 0
 PC15
-Text Notes 1000 650  0    120  ~ 24
+Text Notes 1750 650  0    120  ~ 24
 Morpho Connectors
 Text Label 10800 1550 0    60   ~ 0
 U5V
 Text Label 10800 1650 0    60   ~ 0
 E5V
-Text Label 10750 1150 3    60   ~ 0
+Text Label 9700 1600 3    60   ~ 0
 VIN
-Text Label 10950 1150 3    60   ~ 0
+Text Label 9900 1600 3    60   ~ 0
 VDD
-Text Label 10500 1150 3    60   ~ 0
+Text Label 9450 1600 3    60   ~ 0
 VBAT
 Text Label 8550 1150 0    60   ~ 0
 PD2
-$Comp
-L CONN_02X20 J1
-U 1 1 59D2C8B4
-P 1250 1800
-F 0 "J1" H 1250 2850 50  0000 C CNN
-F 1 "CONN_02X20" V 1250 1800 50  0000 C CNN
-F 2 "" H 1250 850 50  0001 C CNN
-F 3 "" H 1250 850 50  0001 C CNN
-	1    1250 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X20 J2
-U 1 1 59D2CC47
-P 2400 1800
-F 0 "J2" H 2400 2850 50  0000 C CNN
-F 1 "CONN_02X20" V 2400 1800 50  0000 C CNN
-F 2 "" H 2400 850 50  0001 C CNN
-F 3 "" H 2400 850 50  0001 C CNN
-	1    2400 1800
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1000 2750
-NoConn ~ 1500 2750
-NoConn ~ 2150 2750
-NoConn ~ 2650 2750
 $Comp
 L 74LS373 U1
 U 1 1 59D12BC3
@@ -801,8 +775,6 @@ Text Label 4900 -1250 0    60   ~ 0
 VDD
 Text Label 4900 -1150 0    60   ~ 0
 AVDD
-Text Label 4900 -1550 0    60   ~ 0
-VBAT
 Text Label 4550 -1150 0    60   ~ 0
 AGND
 Text Label 4700 -1050 0    60   ~ 0
@@ -991,60 +963,60 @@ $EndComp
 $Comp
 L GNDA #PWR020
 U 1 1 59D33DCE
-P 10000 1150
-F 0 "#PWR020" H 10000 900 50  0001 C CNN
-F 1 "GNDA" H 10000 1000 50  0000 C CNN
-F 2 "" H 10000 1150 50  0001 C CNN
-F 3 "" H 10000 1150 50  0001 C CNN
-	1    10000 1150
+P 10350 1150
+F 0 "#PWR020" H 10350 900 50  0001 C CNN
+F 1 "GNDA" H 10350 1000 50  0000 C CNN
+F 2 "" H 10350 1150 50  0001 C CNN
+F 3 "" H 10350 1150 50  0001 C CNN
+	1    10350 1150
 	1    0    0    -1  
 $EndComp
-Text Label 10000 1150 1    60   ~ 0
+Text Label 10350 1150 1    60   ~ 0
 AGND
 $Comp
 L VDDA #PWR021
 U 1 1 59D34F18
-P 10250 1150
-F 0 "#PWR021" H 10250 1000 50  0001 C CNN
-F 1 "VDDA" H 10250 1300 50  0000 C CNN
-F 2 "" H 10250 1150 50  0001 C CNN
-F 3 "" H 10250 1150 50  0001 C CNN
-	1    10250 1150
+P 9200 1600
+F 0 "#PWR021" H 9200 1450 50  0001 C CNN
+F 1 "VDDA" H 9200 1750 50  0000 C CNN
+F 2 "" H 9200 1600 50  0001 C CNN
+F 3 "" H 9200 1600 50  0001 C CNN
+	1    9200 1600
 	1    0    0    -1  
 $EndComp
-Text Label 10250 1150 3    60   ~ 0
+Text Label 9200 1600 3    60   ~ 0
 AVDD
 $Comp
 L +BATT #PWR022
 U 1 1 59D37D34
-P 10500 1150
-F 0 "#PWR022" H 10500 1000 50  0001 C CNN
-F 1 "+BATT" H 10500 1290 50  0000 C CNN
-F 2 "" H 10500 1150 50  0001 C CNN
-F 3 "" H 10500 1150 50  0001 C CNN
-	1    10500 1150
+P 9450 1600
+F 0 "#PWR022" H 9450 1450 50  0001 C CNN
+F 1 "+BATT" H 9450 1740 50  0000 C CNN
+F 2 "" H 9450 1600 50  0001 C CNN
+F 3 "" H 9450 1600 50  0001 C CNN
+	1    9450 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR023
 U 1 1 59D380EC
-P 10750 1150
-F 0 "#PWR023" H 10750 1000 50  0001 C CNN
-F 1 "VCC" H 10750 1300 50  0000 C CNN
-F 2 "" H 10750 1150 50  0001 C CNN
-F 3 "" H 10750 1150 50  0001 C CNN
-	1    10750 1150
+P 9700 1600
+F 0 "#PWR023" H 9700 1450 50  0001 C CNN
+F 1 "VCC" H 9700 1750 50  0000 C CNN
+F 2 "" H 9700 1600 50  0001 C CNN
+F 3 "" H 9700 1600 50  0001 C CNN
+	1    9700 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L VDD #PWR024
 U 1 1 59D3885D
-P 10950 1150
-F 0 "#PWR024" H 10950 1000 50  0001 C CNN
-F 1 "VDD" H 10950 1300 50  0000 C CNN
-F 2 "" H 10950 1150 50  0001 C CNN
-F 3 "" H 10950 1150 50  0001 C CNN
-	1    10950 1150
+P 9900 1600
+F 0 "#PWR024" H 9900 1450 50  0001 C CNN
+F 1 "VDD" H 9900 1750 50  0000 C CNN
+F 2 "" H 9900 1600 50  0001 C CNN
+F 3 "" H 9900 1600 50  0001 C CNN
+	1    9900 1600
 	1    0    0    -1  
 $EndComp
 Text Label 7750 1150 2    60   ~ 0
@@ -1129,6 +1101,182 @@ Text Label 2100 -1150 0    60   ~ 0
 AGND
 Text Label 2250 -1050 0    60   ~ 0
 GND
+$Comp
+L GNDA #PWR025
+U 1 1 59EA9CA5
+P 4350 6400
+F 0 "#PWR025" H 4350 6150 50  0001 C CNN
+F 1 "GNDA" H 4350 6250 50  0000 C CNN
+F 2 "" H 4350 6400 50  0001 C CNN
+F 3 "" H 4350 6400 50  0001 C CNN
+	1    4350 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR026
+U 1 1 59EA9F1B
+P 4350 7450
+F 0 "#PWR026" H 4350 7200 50  0001 C CNN
+F 1 "GNDA" H 4350 7300 50  0000 C CNN
+F 2 "" H 4350 7450 50  0001 C CNN
+F 3 "" H 4350 7450 50  0001 C CNN
+	1    4350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR027
+U 1 1 59EAA509
+P 5200 6500
+F 0 "#PWR027" H 5200 6250 50  0001 C CNN
+F 1 "GNDA" H 5200 6350 50  0000 C CNN
+F 2 "" H 5200 6500 50  0001 C CNN
+F 3 "" H 5200 6500 50  0001 C CNN
+	1    5200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR028
+U 1 1 59EAAC6D
+P 5200 5700
+F 0 "#PWR028" H 5200 5550 50  0001 C CNN
+F 1 "+3V3" H 5200 5840 50  0000 C CNN
+F 2 "" H 5200 5700 50  0001 C CNN
+F 3 "" H 5200 5700 50  0001 C CNN
+	1    5200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR029
+U 1 1 59EABF50
+P 4900 7550
+F 0 "#PWR029" H 4900 7300 50  0001 C CNN
+F 1 "GNDA" H 4900 7400 50  0000 C CNN
+F 2 "" H 4900 7550 50  0001 C CNN
+F 3 "" H 4900 7550 50  0001 C CNN
+	1    4900 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 59EACEEC
+P 5200 5900
+F 0 "R10" V 5280 5900 50  0000 C CNN
+F 1 "1M" V 5200 5900 50  0000 C CNN
+F 2 "" V 5130 5900 50  0001 C CNN
+F 3 "" H 5200 5900 50  0001 C CNN
+	1    5200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R11
+U 1 1 59EAD0E8
+P 5200 6300
+F 0 "R11" V 5280 6300 50  0000 C CNN
+F 1 "1M" V 5200 6300 50  0000 C CNN
+F 2 "" V 5130 6300 50  0001 C CNN
+F 3 "" H 5200 6300 50  0001 C CNN
+	1    5200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 59EAD1A2
+P 4900 7350
+F 0 "R9" V 4980 7350 50  0000 C CNN
+F 1 "1M" V 4900 7350 50  0000 C CNN
+F 2 "" V 4830 7350 50  0001 C CNN
+F 3 "" H 4900 7350 50  0001 C CNN
+	1    4900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 59EADA8A
+P 5000 6100
+F 0 "C2" H 5025 6200 50  0000 L CNN
+F 1 "1uF" H 5025 6000 50  0000 L CNN
+F 2 "" H 5038 5950 50  0001 C CNN
+F 3 "" H 5000 6100 50  0001 C CNN
+	1    5000 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L C C1
+U 1 1 59EADBB7
+P 4600 7150
+F 0 "C1" H 4625 7250 50  0000 L CNN
+F 1 "1uF" H 4625 7050 50  0000 L CNN
+F 2 "" H 4638 7000 50  0001 C CNN
+F 3 "" H 4600 7150 50  0001 C CNN
+	1    4600 7150
+	0    1    1    0   
+$EndComp
+Text Notes 9350 800  0    120  ~ 0
+Power Symbols
+Text Notes 7300 800  0    120  ~ 0
+Rotary Encoders
+Text Notes 7400 3900 0    120  ~ 0
+Footswitches
+Text Notes 9100 2150 0    120  ~ 0
+Effect Indicator LED's
+Text Notes 6050 5650 0    120  ~ 0
+Audio I/O
+Text Notes 6050 5750 0    60   ~ 0
+Using stm32 ADC and DAC for prototype
+Text Notes 1600 -1850 0    60   ~ 0
+Unused pins
+Text Notes 4050 -1900 0    60   ~ 0
+All pins
+Text Notes 750  5600 0    120  ~ 0
+4x20 Character Display
+$Comp
+L STM32L476_Morpho U2
+U 1 1 59EABB6E
+P 2450 1800
+F 0 "U2" H 2450 2700 60  0000 C CNN
+F 1 "STM32L476_Morpho" H 2450 2800 60  0000 C CNN
+F 2 "" H -850 3500 60  0001 C CNN
+F 3 "" H -850 3500 60  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4150 -650
+NoConn ~ 4150 -550
+NoConn ~ 4150 -450
+NoConn ~ 4150 -350
+NoConn ~ 4150 -250
+NoConn ~ 4150 -150
+NoConn ~ 3850 -450
+NoConn ~ 4550 -1650
+NoConn ~ 4550 -1550
+NoConn ~ 4550 -1250
+NoConn ~ 4550 -1350
+NoConn ~ 4550 -1450
+NoConn ~ 3850 -1350
+NoConn ~ 3850 -1250
+NoConn ~ 3850 -1150
+NoConn ~ 3850 -650
+NoConn ~ 3850 -550
+NoConn ~ 3850 -1050
+NoConn ~ 3850 -350
+NoConn ~ 3850 -250
+NoConn ~ 3850 -150
+NoConn ~ 3850 -1650
+NoConn ~ 4150 -1450
+NoConn ~ 4150 -1350
+Text Label 4900 -1550 0    60   ~ 0
+VBAT
+$Comp
+L PWR_FLAG #FLG030
+U 1 1 59EB5808
+P 10000 1150
+F 0 "#FLG030" H 10000 1225 50  0001 C CNN
+F 1 "PWR_FLAG" H 10000 1300 50  0000 C CNN
+F 2 "" H 10000 1150 50  0001 C CNN
+F 3 "" H 10000 1150 50  0001 C CNN
+	1    10000 1150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	10850 2650 10950 2650
 Wire Wire Line
@@ -1180,10 +1328,6 @@ Wire Wire Line
 Wire Wire Line
 	10200 4750 10150 4750
 Connection ~ 10950 2650
-Wire Notes Line
-	450  2850 3050 2850
-Wire Notes Line
-	3050 2850 3050 450 
 Wire Wire Line
 	7950 1150 7750 1150
 Wire Wire Line
@@ -1315,40 +1459,7 @@ Wire Wire Line
 	4350 6100 4850 6100
 Connection ~ 4350 6100
 Connection ~ 4350 6350
-$Comp
-L GNDA #PWR025
-U 1 1 59EA9CA5
-P 4350 6400
-F 0 "#PWR025" H 4350 6150 50  0001 C CNN
-F 1 "GNDA" H 4350 6250 50  0000 C CNN
-F 2 "" H 4350 6400 50  0001 C CNN
-F 3 "" H 4350 6400 50  0001 C CNN
-	1    4350 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDA #PWR026
-U 1 1 59EA9F1B
-P 4350 7450
-F 0 "#PWR026" H 4350 7200 50  0001 C CNN
-F 1 "GNDA" H 4350 7300 50  0000 C CNN
-F 2 "" H 4350 7450 50  0001 C CNN
-F 3 "" H 4350 7450 50  0001 C CNN
-	1    4350 7450
-	1    0    0    -1  
-$EndComp
 Connection ~ 4350 7400
-$Comp
-L GNDA #PWR027
-U 1 1 59EAA509
-P 5200 6500
-F 0 "#PWR027" H 5200 6250 50  0001 C CNN
-F 1 "GNDA" H 5200 6350 50  0000 C CNN
-F 2 "" H 5200 6500 50  0001 C CNN
-F 3 "" H 5200 6500 50  0001 C CNN
-	1    5200 6500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 6500 5200 6450
 Wire Wire Line
@@ -1356,17 +1467,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 6050 5200 6150
 Connection ~ 5200 6100
-$Comp
-L +3V3 #PWR028
-U 1 1 59EAAC6D
-P 5200 5700
-F 0 "#PWR028" H 5200 5550 50  0001 C CNN
-F 1 "+3V3" H 5200 5840 50  0000 C CNN
-F 2 "" H 5200 5700 50  0001 C CNN
-F 3 "" H 5200 5700 50  0001 C CNN
-	1    5200 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 5750 5200 5700
 Wire Wire Line
@@ -1374,103 +1474,19 @@ Wire Wire Line
 Connection ~ 4350 7150
 Wire Wire Line
 	4750 7150 5000 7150
-$Comp
-L GNDA #PWR029
-U 1 1 59EABF50
-P 4900 7550
-F 0 "#PWR029" H 4900 7300 50  0001 C CNN
-F 1 "GNDA" H 4900 7400 50  0000 C CNN
-F 2 "" H 4900 7550 50  0001 C CNN
-F 3 "" H 4900 7550 50  0001 C CNN
-	1    4900 7550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 7550 4900 7500
 Wire Wire Line
 	4900 7150 4900 7200
 Connection ~ 4900 7150
-$Comp
-L R R10
-U 1 1 59EACEEC
-P 5200 5900
-F 0 "R10" V 5280 5900 50  0000 C CNN
-F 1 "1M" V 5200 5900 50  0000 C CNN
-F 2 "" V 5130 5900 50  0001 C CNN
-F 3 "" H 5200 5900 50  0001 C CNN
-	1    5200 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R11
-U 1 1 59EAD0E8
-P 5200 6300
-F 0 "R11" V 5280 6300 50  0000 C CNN
-F 1 "1M" V 5200 6300 50  0000 C CNN
-F 2 "" V 5130 6300 50  0001 C CNN
-F 3 "" H 5200 6300 50  0001 C CNN
-	1    5200 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R9
-U 1 1 59EAD1A2
-P 4900 7350
-F 0 "R9" V 4980 7350 50  0000 C CNN
-F 1 "1M" V 4900 7350 50  0000 C CNN
-F 2 "" V 4830 7350 50  0001 C CNN
-F 3 "" H 4900 7350 50  0001 C CNN
-	1    4900 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 59EADA8A
-P 5000 6100
-F 0 "C2" H 5025 6200 50  0000 L CNN
-F 1 "1uF" H 5025 6000 50  0000 L CNN
-F 2 "" H 5038 5950 50  0001 C CNN
-F 3 "" H 5000 6100 50  0001 C CNN
-	1    5000 6100
-	0    1    1    0   
-$EndComp
-$Comp
-L C C1
-U 1 1 59EADBB7
-P 4600 7150
-F 0 "C1" H 4625 7250 50  0000 L CNN
-F 1 "1uF" H 4625 7050 50  0000 L CNN
-F 2 "" H 4638 7000 50  0001 C CNN
-F 3 "" H 4600 7150 50  0001 C CNN
-	1    4600 7150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7200 1250 7200 1300
 Wire Wire Line
 	8650 4250 8650 5050
-Text Notes 9350 800  0    120  ~ 0
-Power Symbols
-Text Notes 7300 800  0    120  ~ 0
-Rotary Encoders
 Wire Notes Line
 	8950 3550 7050 3550
-Text Notes 7400 3900 0    120  ~ 0
-Footswitches
-Text Notes 9100 2150 0    120  ~ 0
-Effect Indicator LED's
-Text Notes 6050 5650 0    120  ~ 0
-Audio I/O
-Text Notes 6050 5750 0    60   ~ 0
-Using stm32 ADC and DAC for prototype
-Text Notes 1600 -1850 0    60   ~ 0
-Unused pins
-Text Notes 4050 -1900 0    60   ~ 0
-All pins
 Wire Notes Line
 	7050 450  7050 5400
-Text Notes 750  5600 0    120  ~ 0
-4x20 Character Display
 Wire Notes Line
 	3250 7800 3250 5400
 Connection ~ 10950 2950
@@ -1478,4 +1494,11 @@ Connection ~ 10950 3250
 Connection ~ 10950 3550
 Connection ~ 10950 4150
 Connection ~ 10950 4450
+Wire Notes Line
+	4200 3100 4200 450 
+Wire Notes Line
+	500  3100 4200 3100
+Connection ~ 10950 3850
+Wire Wire Line
+	9750 1150 10000 1150
 $EndSCHEMATC
