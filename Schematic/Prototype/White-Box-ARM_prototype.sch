@@ -517,42 +517,22 @@ Text Label 8600 6350 0    60   ~ 0
 PA2
 Text Label 8600 6450 0    60   ~ 0
 PA3
-Text Label 7950 3150 2    60   ~ 0
-PA7
-Text Label 7950 2950 2    60   ~ 0
-PA6
 Text Label 8150 4250 2    60   ~ 0
 PC4
 Text Label 8150 4500 2    60   ~ 0
 PC5
 Text Label 8150 4750 2    60   ~ 0
 PC6
-Text Label 9400 5250 2    60   ~ 0
-PC8
 Text Label 8150 5000 2    60   ~ 0
 PC7
-Text Label 9400 5350 2    60   ~ 0
-PC9
-Text Label 9400 5550 2    60   ~ 0
-PC11
 Text Label 8550 1750 0    60   ~ 0
 PC1
 Text Label 8550 2950 0    60   ~ 0
 PC3
 Text Label 8550 2350 0    60   ~ 0
 PC2
-Text Label 7950 1150 2    60   ~ 0
+Text Label 8550 1150 0    60   ~ 0
 PC0
-Text Label 9400 5450 2    60   ~ 0
-PC10
-Text Label 9400 5650 2    60   ~ 0
-PC12
-Text Label 9400 5750 2    60   ~ 0
-PC13
-Text Label 9400 5850 2    60   ~ 0
-PC14
-Text Label 9400 5950 2    60   ~ 0
-PC15
 Text Notes 1750 650  0    120  ~ 24
 Morpho Connectors
 Text Label 10800 1550 0    60   ~ 0
@@ -565,8 +545,6 @@ Text Label 9900 1600 3    60   ~ 0
 VDD
 Text Label 9450 1600 3    60   ~ 0
 VBAT
-Text Label 8550 1150 0    60   ~ 0
-PD2
 $Comp
 L 74LS373 U1
 U 1 1 59D12BC3
@@ -594,8 +572,6 @@ Text Label 10800 5850 0    60   ~ 0
 LED6
 Text Label 10800 5950 0    60   ~ 0
 LED7
-Text Label 7950 1350 2    60   ~ 0
-PB7
 $Comp
 L GND #PWR02
 U 1 1 59D19A56
@@ -640,22 +616,6 @@ F 3 "" H 7250 3100 50  0001 C CNN
 	1    7250 3100
 	1    0    0    -1  
 $EndComp
-Text Label 1500 6700 3    60   ~ 0
-PC8
-Text Label 1600 6700 3    60   ~ 0
-PC9
-Text Label 1800 6700 3    60   ~ 0
-PC11
-Text Label 1700 6700 3    60   ~ 0
-PC10
-Text Label 1900 6700 3    60   ~ 0
-PC12
-Text Label 2000 6700 3    60   ~ 0
-PC13
-Text Label 2100 6700 3    60   ~ 0
-PC14
-Text Label 2200 6700 3    60   ~ 0
-PC15
 $Comp
 L GND #PWR06
 U 1 1 59D1D970
@@ -1019,30 +979,6 @@ F 3 "" H 9900 1600 50  0001 C CNN
 	1    9900 1600
 	1    0    0    -1  
 $EndComp
-Text Label 7750 1150 2    60   ~ 0
-LPTIM1_IN1
-Text Label 7750 1350 2    60   ~ 0
-LPTIM1_IN2
-Text Label 7950 1750 2    60   ~ 0
-PA8
-Text Label 7950 1950 2    60   ~ 0
-PA9
-Text Label 7750 1750 2    60   ~ 0
-TIM1_CH1
-Text Label 7750 1950 2    60   ~ 0
-TIM1_CH2
-Text Label 7950 2550 2    60   ~ 0
-PA1
-Text Label 7950 2350 2    60   ~ 0
-PA0
-Text Label 7750 2350 2    60   ~ 0
-TIM2_CH1
-Text Label 7750 2550 2    60   ~ 0
-TIM2_CH2
-Text Label 7750 2950 2    60   ~ 0
-TIM3_CH1
-Text Label 7750 3150 2    60   ~ 0
-TIM3_CH2
 Text Label 1400 6700 3    60   ~ 0
 PH0
 Text Label 9400 6150 2    60   ~ 0
@@ -1240,12 +1176,6 @@ F 3 "" H -850 3500 60  0001 C CNN
 	1    2450 1800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4150 -650
-NoConn ~ 4150 -550
-NoConn ~ 4150 -450
-NoConn ~ 4150 -350
-NoConn ~ 4150 -250
-NoConn ~ 4150 -150
 NoConn ~ 3850 -450
 NoConn ~ 4550 -1650
 NoConn ~ 4550 -1550
@@ -1286,7 +1216,21 @@ Wire Wire Line
 Wire Wire Line
 	10850 2950 10950 2950
 Wire Wire Line
-	10950 2550 10950 4750
+	10950 2550 10950 2650
+Wire Wire Line
+	10950 2650 10950 2950
+Wire Wire Line
+	10950 2950 10950 3250
+Wire Wire Line
+	10950 3250 10950 3550
+Wire Wire Line
+	10950 3550 10950 3850
+Wire Wire Line
+	10950 3850 10950 4150
+Wire Wire Line
+	10950 4150 10950 4450
+Wire Wire Line
+	10950 4450 10950 4750
 Wire Wire Line
 	10550 2950 10500 2950
 Wire Wire Line
@@ -1328,22 +1272,6 @@ Wire Wire Line
 Wire Wire Line
 	10200 4750 10150 4750
 Connection ~ 10950 2650
-Wire Wire Line
-	7950 1150 7750 1150
-Wire Wire Line
-	7950 1350 7750 1350
-Wire Wire Line
-	7950 1750 7750 1750
-Wire Wire Line
-	7950 1950 7750 1950
-Wire Wire Line
-	7950 3150 7750 3150
-Wire Wire Line
-	7950 2950 7750 2950
-Wire Wire Line
-	7950 2550 7750 2550
-Wire Wire Line
-	7950 2350 7750 2350
 Wire Wire Line
 	7200 1250 7950 1250
 Wire Wire Line
@@ -1422,7 +1350,9 @@ Connection ~ 8650 4500
 Wire Wire Line
 	4350 6150 4300 6150
 Wire Wire Line
-	4350 6050 4350 6150
+	4350 6050 4350 6100
+Wire Wire Line
+	4350 6100 4350 6150
 Wire Wire Line
 	4350 6050 4300 6050
 Wire Wire Line
@@ -1434,19 +1364,25 @@ Wire Wire Line
 Wire Wire Line
 	4300 6350 4350 6350
 Wire Wire Line
-	4350 6250 4350 6400
+	4350 6250 4350 6350
+Wire Wire Line
+	4350 6350 4350 6400
 Wire Wire Line
 	4350 6250 4300 6250
 Wire Wire Line
 	4300 7400 4350 7400
 Wire Wire Line
-	4350 7300 4350 7450
+	4350 7300 4350 7400
+Wire Wire Line
+	4350 7400 4350 7450
 Wire Wire Line
 	4350 7300 4300 7300
 Wire Wire Line
 	4350 7200 4300 7200
 Wire Wire Line
-	4350 7100 4350 7200
+	4350 7100 4350 7150
+Wire Wire Line
+	4350 7150 4350 7200
 Wire Wire Line
 	4350 7100 4300 7100
 Wire Wire Line
@@ -1463,9 +1399,13 @@ Connection ~ 4350 7400
 Wire Wire Line
 	5200 6500 5200 6450
 Wire Wire Line
-	5150 6100 5450 6100
+	5150 6100 5200 6100
 Wire Wire Line
-	5200 6050 5200 6150
+	5200 6100 5450 6100
+Wire Wire Line
+	5200 6050 5200 6100
+Wire Wire Line
+	5200 6100 5200 6150
 Connection ~ 5200 6100
 Wire Wire Line
 	5200 5750 5200 5700
@@ -1473,7 +1413,9 @@ Wire Wire Line
 	4450 7150 4350 7150
 Connection ~ 4350 7150
 Wire Wire Line
-	4750 7150 5000 7150
+	4750 7150 4900 7150
+Wire Wire Line
+	4900 7150 5000 7150
 Wire Wire Line
 	4900 7550 4900 7500
 Wire Wire Line
@@ -1482,7 +1424,13 @@ Connection ~ 4900 7150
 Wire Wire Line
 	7200 1250 7200 1300
 Wire Wire Line
-	8650 4250 8650 5050
+	8650 4250 8650 4500
+Wire Wire Line
+	8650 4500 8650 4750
+Wire Wire Line
+	8650 4750 8650 5000
+Wire Wire Line
+	8650 5000 8650 5050
 Wire Notes Line
 	8950 3550 7050 3550
 Wire Notes Line
@@ -1501,4 +1449,52 @@ Wire Notes Line
 Connection ~ 10950 3850
 Wire Wire Line
 	9750 1150 10000 1150
+Text Label 7950 1150 2    60   ~ 0
+PC8
+Text Label 7950 1350 2    60   ~ 0
+PC9
+Text Label 7950 1950 2    60   ~ 0
+PC11
+Text Label 7950 1750 2    60   ~ 0
+PC10
+Text Label 7950 2350 2    60   ~ 0
+PC12
+Text Label 7950 2550 2    60   ~ 0
+PC13
+Text Label 7950 2950 2    60   ~ 0
+PC14
+Text Label 7950 3150 2    60   ~ 0
+PC15
+Text Label 2000 6700 3    60   ~ 0
+PA13
+Text Label 2100 6700 3    60   ~ 0
+PA14
+Text Label 2200 6700 3    60   ~ 0
+PA15
+Text Label 1500 6700 3    60   ~ 0
+PA8
+Text Label 1600 6700 3    60   ~ 0
+PA9
+Text Label 1700 6700 3    60   ~ 0
+PA10
+Text Label 1900 6700 3    60   ~ 0
+PA12
+Text Label 1800 6700 3    60   ~ 0
+PA11
+Text Label 9400 5750 2    60   ~ 0
+PA13
+Text Label 9400 5850 2    60   ~ 0
+PA14
+Text Label 9400 5950 2    60   ~ 0
+PA15
+Text Label 9400 5250 2    60   ~ 0
+PA8
+Text Label 9400 5350 2    60   ~ 0
+PA9
+Text Label 9400 5450 2    60   ~ 0
+PA10
+Text Label 9400 5650 2    60   ~ 0
+PA12
+Text Label 9400 5550 2    60   ~ 0
+PA11
 $EndSCHEMATC

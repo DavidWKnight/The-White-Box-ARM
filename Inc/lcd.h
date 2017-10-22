@@ -22,7 +22,7 @@
 #define LCD_E_pin LL_GPIO_PIN_0
 #define LCD_E_port GPIOH
 #define LCD_data_pins (LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_11 | LL_GPIO_PIN_12 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15)
-#define LCD_data_port GPIOC
+#define LCD_data_port GPIOA
 
 void init_LCD();
 void LCD_write_data(int);
