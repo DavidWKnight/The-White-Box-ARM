@@ -40,7 +40,9 @@
 #include "stm32l4xx_hal.h"
 
 /* USER CODE BEGIN Includes */
+#include "math.h"
 #include "lcd.h"
+#include "effects.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -113,6 +115,9 @@ int main(void)
 
   /* USER CODE BEGIN 2 */
   init_LCD();
+  effects_init();
+
+
   unsigned int i;
   char line1[] = "Hello World!        ";
   for(i = 0; i < LCD_line_length; i++){
@@ -137,12 +142,13 @@ int main(void)
     LCD_write_data(line4[i]);
   }
 
-
   while (1) {
     LL_GPIO_SetOutputPin(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_11 | LL_GPIO_PIN_12 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15);
     LL_mDelay(500);
     LL_GPIO_ResetOutputPin(GPIOC, LL_GPIO_PIN_8 | LL_GPIO_PIN_9 | LL_GPIO_PIN_10 | LL_GPIO_PIN_11 | LL_GPIO_PIN_12 | LL_GPIO_PIN_13 | LL_GPIO_PIN_14 | LL_GPIO_PIN_15);
     LL_mDelay(500);
+    
+
   }
   /* USER CODE END 2 */
 
@@ -196,7 +202,7 @@ void SystemClock_Config(void)
   {
     
   }
-  LL_RCC_PLLSAI1_ConfigDomain_ADC(LL_RCC_PLLSOURCE_MSI, LL_RCC_PLLM_DIV_1, 16, LL_RCC_PLLSAI1R_DIV_2);
+  LL_RCC_PLLSAI1_ConfigDomain_ADC(LL_RCC_PLLSOURCE_MSI, LL_RCC_PLLM_DIV_1, 16, LL_RCC_PLLSAI1R_DIV_8);
 
   LL_RCC_PLLSAI1_EnableDomain_ADC();
 
@@ -263,16 +269,18 @@ static void MX_ADC2_Init(void)
   LL_AHB2_GRP1_EnableClock(LL_AHB2_GRP1_PERIPH_ADC);
   
   /**ADC2 GPIO Configuration  
-  PA2   ------> ADC2_IN7
-  PA3   ------> ADC2_IN8
   PA4   ------> ADC2_IN9 
   */
-  GPIO_InitStruct.Pin = LL_GPIO_PIN_2|LL_GPIO_PIN_3|LL_GPIO_PIN_4;
+  GPIO_InitStruct.Pin = LL_GPIO_PIN_4;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ANALOG;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
-  LL_GPIO_EnablePinAnalogControl(GPIOA, LL_GPIO_PIN_2|LL_GPIO_PIN_3|LL_GPIO_PIN_4);
+  LL_GPIO_EnablePinAnalogControl(GPIOA, LL_GPIO_PIN_4);
+
+  /* ADC2 interrupt Init */
+  NVIC_SetPriority(ADC1_2_IRQn, NVIC_EncodePriority(NVIC_GetPriorityGrouping(),0, 0));
+  NVIC_EnableIRQ(ADC1_2_IRQn);
 
     /**Common config 
     */
@@ -284,14 +292,14 @@ static void MX_ADC2_Init(void)
   ADC_REG_InitStruct.TriggerSource = LL_ADC_REG_TRIG_SOFTWARE;
   ADC_REG_InitStruct.SequencerLength = LL_ADC_REG_SEQ_SCAN_DISABLE;
   ADC_REG_InitStruct.SequencerDiscont = LL_ADC_REG_SEQ_DISCONT_DISABLE;
-  ADC_REG_InitStruct.ContinuousMode = LL_ADC_REG_CONV_SINGLE;
+  ADC_REG_InitStruct.ContinuousMode = LL_ADC_REG_CONV_CONTINUOUS;
   ADC_REG_InitStruct.DMATransfer = LL_ADC_REG_DMA_TRANSFER_LIMITED;
   ADC_REG_InitStruct.Overrun = LL_ADC_REG_OVR_DATA_PRESERVED;
   LL_ADC_REG_Init(ADC2, &ADC_REG_InitStruct);
 
   LL_ADC_SetOverSamplingScope(ADC2, LL_ADC_OVS_DISABLE);
 
-  ADC_CommonInitStruct.CommonClock = LL_ADC_CLOCK_ASYNC_DIV1;
+  ADC_CommonInitStruct.CommonClock = LL_ADC_CLOCK_ASYNC_DIV12;
   LL_ADC_CommonInit(__LL_ADC_COMMON_INSTANCE(ADC2), &ADC_CommonInitStruct);
 
   LL_ADC_EnableIT_EOC(ADC2);
@@ -300,11 +308,11 @@ static void MX_ADC2_Init(void)
 
     /**Configure Regular Channel 
     */
-  LL_ADC_REG_SetSequencerRanks(ADC2, LL_ADC_REG_RANK_1, LL_ADC_CHANNEL_7);
+  LL_ADC_REG_SetSequencerRanks(ADC2, LL_ADC_REG_RANK_1, LL_ADC_CHANNEL_9);
 
-  LL_ADC_SetChannelSamplingTime(ADC2, LL_ADC_CHANNEL_7, LL_ADC_SAMPLINGTIME_2CYCLES_5);
+  LL_ADC_SetChannelSamplingTime(ADC2, LL_ADC_CHANNEL_9, LL_ADC_SAMPLINGTIME_2CYCLES_5);
 
-  LL_ADC_SetChannelSingleDiff(ADC2, LL_ADC_CHANNEL_7, LL_ADC_DIFFERENTIAL_ENDED);
+  LL_ADC_SetChannelSingleDiff(ADC2, LL_ADC_CHANNEL_9, LL_ADC_SINGLE_ENDED);
 
 }
 

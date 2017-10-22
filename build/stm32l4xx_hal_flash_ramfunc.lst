@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccV5xi1S.s 			page 1
+ARM GAS  /tmp/ccF3fzjV.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccV5xi1S.s 			page 1
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     *** GNU Compiler ***
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     --------------------
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     [..] RAM functions are defined using a specific toolchain attribute
-ARM GAS  /tmp/ccV5xi1S.s 			page 2
+ARM GAS  /tmp/ccF3fzjV.s 			page 2
 
 
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****          "__attribute__((section(".RamFunc")))".
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccV5xi1S.s 			page 1
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /* Exported functions -------------------------------------------------------*/
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /** @defgroup FLASH_RAMFUNC_Exported_Functions FLASH in RAM function Exported Functions
-ARM GAS  /tmp/ccV5xi1S.s 			page 3
+ARM GAS  /tmp/ccF3fzjV.s 			page 3
 
 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccV5xi1S.s 			page 1
   52              	.LFE1499:
   54              		.align	1
   55              		.global	HAL_FLASHEx_DisableRunPowerDown
-ARM GAS  /tmp/ccV5xi1S.s 			page 4
+ARM GAS  /tmp/ccF3fzjV.s 			page 4
 
 
   56              		.syntax unified
@@ -238,22 +238,22 @@ ARM GAS  /tmp/ccV5xi1S.s 			page 1
   99              		.file 10 "/usr/arm-none-eabi/include/sys/_types.h"
  100              		.file 11 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
  101              		.file 12 "/usr/arm-none-eabi/include/sys/reent.h"
-ARM GAS  /tmp/ccV5xi1S.s 			page 5
+ARM GAS  /tmp/ccF3fzjV.s 			page 5
 
 
  102              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  103              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h"
-ARM GAS  /tmp/ccV5xi1S.s 			page 6
+ARM GAS  /tmp/ccF3fzjV.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_flash_ramfunc.c
-     /tmp/ccV5xi1S.s:18     .RamFunc:0000000000000000 $t
-     /tmp/ccV5xi1S.s:25     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
-     /tmp/ccV5xi1S.s:48     .RamFunc:0000000000000018 $d
-     /tmp/ccV5xi1S.s:54     .RamFunc:0000000000000024 $t
-     /tmp/ccV5xi1S.s:61     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
-     /tmp/ccV5xi1S.s:83     .RamFunc:000000000000003c $d
+     /tmp/ccF3fzjV.s:18     .RamFunc:0000000000000000 $t
+     /tmp/ccF3fzjV.s:25     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
+     /tmp/ccF3fzjV.s:48     .RamFunc:0000000000000018 $d
+     /tmp/ccF3fzjV.s:54     .RamFunc:0000000000000024 $t
+     /tmp/ccF3fzjV.s:61     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
+     /tmp/ccF3fzjV.s:83     .RamFunc:000000000000003c $d
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS
