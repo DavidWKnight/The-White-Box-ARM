@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccF3fzjV.s 			page 1
+ARM GAS  /tmp/ccd40pLo.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -25,7 +25,7 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   22              		.thumb_func
   23              		.fpu fpv4-sp-d16
   25              	HAL_FLASHEx_EnableRunPowerDown:
-  26              	.LFB1499:
+  26              	.LFB1424:
   27              		.file 1 "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c"
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   29:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     *** GNU Compiler ***
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     --------------------
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****     [..] RAM functions are defined using a specific toolchain attribute
-ARM GAS  /tmp/ccF3fzjV.s 			page 2
+ARM GAS  /tmp/ccd40pLo.s 			page 2
 
 
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****          "__attribute__((section(".RamFunc")))".
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   86:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /* Exported functions -------------------------------------------------------*/
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** 
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /** @defgroup FLASH_RAMFUNC_Exported_Functions FLASH in RAM function Exported Functions
-ARM GAS  /tmp/ccF3fzjV.s 			page 3
+ARM GAS  /tmp/ccd40pLo.s 			page 3
 
 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @{
@@ -175,10 +175,10 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   49 001c 37261504 		.word	68494903
   50 0020 FDFCFBFA 		.word	-84148995
   51              		.cfi_endproc
-  52              	.LFE1499:
+  52              	.LFE1424:
   54              		.align	1
   55              		.global	HAL_FLASHEx_DisableRunPowerDown
-ARM GAS  /tmp/ccF3fzjV.s 			page 4
+ARM GAS  /tmp/ccd40pLo.s 			page 4
 
 
   56              		.syntax unified
@@ -186,7 +186,7 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   58              		.thumb_func
   59              		.fpu fpv4-sp-d16
   61              	HAL_FLASHEx_DisableRunPowerDown:
-  62              	.LFB1500:
+  62              	.LFB1425:
  119:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** 
  120:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c **** /**
  121:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c ****   * @brief   Disable the Power down in Run Mode
@@ -224,7 +224,7 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   84 0040 37261504 		.word	68494903
   85 0044 FDFCFBFA 		.word	-84148995
   86              		.cfi_endproc
-  87              	.LFE1500:
+  87              	.LFE1425:
   89              		.text
   90              	.Letext0:
   91              		.file 2 "/usr/arm-none-eabi/include/machine/_default_types.h"
@@ -238,22 +238,22 @@ ARM GAS  /tmp/ccF3fzjV.s 			page 1
   99              		.file 10 "/usr/arm-none-eabi/include/sys/_types.h"
  100              		.file 11 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
  101              		.file 12 "/usr/arm-none-eabi/include/sys/reent.h"
-ARM GAS  /tmp/ccF3fzjV.s 			page 5
+ARM GAS  /tmp/ccd40pLo.s 			page 5
 
 
  102              		.file 13 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  103              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h"
-ARM GAS  /tmp/ccF3fzjV.s 			page 6
+ARM GAS  /tmp/ccd40pLo.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_hal_flash_ramfunc.c
-     /tmp/ccF3fzjV.s:18     .RamFunc:0000000000000000 $t
-     /tmp/ccF3fzjV.s:25     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
-     /tmp/ccF3fzjV.s:48     .RamFunc:0000000000000018 $d
-     /tmp/ccF3fzjV.s:54     .RamFunc:0000000000000024 $t
-     /tmp/ccF3fzjV.s:61     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
-     /tmp/ccF3fzjV.s:83     .RamFunc:000000000000003c $d
+     /tmp/ccd40pLo.s:18     .RamFunc:0000000000000000 $t
+     /tmp/ccd40pLo.s:25     .RamFunc:0000000000000000 HAL_FLASHEx_EnableRunPowerDown
+     /tmp/ccd40pLo.s:48     .RamFunc:0000000000000018 $d
+     /tmp/ccd40pLo.s:54     .RamFunc:0000000000000024 $t
+     /tmp/ccd40pLo.s:61     .RamFunc:0000000000000024 HAL_FLASHEx_DisableRunPowerDown
+     /tmp/ccd40pLo.s:83     .RamFunc:000000000000003c $d
                      .debug_frame:0000000000000010 $d
 
 NO UNDEFINED SYMBOLS

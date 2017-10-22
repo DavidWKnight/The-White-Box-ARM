@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccyMjEwb.s 			page 1
+ARM GAS  /tmp/cca8Fq5p.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -25,7 +25,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   22              		.thumb_func
   23              		.fpu fpv4-sp-d16
   25              	LCD_write_data:
-  26              	.LFB1500:
+  26              	.LFB1425:
   27              		.file 1 "Src/lcd.c"
    1:Src/lcd.c     **** /*
    2:Src/lcd.c     ****  * lcd.c
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   29:Src/lcd.c     **** 	return;
   30:Src/lcd.c     **** }
   31:Src/lcd.c     **** 
-ARM GAS  /tmp/ccyMjEwb.s 			page 2
+ARM GAS  /tmp/cca8Fq5p.s 			page 2
 
 
   32:Src/lcd.c     **** /*send data to LCD screen*/
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   35:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** 
   36:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** /* Define to prevent recursive inclusion -------------------------------------*/
   37:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** #ifndef __STM32L4xx_LL_GPIO_H
-ARM GAS  /tmp/ccyMjEwb.s 			page 3
+ARM GAS  /tmp/cca8Fq5p.s 			page 3
 
 
   38:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** #define __STM32L4xx_LL_GPIO_H
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   92:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** 
   93:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****                               GPIO HW configuration can be modified afterwards using unitary functi
   94:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** 
-ARM GAS  /tmp/ccyMjEwb.s 			page 4
+ARM GAS  /tmp/cca8Fq5p.s 			page 4
 
 
   95:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   uint32_t OutputType;   /*!< Specifies the operating output type for the selected pins.
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  149:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** 
  150:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** /** @defgroup GPIO_LL_EC_MODE Mode
  151:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @{
-ARM GAS  /tmp/ccyMjEwb.s 			page 5
+ARM GAS  /tmp/cca8Fq5p.s 			page 5
 
 
  152:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  206:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** #define LL_GPIO_AF_8                       (0x0000008U) /*!< Select alternate function 8 */
  207:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** #define LL_GPIO_AF_9                       (0x0000009U) /*!< Select alternate function 9 */
  208:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** #define LL_GPIO_AF_10                      (0x000000AU) /*!< Select alternate function 10 */
-ARM GAS  /tmp/ccyMjEwb.s 			page 6
+ARM GAS  /tmp/cca8Fq5p.s 			page 6
 
 
  209:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** #define LL_GPIO_AF_11                      (0x000000BU) /*!< Select alternate function 11 */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  263:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** 
  264:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** /**
  265:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @brief  Configure gpio mode for a dedicated pin on dedicated port.
-ARM GAS  /tmp/ccyMjEwb.s 			page 7
+ARM GAS  /tmp/cca8Fq5p.s 			page 7
 
 
  266:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @note   I/O mode can be Input mode, General purpose output, Alternate function mode or Analog.
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  320:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_14
  321:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_15
  322:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @retval Returned value can be one of the following values:
-ARM GAS  /tmp/ccyMjEwb.s 			page 8
+ARM GAS  /tmp/cca8Fq5p.s 			page 8
 
 
  323:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_MODE_INPUT
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  377:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_1
  378:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_2
  379:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_3
-ARM GAS  /tmp/ccyMjEwb.s 			page 9
+ARM GAS  /tmp/cca8Fq5p.s 			page 9
 
 
  380:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_4
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  434:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** __STATIC_INLINE void LL_GPIO_SetPinSpeed(GPIO_TypeDef *GPIOx, uint32_t Pin, uint32_t  Speed)
  435:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** {
  436:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   MODIFY_REG(GPIOx->OSPEEDR, (GPIO_OSPEEDR_OSPEED0 << (POSITION_VAL(Pin) * 2U)),
-ARM GAS  /tmp/ccyMjEwb.s 			page 10
+ARM GAS  /tmp/cca8Fq5p.s 			page 10
 
 
  437:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****              (Speed << (POSITION_VAL(Pin) * 2U)));
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  491:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
  492:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  493:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
-ARM GAS  /tmp/ccyMjEwb.s 			page 11
+ARM GAS  /tmp/cca8Fq5p.s 			page 11
 
 
  494:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  548:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
  549:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @param  Pin This parameter can be one of the following values:
  550:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_0
-ARM GAS  /tmp/ccyMjEwb.s 			page 12
+ARM GAS  /tmp/cca8Fq5p.s 			page 12
 
 
  551:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  605:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_8
  606:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_9
  607:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_10
-ARM GAS  /tmp/ccyMjEwb.s 			page 13
+ARM GAS  /tmp/cca8Fq5p.s 			page 13
 
 
  608:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_AF_11
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  662:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @note   Possible values are from AF0 to AF15 depending on target.
  663:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @rmtoll AFRH         AFSELy        LL_GPIO_GetAFPin_8_15
  664:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
-ARM GAS  /tmp/ccyMjEwb.s 			page 14
+ARM GAS  /tmp/cca8Fq5p.s 			page 14
 
 
  665:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @param  Pin This parameter can be one of the following values:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  719:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_12
  720:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_13
  721:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_14
-ARM GAS  /tmp/ccyMjEwb.s 			page 15
+ARM GAS  /tmp/cca8Fq5p.s 			page 15
 
 
  722:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_15
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  776:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_5
  777:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_6
  778:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
-ARM GAS  /tmp/ccyMjEwb.s 			page 16
+ARM GAS  /tmp/cca8Fq5p.s 			page 16
 
 
  779:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  833:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @retval State of bit (1 or 0).
  834:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   */
  835:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** __STATIC_INLINE uint32_t LL_GPIO_IsAnyPinLocked(GPIO_TypeDef *GPIOx)
-ARM GAS  /tmp/ccyMjEwb.s 			page 17
+ARM GAS  /tmp/cca8Fq5p.s 			page 17
 
 
  836:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** {
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  890:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @rmtoll ODR          ODy           LL_GPIO_WriteOutputPort
  891:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
  892:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @param  PortValue Level value for each pin of the port
-ARM GAS  /tmp/ccyMjEwb.s 			page 18
+ARM GAS  /tmp/cca8Fq5p.s 			page 18
 
 
  893:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   * @retval None
@@ -1067,18 +1067,18 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  936:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** {
  937:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   return (READ_BIT(GPIOx->ODR, PinMask) == (PinMask));
   46              		.loc 2 937 0
-  47 0004 104C     		ldr	r4, .L3
-  48 0006 6569     		ldr	r5, [r4, #20]
-  49 0008 05F47F45 		and	r5, r5, #65280
-  50 000c B5F57F4F 		cmp	r5, #65280
-  51 0010 14BF     		ite	ne
-  52 0012 0025     		movne	r5, #0
-  53 0014 0125     		moveq	r5, #1
+  47 0004 4FF09044 		mov	r4, #1207959552
+  48 0008 6569     		ldr	r5, [r4, #20]
+  49 000a 05F47F45 		and	r5, r5, #65280
+  50 000e B5F57F4F 		cmp	r5, #65280
+  51 0012 14BF     		ite	ne
+  52 0014 0025     		movne	r5, #0
+  53 0016 0125     		moveq	r5, #1
   54              	.LVL2:
   55              	.LBE45:
   56              	.LBE44:
   57              	.LBB46:
-ARM GAS  /tmp/ccyMjEwb.s 			page 19
+ARM GAS  /tmp/cca8Fq5p.s 			page 19
 
 
   58              	.LBB47:
@@ -1112,9 +1112,9 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  965:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** {
  966:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   WRITE_REG(GPIOx->BSRR, PinMask);
   59              		.loc 2 966 0
-  60 0016 0D4B     		ldr	r3, .L3+4
-  61 0018 0222     		movs	r2, #2
-  62 001a 9A61     		str	r2, [r3, #24]
+  60 0018 0B4B     		ldr	r3, .L3
+  61 001a 0222     		movs	r2, #2
+  62 001c 9A61     		str	r2, [r3, #24]
   63              	.LVL3:
   64              	.LBE47:
   65              	.LBE46:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  982:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
  983:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  984:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
-ARM GAS  /tmp/ccyMjEwb.s 			page 20
+ARM GAS  /tmp/cca8Fq5p.s 			page 20
 
 
  985:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
@@ -1153,15 +1153,15 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  994:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** {
  995:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h ****   WRITE_REG(GPIOx->BRR, PinMask);
   68              		.loc 2 995 0
-  69 001c 0422     		movs	r2, #4
-  70 001e 9A62     		str	r2, [r3, #40]
+  69 001e 0422     		movs	r2, #4
+  70 0020 9A62     		str	r2, [r3, #40]
   71              	.LVL4:
   72              	.LBE49:
   73              	.LBE48:
   74              	.LBB50:
   75              	.LBB51:
-  76 0020 4FF47F47 		mov	r7, #65280
-  77 0024 A762     		str	r7, [r4, #40]
+  76 0022 4FF47F47 		mov	r7, #65280
+  77 0026 A762     		str	r7, [r4, #40]
   78              	.LVL5:
   79              	.LBE51:
   80              	.LBE50:
@@ -1172,21 +1172,21 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   38:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_data_port, LCD_data_pins);
   39:Src/lcd.c     **** 	LL_GPIO_SetOutputPin(LCD_data_port, buffer<<8);
   81              		.loc 1 39 0
-  82 0026 0002     		lsls	r0, r0, #8
+  82 0028 0002     		lsls	r0, r0, #8
   83              	.LVL6:
   84              	.LBB52:
   85              	.LBB53:
  966:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** }
   86              		.loc 2 966 0
-  87 0028 A061     		str	r0, [r4, #24]
+  87 002a A061     		str	r0, [r4, #24]
   88              	.LVL7:
   89              	.LBE53:
   90              	.LBE52:
   91              	.LBB54:
   92              	.LBB55:
-  93 002a DFF82480 		ldr	r8, .L3+8
-  94 002e 0126     		movs	r6, #1
-  95 0030 C8F81860 		str	r6, [r8, #24]
+  93 002c DFF81C80 		ldr	r8, .L3+4
+  94 0030 0126     		movs	r6, #1
+  95 0032 C8F81860 		str	r6, [r8, #24]
   96              	.LVL8:
   97              	.LBE55:
   98              	.LBE54:
@@ -1194,22 +1194,22 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   41:Src/lcd.c     **** 	LL_GPIO_SetOutputPin(LCD_E_port, LCD_E_pin);
   42:Src/lcd.c     **** 	LL_mDelay(1);
   99              		.loc 1 42 0
- 100 0034 3046     		mov	r0, r6
- 101 0036 FFF7FEFF 		bl	LL_mDelay
+ 100 0036 3046     		mov	r0, r6
+ 101 0038 FFF7FEFF 		bl	LL_mDelay
  102              	.LVL9:
  103              	.LBB56:
-ARM GAS  /tmp/ccyMjEwb.s 			page 21
+ARM GAS  /tmp/cca8Fq5p.s 			page 21
 
 
  104              	.LBB57:
  105              		.loc 2 995 0
- 106 003a C8F82860 		str	r6, [r8, #40]
+ 106 003c C8F82860 		str	r6, [r8, #40]
  107              	.LVL10:
  108              	.LBE57:
  109              	.LBE56:
  110              	.LBB58:
  111              	.LBB59:
- 112 003e A762     		str	r7, [r4, #40]
+ 112 0040 A762     		str	r7, [r4, #40]
  113              	.LVL11:
  114              	.LBE59:
  115              	.LBE58:
@@ -1217,28 +1217,27 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
  117              	.LBB61:
  966:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** }
  118              		.loc 2 966 0
- 119 0040 A561     		str	r5, [r4, #24]
+ 119 0042 A561     		str	r5, [r4, #24]
  120              	.LVL12:
- 121 0042 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
+ 121 0044 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
  122              	.L4:
- 123 0046 00BF     		.align	2
+ 123              		.align	2
  124              	.L3:
- 125 0048 00080048 		.word	1207961600
- 126 004c 00040048 		.word	1207960576
- 127 0050 001C0048 		.word	1207966720
- 128              	.LBE61:
- 129              	.LBE60:
- 130              		.cfi_endproc
- 131              	.LFE1500:
- 133              		.section	.text.LCD_write_cmd,"ax",%progbits
- 134              		.align	1
- 135              		.global	LCD_write_cmd
- 136              		.syntax unified
- 137              		.thumb
- 138              		.thumb_func
- 139              		.fpu fpv4-sp-d16
- 141              	LCD_write_cmd:
- 142              	.LFB1501:
+ 125 0048 00040048 		.word	1207960576
+ 126 004c 001C0048 		.word	1207966720
+ 127              	.LBE61:
+ 128              	.LBE60:
+ 129              		.cfi_endproc
+ 130              	.LFE1425:
+ 132              		.section	.text.LCD_write_cmd,"ax",%progbits
+ 133              		.align	1
+ 134              		.global	LCD_write_cmd
+ 135              		.syntax unified
+ 136              		.thumb
+ 137              		.thumb_func
+ 138              		.fpu fpv4-sp-d16
+ 140              	LCD_write_cmd:
+ 141              	.LFB1426:
   43:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_E_port, LCD_E_pin);
   44:Src/lcd.c     **** 
   45:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_data_port, LCD_data_pins);
@@ -1248,279 +1247,278 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   49:Src/lcd.c     **** 
   50:Src/lcd.c     **** /*send command to LCD screen*/
   51:Src/lcd.c     **** void LCD_write_cmd(int buffer){
- 143              		.loc 1 51 0
- 144              		.cfi_startproc
- 145              		@ args = 0, pretend = 0, frame = 0
- 146              		@ frame_needed = 0, uses_anonymous_args = 0
- 147              	.LVL13:
- 148 0000 10B5     		push	{r4, lr}
- 149              	.LCFI1:
- 150              		.cfi_def_cfa_offset 8
- 151              		.cfi_offset 4, -8
- 152              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccyMjEwb.s 			page 22
+ 142              		.loc 1 51 0
+ 143              		.cfi_startproc
+ 144              		@ args = 0, pretend = 0, frame = 0
+ 145              		@ frame_needed = 0, uses_anonymous_args = 0
+ 146              	.LVL13:
+ 147 0000 10B5     		push	{r4, lr}
+ 148              	.LCFI1:
+ 149              		.cfi_def_cfa_offset 8
+ 150              		.cfi_offset 4, -8
+ 151              		.cfi_offset 14, -4
+ 152              	.LVL14:
+ARM GAS  /tmp/cca8Fq5p.s 			page 22
 
 
- 153              	.LVL14:
- 154              	.LBB62:
- 155              	.LBB63:
+ 153              	.LBB62:
+ 154              	.LBB63:
  937:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** }
- 156              		.loc 2 937 0
- 157 0002 154B     		ldr	r3, .L9
- 158 0004 5C69     		ldr	r4, [r3, #20]
- 159 0006 04F47F44 		and	r4, r4, #65280
- 160 000a B4F57F4F 		cmp	r4, #65280
- 161 000e 14BF     		ite	ne
- 162 0010 0024     		movne	r4, #0
- 163 0012 0124     		moveq	r4, #1
- 164              	.LVL15:
- 165              	.LBE63:
- 166              	.LBE62:
- 167              	.LBB64:
- 168              	.LBB65:
- 169              		.loc 2 995 0
- 170 0014 114A     		ldr	r2, .L9+4
- 171 0016 0221     		movs	r1, #2
- 172 0018 9162     		str	r1, [r2, #40]
- 173              	.LVL16:
- 174              	.LBE65:
- 175              	.LBE64:
- 176              	.LBB66:
- 177              	.LBB67:
- 178 001a 0421     		movs	r1, #4
- 179 001c 9162     		str	r1, [r2, #40]
- 180              	.LVL17:
- 181              	.LBE67:
- 182              	.LBE66:
- 183              	.LBB68:
- 184              	.LBB69:
- 185 001e 4FF47F42 		mov	r2, #65280
- 186 0022 9A62     		str	r2, [r3, #40]
- 187              	.LVL18:
- 188              	.LBE69:
- 189              	.LBE68:
+ 155              		.loc 2 937 0
+ 156 0002 4FF09043 		mov	r3, #1207959552
+ 157 0006 5C69     		ldr	r4, [r3, #20]
+ 158 0008 04F47F44 		and	r4, r4, #65280
+ 159 000c B4F57F4F 		cmp	r4, #65280
+ 160 0010 14BF     		ite	ne
+ 161 0012 0024     		movne	r4, #0
+ 162 0014 0124     		moveq	r4, #1
+ 163              	.LVL15:
+ 164              	.LBE63:
+ 165              	.LBE62:
+ 166              	.LBB64:
+ 167              	.LBB65:
+ 168              		.loc 2 995 0
+ 169 0016 114A     		ldr	r2, .L9
+ 170 0018 0221     		movs	r1, #2
+ 171 001a 9162     		str	r1, [r2, #40]
+ 172              	.LVL16:
+ 173              	.LBE65:
+ 174              	.LBE64:
+ 175              	.LBB66:
+ 176              	.LBB67:
+ 177 001c 0421     		movs	r1, #4
+ 178 001e 9162     		str	r1, [r2, #40]
+ 179              	.LVL17:
+ 180              	.LBE67:
+ 181              	.LBE66:
+ 182              	.LBB68:
+ 183              	.LBB69:
+ 184 0020 4FF47F42 		mov	r2, #65280
+ 185 0024 9A62     		str	r2, [r3, #40]
+ 186              	.LVL18:
+ 187              	.LBE69:
+ 188              	.LBE68:
   52:Src/lcd.c     **** 	uint32_t LED_values = LL_GPIO_IsOutputPinSet(LCD_data_port, LCD_data_pins);
   53:Src/lcd.c     **** 
   54:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_RS_port, LCD_RS_pin);
   55:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_RW_port, LCD_RW_pin);
   56:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_data_port, LCD_data_pins);
   57:Src/lcd.c     **** 	LL_GPIO_SetOutputPin(LCD_data_port, buffer<<8);
- 190              		.loc 1 57 0
- 191 0024 0202     		lsls	r2, r0, #8
- 192              	.LVL19:
- 193              	.LBB70:
- 194              	.LBB71:
+ 189              		.loc 1 57 0
+ 190 0026 0202     		lsls	r2, r0, #8
+ 191              	.LVL19:
+ 192              	.LBB70:
+ 193              	.LBB71:
  966:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** }
- 195              		.loc 2 966 0
- 196 0026 9A61     		str	r2, [r3, #24]
- 197              	.LVL20:
- 198              	.LBE71:
- 199              	.LBE70:
- 200              	.LBB72:
- 201              	.LBB73:
-ARM GAS  /tmp/ccyMjEwb.s 			page 23
+ 194              		.loc 2 966 0
+ 195 0028 9A61     		str	r2, [r3, #24]
+ 196              	.LVL20:
+ 197              	.LBE71:
+ 198              	.LBE70:
+ 199              	.LBB72:
+ 200              	.LBB73:
+ 201 002a 0122     		movs	r2, #1
+ARM GAS  /tmp/cca8Fq5p.s 			page 23
 
 
- 202 0028 0122     		movs	r2, #1
- 203 002a 03F5A053 		add	r3, r3, #5120
- 204 002e 9A61     		str	r2, [r3, #24]
- 205              	.LVL21:
- 206              	.LBE73:
- 207              	.LBE72:
+ 202 002c 03F5E053 		add	r3, r3, #7168
+ 203 0030 9A61     		str	r2, [r3, #24]
+ 204              	.LVL21:
+ 205              	.LBE73:
+ 206              	.LBE72:
   58:Src/lcd.c     **** 
   59:Src/lcd.c     **** 	LL_GPIO_SetOutputPin(LCD_E_port, LCD_E_pin);
   60:Src/lcd.c     **** 	if ((buffer & 0x80) > 0){
- 208              		.loc 1 60 0
- 209 0030 10F0800F 		tst	r0, #128
- 210 0034 0CD0     		beq	.L6
+ 207              		.loc 1 60 0
+ 208 0032 10F0800F 		tst	r0, #128
+ 209 0036 0CD0     		beq	.L6
   61:Src/lcd.c     **** 		LL_mDelay(1);
- 211              		.loc 1 61 0
- 212 0036 1046     		mov	r0, r2
- 213              	.LVL22:
- 214 0038 FFF7FEFF 		bl	LL_mDelay
- 215              	.LVL23:
- 216              	.L7:
- 217              	.LBB74:
- 218              	.LBB75:
- 219              		.loc 2 995 0
- 220 003c 0122     		movs	r2, #1
- 221 003e 084B     		ldr	r3, .L9+8
- 222 0040 9A62     		str	r2, [r3, #40]
- 223              	.LVL24:
- 224              	.LBE75:
- 225              	.LBE74:
- 226              	.LBB76:
- 227              	.LBB77:
- 228 0042 A3F5A053 		sub	r3, r3, #5120
- 229 0046 4FF47F42 		mov	r2, #65280
- 230 004a 9A62     		str	r2, [r3, #40]
- 231              	.LVL25:
- 232              	.LBE77:
- 233              	.LBE76:
- 234              	.LBB78:
- 235              	.LBB79:
+ 210              		.loc 1 61 0
+ 211 0038 1046     		mov	r0, r2
+ 212              	.LVL22:
+ 213 003a FFF7FEFF 		bl	LL_mDelay
+ 214              	.LVL23:
+ 215              	.L7:
+ 216              	.LBB74:
+ 217              	.LBB75:
+ 218              		.loc 2 995 0
+ 219 003e 0122     		movs	r2, #1
+ 220 0040 074B     		ldr	r3, .L9+4
+ 221 0042 9A62     		str	r2, [r3, #40]
+ 222              	.LVL24:
+ 223              	.LBE75:
+ 224              	.LBE74:
+ 225              	.LBB76:
+ 226              	.LBB77:
+ 227 0044 4FF09043 		mov	r3, #1207959552
+ 228 0048 4FF47F42 		mov	r2, #65280
+ 229 004c 9A62     		str	r2, [r3, #40]
+ 230              	.LVL25:
+ 231              	.LBE77:
+ 232              	.LBE76:
+ 233              	.LBB78:
+ 234              	.LBB79:
  966:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_gpio.h **** }
- 236              		.loc 2 966 0
- 237 004c 9C61     		str	r4, [r3, #24]
- 238              	.LVL26:
- 239 004e 10BD     		pop	{r4, pc}
- 240              	.LVL27:
- 241              	.L6:
- 242              	.LBE79:
- 243              	.LBE78:
+ 235              		.loc 2 966 0
+ 236 004e 9C61     		str	r4, [r3, #24]
+ 237              	.LVL26:
+ 238 0050 10BD     		pop	{r4, pc}
+ 239              	.LVL27:
+ 240              	.L6:
+ 241              	.LBE79:
+ 242              	.LBE78:
   62:Src/lcd.c     **** 	}
   63:Src/lcd.c     **** 	else{
   64:Src/lcd.c     **** 	    LL_mDelay(2);
- 244              		.loc 1 64 0
- 245 0050 0220     		movs	r0, #2
- 246              	.LVL28:
- 247 0052 FFF7FEFF 		bl	LL_mDelay
- 248              	.LVL29:
- 249 0056 F1E7     		b	.L7
- 250              	.L10:
-ARM GAS  /tmp/ccyMjEwb.s 			page 24
+ 243              		.loc 1 64 0
+ 244 0052 0220     		movs	r0, #2
+ 245              	.LVL28:
+ 246 0054 FFF7FEFF 		bl	LL_mDelay
+ 247              	.LVL29:
+ 248 0058 F1E7     		b	.L7
+ 249              	.L10:
+ 250 005a 00BF     		.align	2
+ARM GAS  /tmp/cca8Fq5p.s 			page 24
 
 
- 251              		.align	2
- 252              	.L9:
- 253 0058 00080048 		.word	1207961600
- 254 005c 00040048 		.word	1207960576
- 255 0060 001C0048 		.word	1207966720
- 256              		.cfi_endproc
- 257              	.LFE1501:
- 259              		.section	.text.init_LCD,"ax",%progbits
- 260              		.align	1
- 261              		.global	init_LCD
- 262              		.syntax unified
- 263              		.thumb
- 264              		.thumb_func
- 265              		.fpu fpv4-sp-d16
- 267              	init_LCD:
- 268              	.LFB1499:
+ 251              	.L9:
+ 252 005c 00040048 		.word	1207960576
+ 253 0060 001C0048 		.word	1207966720
+ 254              		.cfi_endproc
+ 255              	.LFE1426:
+ 257              		.section	.text.init_LCD,"ax",%progbits
+ 258              		.align	1
+ 259              		.global	init_LCD
+ 260              		.syntax unified
+ 261              		.thumb
+ 262              		.thumb_func
+ 263              		.fpu fpv4-sp-d16
+ 265              	init_LCD:
+ 266              	.LFB1424:
   10:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_RS_port, LCD_RS_pin);
- 269              		.loc 1 10 0
- 270              		.cfi_startproc
- 271              		@ args = 0, pretend = 0, frame = 0
- 272              		@ frame_needed = 0, uses_anonymous_args = 0
- 273 0000 38B5     		push	{r3, r4, r5, lr}
- 274              	.LCFI2:
- 275              		.cfi_def_cfa_offset 16
- 276              		.cfi_offset 3, -16
- 277              		.cfi_offset 4, -12
- 278              		.cfi_offset 5, -8
- 279              		.cfi_offset 14, -4
- 280              	.LVL30:
- 281              	.LBB80:
- 282              	.LBB81:
- 283              		.loc 2 995 0
- 284 0002 184B     		ldr	r3, .L13
- 285 0004 0224     		movs	r4, #2
- 286 0006 9C62     		str	r4, [r3, #40]
- 287              	.LVL31:
- 288              	.LBE81:
- 289              	.LBE80:
- 290              	.LBB82:
- 291              	.LBB83:
- 292 0008 0422     		movs	r2, #4
- 293 000a 9A62     		str	r2, [r3, #40]
- 294              	.LVL32:
- 295              	.LBE83:
- 296              	.LBE82:
- 297              	.LBB84:
- 298              	.LBB85:
- 299 000c 0125     		movs	r5, #1
- 300 000e 03F5C053 		add	r3, r3, #6144
- 301 0012 9D62     		str	r5, [r3, #40]
- 302              	.LVL33:
- 303              	.LBE85:
- 304              	.LBE84:
+ 267              		.loc 1 10 0
+ 268              		.cfi_startproc
+ 269              		@ args = 0, pretend = 0, frame = 0
+ 270              		@ frame_needed = 0, uses_anonymous_args = 0
+ 271 0000 38B5     		push	{r3, r4, r5, lr}
+ 272              	.LCFI2:
+ 273              		.cfi_def_cfa_offset 16
+ 274              		.cfi_offset 3, -16
+ 275              		.cfi_offset 4, -12
+ 276              		.cfi_offset 5, -8
+ 277              		.cfi_offset 14, -4
+ 278              	.LVL30:
+ 279              	.LBB80:
+ 280              	.LBB81:
+ 281              		.loc 2 995 0
+ 282 0002 184B     		ldr	r3, .L13
+ 283 0004 0224     		movs	r4, #2
+ 284 0006 9C62     		str	r4, [r3, #40]
+ 285              	.LVL31:
+ 286              	.LBE81:
+ 287              	.LBE80:
+ 288              	.LBB82:
+ 289              	.LBB83:
+ 290 0008 0422     		movs	r2, #4
+ 291 000a 9A62     		str	r2, [r3, #40]
+ 292              	.LVL32:
+ 293              	.LBE83:
+ 294              	.LBE82:
+ 295              	.LBB84:
+ 296              	.LBB85:
+ 297 000c 0125     		movs	r5, #1
+ 298 000e 03F5C053 		add	r3, r3, #6144
+ 299 0012 9D62     		str	r5, [r3, #40]
+ 300              	.LVL33:
+ 301              	.LBE85:
+ 302              	.LBE84:
   14:Src/lcd.c     **** 	LCD_write_cmd(0x30);//wake up
- 305              		.loc 1 14 0
- 306 0014 6420     		movs	r0, #100
- 307 0016 FFF7FEFF 		bl	LL_mDelay
-ARM GAS  /tmp/ccyMjEwb.s 			page 25
-
-
- 308              	.LVL34:
+ 303              		.loc 1 14 0
+ 304 0014 6420     		movs	r0, #100
+ 305 0016 FFF7FEFF 		bl	LL_mDelay
+ 306              	.LVL34:
   15:Src/lcd.c     **** 	LL_mDelay(30);
- 309              		.loc 1 15 0
- 310 001a 3020     		movs	r0, #48
- 311 001c FFF7FEFF 		bl	LCD_write_cmd
- 312              	.LVL35:
+ARM GAS  /tmp/cca8Fq5p.s 			page 25
+
+
+ 307              		.loc 1 15 0
+ 308 001a 3020     		movs	r0, #48
+ 309 001c FFF7FEFF 		bl	LCD_write_cmd
+ 310              	.LVL35:
   16:Src/lcd.c     **** 	LCD_write_cmd(0x30);
- 313              		.loc 1 16 0
- 314 0020 1E20     		movs	r0, #30
- 315 0022 FFF7FEFF 		bl	LL_mDelay
- 316              	.LVL36:
+ 311              		.loc 1 16 0
+ 312 0020 1E20     		movs	r0, #30
+ 313 0022 FFF7FEFF 		bl	LL_mDelay
+ 314              	.LVL36:
   17:Src/lcd.c     **** 	LL_mDelay(10);
- 317              		.loc 1 17 0
- 318 0026 3020     		movs	r0, #48
- 319 0028 FFF7FEFF 		bl	LCD_write_cmd
- 320              	.LVL37:
+ 315              		.loc 1 17 0
+ 316 0026 3020     		movs	r0, #48
+ 317 0028 FFF7FEFF 		bl	LCD_write_cmd
+ 318              	.LVL37:
   18:Src/lcd.c     **** 	LCD_write_cmd(0x30);
- 321              		.loc 1 18 0
- 322 002c 0A20     		movs	r0, #10
- 323 002e FFF7FEFF 		bl	LL_mDelay
- 324              	.LVL38:
+ 319              		.loc 1 18 0
+ 320 002c 0A20     		movs	r0, #10
+ 321 002e FFF7FEFF 		bl	LL_mDelay
+ 322              	.LVL38:
   19:Src/lcd.c     **** 	LL_mDelay(10);
- 325              		.loc 1 19 0
- 326 0032 3020     		movs	r0, #48
- 327 0034 FFF7FEFF 		bl	LCD_write_cmd
- 328              	.LVL39:
+ 323              		.loc 1 19 0
+ 324 0032 3020     		movs	r0, #48
+ 325 0034 FFF7FEFF 		bl	LCD_write_cmd
+ 326              	.LVL39:
   20:Src/lcd.c     **** 	LCD_write_cmd(0x38);//8-bit/2-line
- 329              		.loc 1 20 0
- 330 0038 0A20     		movs	r0, #10
- 331 003a FFF7FEFF 		bl	LL_mDelay
- 332              	.LVL40:
+ 327              		.loc 1 20 0
+ 328 0038 0A20     		movs	r0, #10
+ 329 003a FFF7FEFF 		bl	LL_mDelay
+ 330              	.LVL40:
   21:Src/lcd.c     **** 	LCD_write_cmd(0x10);//set cursor
- 333              		.loc 1 21 0
- 334 003e 3820     		movs	r0, #56
- 335 0040 FFF7FEFF 		bl	LCD_write_cmd
- 336              	.LVL41:
+ 331              		.loc 1 21 0
+ 332 003e 3820     		movs	r0, #56
+ 333 0040 FFF7FEFF 		bl	LCD_write_cmd
+ 334              	.LVL41:
   22:Src/lcd.c     **** 	LCD_write_cmd(0x0C);//display on, cursor on
- 337              		.loc 1 22 0
- 338 0044 1020     		movs	r0, #16
- 339 0046 FFF7FEFF 		bl	LCD_write_cmd
- 340              	.LVL42:
+ 335              		.loc 1 22 0
+ 336 0044 1020     		movs	r0, #16
+ 337 0046 FFF7FEFF 		bl	LCD_write_cmd
+ 338              	.LVL42:
   23:Src/lcd.c     **** 	LCD_write_cmd(0x06);//entry mode
- 341              		.loc 1 23 0
- 342 004a 0C20     		movs	r0, #12
- 343 004c FFF7FEFF 		bl	LCD_write_cmd
- 344              	.LVL43:
+ 339              		.loc 1 23 0
+ 340 004a 0C20     		movs	r0, #12
+ 341 004c FFF7FEFF 		bl	LCD_write_cmd
+ 342              	.LVL43:
   24:Src/lcd.c     **** 
- 345              		.loc 1 24 0
- 346 0050 0620     		movs	r0, #6
- 347 0052 FFF7FEFF 		bl	LCD_write_cmd
- 348              	.LVL44:
+ 343              		.loc 1 24 0
+ 344 0050 0620     		movs	r0, #6
+ 345 0052 FFF7FEFF 		bl	LCD_write_cmd
+ 346              	.LVL44:
   26:Src/lcd.c     **** 	LCD_write_cmd(0x02);//return cursor to home
- 349              		.loc 1 26 0
- 350 0056 2846     		mov	r0, r5
- 351 0058 FFF7FEFF 		bl	LCD_write_cmd
- 352              	.LVL45:
+ 347              		.loc 1 26 0
+ 348 0056 2846     		mov	r0, r5
+ 349 0058 FFF7FEFF 		bl	LCD_write_cmd
+ 350              	.LVL45:
   27:Src/lcd.c     **** 
-ARM GAS  /tmp/ccyMjEwb.s 			page 26
+ 351              		.loc 1 27 0
+ 352 005c 2046     		mov	r0, r4
+ARM GAS  /tmp/cca8Fq5p.s 			page 26
 
 
- 353              		.loc 1 27 0
- 354 005c 2046     		mov	r0, r4
- 355 005e FFF7FEFF 		bl	LCD_write_cmd
- 356              	.LVL46:
- 357 0062 38BD     		pop	{r3, r4, r5, pc}
- 358              	.L14:
- 359              		.align	2
- 360              	.L13:
- 361 0064 00040048 		.word	1207960576
- 362              		.cfi_endproc
- 363              	.LFE1499:
- 365              		.section	.text.LCD_cursor_pos,"ax",%progbits
- 366              		.align	1
- 367              		.global	LCD_cursor_pos
- 368              		.syntax unified
- 369              		.thumb
- 370              		.thumb_func
- 371              		.fpu fpv4-sp-d16
- 373              	LCD_cursor_pos:
- 374              	.LFB1502:
+ 353 005e FFF7FEFF 		bl	LCD_write_cmd
+ 354              	.LVL46:
+ 355 0062 38BD     		pop	{r3, r4, r5, pc}
+ 356              	.L14:
+ 357              		.align	2
+ 358              	.L13:
+ 359 0064 00040048 		.word	1207960576
+ 360              		.cfi_endproc
+ 361              	.LFE1424:
+ 363              		.section	.text.LCD_cursor_pos,"ax",%progbits
+ 364              		.align	1
+ 365              		.global	LCD_cursor_pos
+ 366              		.syntax unified
+ 367              		.thumb
+ 368              		.thumb_func
+ 369              		.fpu fpv4-sp-d16
+ 371              	LCD_cursor_pos:
+ 372              	.LFB1427:
   65:Src/lcd.c     **** 	}
   66:Src/lcd.c     **** 	LL_GPIO_ResetOutputPin(LCD_E_port, LCD_E_pin);
   67:Src/lcd.c     **** 
@@ -1531,43 +1529,43 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   72:Src/lcd.c     **** 
   73:Src/lcd.c     **** /*set cursor position for LCD, 1 indexed*/
   74:Src/lcd.c     **** void LCD_cursor_pos(int row, int column){
- 375              		.loc 1 74 0
- 376              		.cfi_startproc
- 377              		@ args = 0, pretend = 0, frame = 0
- 378              		@ frame_needed = 0, uses_anonymous_args = 0
- 379              	.LVL47:
- 380 0000 08B5     		push	{r3, lr}
- 381              	.LCFI3:
- 382              		.cfi_def_cfa_offset 8
- 383              		.cfi_offset 3, -8
- 384              		.cfi_offset 14, -4
- 385              	.LVL48:
+ 373              		.loc 1 74 0
+ 374              		.cfi_startproc
+ 375              		@ args = 0, pretend = 0, frame = 0
+ 376              		@ frame_needed = 0, uses_anonymous_args = 0
+ 377              	.LVL47:
+ 378 0000 08B5     		push	{r3, lr}
+ 379              	.LCFI3:
+ 380              		.cfi_def_cfa_offset 8
+ 381              		.cfi_offset 3, -8
+ 382              		.cfi_offset 14, -4
+ 383              	.LVL48:
   75:Src/lcd.c     **** 	char pos = 0x80;
   76:Src/lcd.c     **** 
   77:Src/lcd.c     **** 	if (row == 4){
- 386              		.loc 1 77 0
- 387 0002 0428     		cmp	r0, #4
- 388 0004 0BD0     		beq	.L17
+ 384              		.loc 1 77 0
+ 385 0002 0428     		cmp	r0, #4
+ 386 0004 0BD0     		beq	.L17
   78:Src/lcd.c     **** 		pos += 0x54;
   79:Src/lcd.c     **** 	}
   80:Src/lcd.c     **** 	else if (row == 3){
- 389              		.loc 1 80 0
- 390 0006 0328     		cmp	r0, #3
- 391 0008 0BD0     		beq	.L18
+ 387              		.loc 1 80 0
+ 388 0006 0328     		cmp	r0, #3
+ 389 0008 0BD0     		beq	.L18
   81:Src/lcd.c     **** 		pos += 0x14;
   82:Src/lcd.c     **** 	}
   83:Src/lcd.c     **** 	else if (row == 2){
- 392              		.loc 1 83 0
-ARM GAS  /tmp/ccyMjEwb.s 			page 27
+ 390              		.loc 1 83 0
+ 391 000a 0228     		cmp	r0, #2
+ 392 000c 0BD0     		beq	.L19
+ARM GAS  /tmp/cca8Fq5p.s 			page 27
 
 
- 393 000a 0228     		cmp	r0, #2
- 394 000c 0BD0     		beq	.L19
   75:Src/lcd.c     **** 
- 395              		.loc 1 75 0
- 396 000e 8020     		movs	r0, #128
- 397              	.LVL49:
- 398              	.L16:
+ 393              		.loc 1 75 0
+ 394 000e 8020     		movs	r0, #128
+ 395              	.LVL49:
+ 396              	.L16:
   84:Src/lcd.c     **** 		pos += 0x40;
   85:Src/lcd.c     **** 	}
   86:Src/lcd.c     **** 	else if (row == 1){
@@ -1576,256 +1574,256 @@ ARM GAS  /tmp/ccyMjEwb.s 			page 1
   89:Src/lcd.c     **** 		//return exception or something?
   90:Src/lcd.c     **** 	}
   91:Src/lcd.c     **** 	pos += (column - 1);
- 399              		.loc 1 91 0
- 400 0010 0844     		add	r0, r0, r1
- 401              	.LVL50:
- 402 0012 C0B2     		uxtb	r0, r0
- 403 0014 0138     		subs	r0, r0, #1
- 404              	.LVL51:
+ 397              		.loc 1 91 0
+ 398 0010 0844     		add	r0, r0, r1
+ 399              	.LVL50:
+ 400 0012 C0B2     		uxtb	r0, r0
+ 401 0014 0138     		subs	r0, r0, #1
+ 402              	.LVL51:
   92:Src/lcd.c     **** 
   93:Src/lcd.c     **** 	LCD_write_cmd(pos);//write DDRAM address
- 405              		.loc 1 93 0
- 406 0016 C0B2     		uxtb	r0, r0
- 407 0018 FFF7FEFF 		bl	LCD_write_cmd
- 408              	.LVL52:
- 409 001c 08BD     		pop	{r3, pc}
- 410              	.LVL53:
- 411              	.L17:
+ 403              		.loc 1 93 0
+ 404 0016 C0B2     		uxtb	r0, r0
+ 405 0018 FFF7FEFF 		bl	LCD_write_cmd
+ 406              	.LVL52:
+ 407 001c 08BD     		pop	{r3, pc}
+ 408              	.LVL53:
+ 409              	.L17:
   78:Src/lcd.c     **** 	}
- 412              		.loc 1 78 0
- 413 001e D420     		movs	r0, #212
- 414              	.LVL54:
- 415 0020 F6E7     		b	.L16
- 416              	.LVL55:
- 417              	.L18:
+ 410              		.loc 1 78 0
+ 411 001e D420     		movs	r0, #212
+ 412              	.LVL54:
+ 413 0020 F6E7     		b	.L16
+ 414              	.LVL55:
+ 415              	.L18:
   81:Src/lcd.c     **** 	}
- 418              		.loc 1 81 0
- 419 0022 9420     		movs	r0, #148
- 420              	.LVL56:
- 421 0024 F4E7     		b	.L16
- 422              	.LVL57:
- 423              	.L19:
+ 416              		.loc 1 81 0
+ 417 0022 9420     		movs	r0, #148
+ 418              	.LVL56:
+ 419 0024 F4E7     		b	.L16
+ 420              	.LVL57:
+ 421              	.L19:
   84:Src/lcd.c     **** 	}
- 424              		.loc 1 84 0
- 425 0026 C020     		movs	r0, #192
- 426              	.LVL58:
- 427 0028 F2E7     		b	.L16
- 428              		.cfi_endproc
- 429              	.LFE1502:
- 431              		.section	.text.LCD_write_integer,"ax",%progbits
- 432              		.align	1
- 433              		.global	LCD_write_integer
- 434              		.syntax unified
- 435              		.thumb
- 436              		.thumb_func
-ARM GAS  /tmp/ccyMjEwb.s 			page 28
+ 422              		.loc 1 84 0
+ 423 0026 C020     		movs	r0, #192
+ 424              	.LVL58:
+ 425 0028 F2E7     		b	.L16
+ 426              		.cfi_endproc
+ 427              	.LFE1427:
+ 429              		.section	.text.LCD_write_integer,"ax",%progbits
+ 430              		.align	1
+ 431              		.global	LCD_write_integer
+ 432              		.syntax unified
+ 433              		.thumb
+ 434              		.thumb_func
+ 435              		.fpu fpv4-sp-d16
+ 437              	LCD_write_integer:
+ARM GAS  /tmp/cca8Fq5p.s 			page 28
 
 
- 437              		.fpu fpv4-sp-d16
- 439              	LCD_write_integer:
- 440              	.LFB1503:
+ 438              	.LFB1428:
   94:Src/lcd.c     **** 	return;
   95:Src/lcd.c     **** }
   96:Src/lcd.c     **** 
   97:Src/lcd.c     **** /*write the given number to the row and column given, only writes the number of digits given by len
   98:Src/lcd.c     **** void LCD_write_integer(int row, int column, int number,unsigned int length){
- 441              		.loc 1 98 0
- 442              		.cfi_startproc
- 443              		@ args = 0, pretend = 0, frame = 24
- 444              		@ frame_needed = 0, uses_anonymous_args = 0
- 445              	.LVL59:
- 446 0000 F0B5     		push	{r4, r5, r6, r7, lr}
- 447              	.LCFI4:
- 448              		.cfi_def_cfa_offset 20
- 449              		.cfi_offset 4, -20
- 450              		.cfi_offset 5, -16
- 451              		.cfi_offset 6, -12
- 452              		.cfi_offset 7, -8
- 453              		.cfi_offset 14, -4
- 454 0002 87B0     		sub	sp, sp, #28
- 455              	.LCFI5:
- 456              		.cfi_def_cfa_offset 48
- 457 0004 8646     		mov	lr, r0
- 458 0006 8C46     		mov	ip, r1
- 459 0008 1546     		mov	r5, r2
- 460 000a 1F46     		mov	r7, r3
+ 439              		.loc 1 98 0
+ 440              		.cfi_startproc
+ 441              		@ args = 0, pretend = 0, frame = 24
+ 442              		@ frame_needed = 0, uses_anonymous_args = 0
+ 443              	.LVL59:
+ 444 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 445              	.LCFI4:
+ 446              		.cfi_def_cfa_offset 20
+ 447              		.cfi_offset 4, -20
+ 448              		.cfi_offset 5, -16
+ 449              		.cfi_offset 6, -12
+ 450              		.cfi_offset 7, -8
+ 451              		.cfi_offset 14, -4
+ 452 0002 87B0     		sub	sp, sp, #28
+ 453              	.LCFI5:
+ 454              		.cfi_def_cfa_offset 48
+ 455 0004 8646     		mov	lr, r0
+ 456 0006 8C46     		mov	ip, r1
+ 457 0008 1546     		mov	r5, r2
+ 458 000a 1F46     		mov	r7, r3
   99:Src/lcd.c     ****     const unsigned int powers_of_ten[5] = {10000, 1000, 100, 10, 1};
- 461              		.loc 1 99 0
- 462 000c 01AC     		add	r4, sp, #4
- 463 000e 1C4E     		ldr	r6, .L28
- 464 0010 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
- 465              	.LVL60:
- 466 0012 0FC4     		stmia	r4!, {r0, r1, r2, r3}
- 467 0014 3368     		ldr	r3, [r6]
- 468 0016 2360     		str	r3, [r4]
+ 459              		.loc 1 99 0
+ 460 000c 01AC     		add	r4, sp, #4
+ 461 000e 1C4E     		ldr	r6, .L28
+ 462 0010 0FCE     		ldmia	r6!, {r0, r1, r2, r3}
+ 463              	.LVL60:
+ 464 0012 0FC4     		stmia	r4!, {r0, r1, r2, r3}
+ 465 0014 3368     		ldr	r3, [r6]
+ 466 0016 2360     		str	r3, [r4]
  100:Src/lcd.c     ****     static const unsigned int max_length = 5;
  101:Src/lcd.c     ****     unsigned int i = max_length - length;
- 469              		.loc 1 101 0
- 470 0018 C7F10504 		rsb	r4, r7, #5
- 471              	.LVL61:
+ 467              		.loc 1 101 0
+ 468 0018 C7F10504 		rsb	r4, r7, #5
+ 469              	.LVL61:
  102:Src/lcd.c     ****     int num_temp = number;
  103:Src/lcd.c     ****     char temp = 0;
  104:Src/lcd.c     **** 
  105:Src/lcd.c     ****     LCD_cursor_pos(row, column);
- 472              		.loc 1 105 0
- 473 001c 6146     		mov	r1, ip
- 474 001e 7046     		mov	r0, lr
- 475 0020 FFF7FEFF 		bl	LCD_cursor_pos
- 476              	.LVL62:
+ 470              		.loc 1 105 0
+ 471 001c 6146     		mov	r1, ip
+ 472 001e 7046     		mov	r0, lr
+ 473 0020 FFF7FEFF 		bl	LCD_cursor_pos
+ 474              	.LVL62:
  106:Src/lcd.c     **** 
  107:Src/lcd.c     **** 	// Add a - for negative numbers
  108:Src/lcd.c     ****     if(num_temp < 0){ 
- 477              		.loc 1 108 0
- 478 0024 002D     		cmp	r5, #0
- 479 0026 0ADA     		bge	.L23
-ARM GAS  /tmp/ccyMjEwb.s 			page 29
-
-
+ 475              		.loc 1 108 0
+ 476 0024 002D     		cmp	r5, #0
+ 477 0026 0ADA     		bge	.L23
  109:Src/lcd.c     ****         LCD_write_data('-');
- 480              		.loc 1 109 0
- 481 0028 2D20     		movs	r0, #45
- 482 002a FFF7FEFF 		bl	LCD_write_data
- 483              	.LVL63:
+ 478              		.loc 1 109 0
+ARM GAS  /tmp/cca8Fq5p.s 			page 29
+
+
+ 479 0028 2D20     		movs	r0, #45
+ 480 002a FFF7FEFF 		bl	LCD_write_data
+ 481              	.LVL63:
  110:Src/lcd.c     ****         i++;
- 484              		.loc 1 110 0
- 485 002e C7F10604 		rsb	r4, r7, #6
- 486              	.LVL64:
+ 482              		.loc 1 110 0
+ 483 002e C7F10604 		rsb	r4, r7, #6
+ 484              	.LVL64:
  111:Src/lcd.c     ****         num_temp *= -1;
- 487              		.loc 1 111 0
- 488 0032 6D42     		negs	r5, r5
- 489              	.LVL65:
- 490 0034 03E0     		b	.L23
- 491              	.LVL66:
- 492              	.L25:
+ 485              		.loc 1 111 0
+ 486 0032 6D42     		negs	r5, r5
+ 487              	.LVL65:
+ 488 0034 03E0     		b	.L23
+ 489              	.LVL66:
+ 490              	.L25:
  112:Src/lcd.c     ****     }
  113:Src/lcd.c     **** 
  114:Src/lcd.c     **** 	// Remove leading zeros
  115:Src/lcd.c     ****     for(; (num_temp < powers_of_ten[i]) && (i < (max_length - 1) ); i++){
  116:Src/lcd.c     ****         LCD_write_data(' ');
- 493              		.loc 1 116 0 discriminator 3
- 494 0036 2020     		movs	r0, #32
- 495 0038 FFF7FEFF 		bl	LCD_write_data
- 496              	.LVL67:
+ 491              		.loc 1 116 0 discriminator 3
+ 492 0036 2020     		movs	r0, #32
+ 493 0038 FFF7FEFF 		bl	LCD_write_data
+ 494              	.LVL67:
  115:Src/lcd.c     ****         LCD_write_data(' ');
- 497              		.loc 1 115 0 discriminator 3
- 498 003c 0134     		adds	r4, r4, #1
- 499              	.LVL68:
- 500              	.L23:
+ 495              		.loc 1 115 0 discriminator 3
+ 496 003c 0134     		adds	r4, r4, #1
+ 497              	.LVL68:
+ 498              	.L23:
  115:Src/lcd.c     ****         LCD_write_data(' ');
- 501              		.loc 1 115 0 is_stmt 0 discriminator 1
- 502 003e 06AB     		add	r3, sp, #24
- 503 0040 03EB8403 		add	r3, r3, r4, lsl #2
- 504 0044 53F8143C 		ldr	r3, [r3, #-20]
- 505 0048 AB42     		cmp	r3, r5
- 506 004a 11D9     		bls	.L24
+ 499              		.loc 1 115 0 is_stmt 0 discriminator 1
+ 500 003e 06AB     		add	r3, sp, #24
+ 501 0040 03EB8403 		add	r3, r3, r4, lsl #2
+ 502 0044 53F8143C 		ldr	r3, [r3, #-20]
+ 503 0048 AB42     		cmp	r3, r5
+ 504 004a 11D9     		bls	.L24
  115:Src/lcd.c     ****         LCD_write_data(' ');
- 507              		.loc 1 115 0 discriminator 2
- 508 004c 032C     		cmp	r4, #3
- 509 004e F2D9     		bls	.L25
- 510 0050 0EE0     		b	.L24
- 511              	.LVL69:
- 512              	.L26:
+ 505              		.loc 1 115 0 discriminator 2
+ 506 004c 032C     		cmp	r4, #3
+ 507 004e F2D9     		bls	.L25
+ 508 0050 0EE0     		b	.L24
+ 509              	.LVL69:
+ 510              	.L26:
  117:Src/lcd.c     ****     }
  118:Src/lcd.c     **** 
  119:Src/lcd.c     ****     for(; i < (max_length - 1); i++){
  120:Src/lcd.c     ****         temp = num_temp / powers_of_ten[i];
- 513              		.loc 1 120 0 is_stmt 1 discriminator 2
- 514 0052 06AB     		add	r3, sp, #24
- 515 0054 03EB8403 		add	r3, r3, r4, lsl #2
- 516 0058 53F8147C 		ldr	r7, [r3, #-20]
- 517 005c B5FBF7F6 		udiv	r6, r5, r7
- 518              	.LVL70:
- 519 0060 F6B2     		uxtb	r6, r6
+ 511              		.loc 1 120 0 is_stmt 1 discriminator 2
+ 512 0052 06AB     		add	r3, sp, #24
+ 513 0054 03EB8403 		add	r3, r3, r4, lsl #2
+ 514 0058 53F8147C 		ldr	r7, [r3, #-20]
+ 515 005c B5FBF7F6 		udiv	r6, r5, r7
+ 516              	.LVL70:
+ 517 0060 F6B2     		uxtb	r6, r6
  121:Src/lcd.c     ****         LCD_write_data(temp + 48);
- 520              		.loc 1 121 0 discriminator 2
-ARM GAS  /tmp/ccyMjEwb.s 			page 30
+ 518              		.loc 1 121 0 discriminator 2
+ 519 0062 06F13000 		add	r0, r6, #48
+ 520 0066 FFF7FEFF 		bl	LCD_write_data
+ARM GAS  /tmp/cca8Fq5p.s 			page 30
 
 
- 521 0062 06F13000 		add	r0, r6, #48
- 522 0066 FFF7FEFF 		bl	LCD_write_data
- 523              	.LVL71:
+ 521              	.LVL71:
  122:Src/lcd.c     ****         num_temp -= temp * powers_of_ten[i];
- 524              		.loc 1 122 0 discriminator 2
- 525 006a 07FB1655 		mls	r5, r7, r6, r5
- 526              	.LVL72:
+ 522              		.loc 1 122 0 discriminator 2
+ 523 006a 07FB1655 		mls	r5, r7, r6, r5
+ 524              	.LVL72:
  119:Src/lcd.c     ****         temp = num_temp / powers_of_ten[i];
- 527              		.loc 1 119 0 discriminator 2
- 528 006e 0134     		adds	r4, r4, #1
- 529              	.LVL73:
- 530              	.L24:
+ 525              		.loc 1 119 0 discriminator 2
+ 526 006e 0134     		adds	r4, r4, #1
+ 527              	.LVL73:
+ 528              	.L24:
  119:Src/lcd.c     ****         temp = num_temp / powers_of_ten[i];
- 531              		.loc 1 119 0 is_stmt 0 discriminator 1
- 532 0070 032C     		cmp	r4, #3
- 533 0072 EED9     		bls	.L26
+ 529              		.loc 1 119 0 is_stmt 0 discriminator 1
+ 530 0070 032C     		cmp	r4, #3
+ 531 0072 EED9     		bls	.L26
  123:Src/lcd.c     ****     }
  124:Src/lcd.c     **** 
  125:Src/lcd.c     ****     LCD_write_data(num_temp + 48);
- 534              		.loc 1 125 0 is_stmt 1
- 535 0074 05F13000 		add	r0, r5, #48
- 536 0078 FFF7FEFF 		bl	LCD_write_data
- 537              	.LVL74:
+ 532              		.loc 1 125 0 is_stmt 1
+ 533 0074 05F13000 		add	r0, r5, #48
+ 534 0078 FFF7FEFF 		bl	LCD_write_data
+ 535              	.LVL74:
  126:Src/lcd.c     **** 
  127:Src/lcd.c     ****     return;
  128:Src/lcd.c     **** }
- 538              		.loc 1 128 0
- 539 007c 07B0     		add	sp, sp, #28
- 540              	.LCFI6:
- 541              		.cfi_def_cfa_offset 20
- 542              		@ sp needed
- 543 007e F0BD     		pop	{r4, r5, r6, r7, pc}
- 544              	.LVL75:
- 545              	.L29:
- 546              		.align	2
- 547              	.L28:
- 548 0080 00000000 		.word	.LANCHOR0
- 549              		.cfi_endproc
- 550              	.LFE1503:
- 552              		.section	.rodata
- 553              		.align	2
- 554              		.set	.LANCHOR0,. + 0
- 555              	.LC0:
- 556 0000 10270000 		.word	10000
- 557 0004 E8030000 		.word	1000
- 558 0008 64000000 		.word	100
- 559 000c 0A000000 		.word	10
- 560 0010 01000000 		.word	1
- 561              		.text
- 562              	.Letext0:
- 563              		.file 3 "/usr/arm-none-eabi/include/machine/_default_types.h"
- 564              		.file 4 "/usr/arm-none-eabi/include/sys/_stdint.h"
- 565              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
- 566              		.file 6 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
- 567              		.file 7 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
- 568              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
- 569              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h"
-ARM GAS  /tmp/ccyMjEwb.s 			page 31
+ 536              		.loc 1 128 0
+ 537 007c 07B0     		add	sp, sp, #28
+ 538              	.LCFI6:
+ 539              		.cfi_def_cfa_offset 20
+ 540              		@ sp needed
+ 541 007e F0BD     		pop	{r4, r5, r6, r7, pc}
+ 542              	.LVL75:
+ 543              	.L29:
+ 544              		.align	2
+ 545              	.L28:
+ 546 0080 00000000 		.word	.LANCHOR0
+ 547              		.cfi_endproc
+ 548              	.LFE1428:
+ 550              		.section	.rodata
+ 551              		.align	2
+ 552              		.set	.LANCHOR0,. + 0
+ 553              	.LC0:
+ 554 0000 10270000 		.word	10000
+ 555 0004 E8030000 		.word	1000
+ 556 0008 64000000 		.word	100
+ 557 000c 0A000000 		.word	10
+ 558 0010 01000000 		.word	1
+ 559              		.text
+ 560              	.Letext0:
+ 561              		.file 3 "/usr/arm-none-eabi/include/machine/_default_types.h"
+ 562              		.file 4 "/usr/arm-none-eabi/include/sys/_stdint.h"
+ 563              		.file 5 "Drivers/CMSIS/Include/core_cm4.h"
+ 564              		.file 6 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
+ 565              		.file 7 "Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h"
+ 566              		.file 8 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
+ 567              		.file 9 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h"
+ 568              		.file 10 "/usr/arm-none-eabi/include/sys/lock.h"
+ 569              		.file 11 "/usr/arm-none-eabi/include/sys/_types.h"
+ARM GAS  /tmp/cca8Fq5p.s 			page 31
 
 
- 570              		.file 10 "/usr/arm-none-eabi/include/sys/lock.h"
- 571              		.file 11 "/usr/arm-none-eabi/include/sys/_types.h"
- 572              		.file 12 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
- 573              		.file 13 "/usr/arm-none-eabi/include/sys/reent.h"
- 574              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h"
-ARM GAS  /tmp/ccyMjEwb.s 			page 32
+ 570              		.file 12 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
+ 571              		.file 13 "/usr/arm-none-eabi/include/sys/reent.h"
+ 572              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h"
+ARM GAS  /tmp/cca8Fq5p.s 			page 32
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 lcd.c
-     /tmp/ccyMjEwb.s:18     .text.LCD_write_data:0000000000000000 $t
-     /tmp/ccyMjEwb.s:25     .text.LCD_write_data:0000000000000000 LCD_write_data
-     /tmp/ccyMjEwb.s:125    .text.LCD_write_data:0000000000000048 $d
-     /tmp/ccyMjEwb.s:134    .text.LCD_write_cmd:0000000000000000 $t
-     /tmp/ccyMjEwb.s:141    .text.LCD_write_cmd:0000000000000000 LCD_write_cmd
-     /tmp/ccyMjEwb.s:253    .text.LCD_write_cmd:0000000000000058 $d
-     /tmp/ccyMjEwb.s:260    .text.init_LCD:0000000000000000 $t
-     /tmp/ccyMjEwb.s:267    .text.init_LCD:0000000000000000 init_LCD
-     /tmp/ccyMjEwb.s:361    .text.init_LCD:0000000000000064 $d
-     /tmp/ccyMjEwb.s:366    .text.LCD_cursor_pos:0000000000000000 $t
-     /tmp/ccyMjEwb.s:373    .text.LCD_cursor_pos:0000000000000000 LCD_cursor_pos
-     /tmp/ccyMjEwb.s:432    .text.LCD_write_integer:0000000000000000 $t
-     /tmp/ccyMjEwb.s:439    .text.LCD_write_integer:0000000000000000 LCD_write_integer
-     /tmp/ccyMjEwb.s:548    .text.LCD_write_integer:0000000000000080 $d
-     /tmp/ccyMjEwb.s:553    .rodata:0000000000000000 $d
+     /tmp/cca8Fq5p.s:18     .text.LCD_write_data:0000000000000000 $t
+     /tmp/cca8Fq5p.s:25     .text.LCD_write_data:0000000000000000 LCD_write_data
+     /tmp/cca8Fq5p.s:125    .text.LCD_write_data:0000000000000048 $d
+     /tmp/cca8Fq5p.s:133    .text.LCD_write_cmd:0000000000000000 $t
+     /tmp/cca8Fq5p.s:140    .text.LCD_write_cmd:0000000000000000 LCD_write_cmd
+     /tmp/cca8Fq5p.s:252    .text.LCD_write_cmd:000000000000005c $d
+     /tmp/cca8Fq5p.s:258    .text.init_LCD:0000000000000000 $t
+     /tmp/cca8Fq5p.s:265    .text.init_LCD:0000000000000000 init_LCD
+     /tmp/cca8Fq5p.s:359    .text.init_LCD:0000000000000064 $d
+     /tmp/cca8Fq5p.s:364    .text.LCD_cursor_pos:0000000000000000 $t
+     /tmp/cca8Fq5p.s:371    .text.LCD_cursor_pos:0000000000000000 LCD_cursor_pos
+     /tmp/cca8Fq5p.s:430    .text.LCD_write_integer:0000000000000000 $t
+     /tmp/cca8Fq5p.s:437    .text.LCD_write_integer:0000000000000000 LCD_write_integer
+     /tmp/cca8Fq5p.s:546    .text.LCD_write_integer:0000000000000080 $d
+     /tmp/cca8Fq5p.s:551    .rodata:0000000000000000 $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

@@ -112,6 +112,7 @@ PREFIX = arm-none-eabi-
 CC = $(BINPATH)$(PREFIX)gcc
 AS = $(BINPATH)$(PREFIX)gcc -x assembler-with-cpp
 CP = $(BINPATH)$(PREFIX)objcopy
+DP = $(BINPATH)$(PREFIX)objdump
 AR = $(BINPATH)$(PREFIX)ar
 SZ = $(BINPATH)$(PREFIX)size
 HEX = $(CP) -O ihex
@@ -160,6 +161,9 @@ ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffuncti
 
 CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) $(OPT) -Wall -fdata-sections -ffunction-sections
 
+# compile objdump flags
+DPFLAGS = --disassemble
+
 ifeq ($(DEBUG), 1)
 CFLAGS += -g -gdwarf-2
 endif
@@ -181,7 +185,7 @@ LIBDIR =
 LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
 
 # default action: build all
-all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
+all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin $(BUILD_DIR)/$(TARGET).asm
 
 
 #######################################
@@ -209,8 +213,14 @@ $(BUILD_DIR)/%.hex: $(BUILD_DIR)/%.elf | $(BUILD_DIR)
 	
 $(BUILD_DIR)/%.bin: $(BUILD_DIR)/%.elf | $(BUILD_DIR)
 	$(BIN) $< $@	
+
+$(BUILD_DIR)/$(TARGET).asm:
+	$(DP) $(DPFLAGS) $(BUILD_DIR)/$(TARGET).elf > $(BUILD_DIR)/$(TARGET).asm
+
 $(BUILD_DIR):
 	mkdir $@		
+
+
 
 #######################################
 # clean up

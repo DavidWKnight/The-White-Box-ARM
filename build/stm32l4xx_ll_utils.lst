@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9Nu3oX.s 			page 1
+ARM GAS  /tmp/ccJhexEu.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -24,7 +24,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   21              		.thumb_func
   22              		.fpu fpv4-sp-d16
   24              	UTILS_SetFlashLatency:
-  25              	.LFB1505:
+  25              	.LFB1430:
   26              		.file 1 "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c"
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   *
-ARM GAS  /tmp/cc9Nu3oX.s 			page 2
+ARM GAS  /tmp/ccJhexEu.s 			page 2
 
 
   33:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   ******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** #else
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** #define UTILS_SCALE1_LATENCY1_FREQ   16000000U       /*!< HCLK frequency to set FLASH latency 1 in 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** #define UTILS_SCALE1_LATENCY2_FREQ   32000000U       /*!< HCLK frequency to set FLASH latency 2 in 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 3
+ARM GAS  /tmp/ccJhexEu.s 			page 3
 
 
   90:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** #define UTILS_SCALE1_LATENCY3_FREQ   48000000U       /*!< HCLK frequency to set FLASH latency 3 in 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** #define IS_LL_UTILS_PLLVCO_OUTPUT(__VALUE__) ((UTILS_PLLVCO_OUTPUT_MIN <= (__VALUE__)) && ((__VALUE
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  146:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** #define IS_LL_UTILS_PLL_FREQUENCY(__VALUE__) ((LL_PWR_GetRegulVoltageScaling() == LL_PWR_REGU_VOLTA
-ARM GAS  /tmp/cc9Nu3oX.s 			page 4
+ARM GAS  /tmp/ccJhexEu.s 			page 4
 
 
  147:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****                                              ((__VALUE__) <= UTILS_MAX_FREQUENCY_SCALE2))
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   */
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** void LL_mDelay(uint32_t Delay)
  203:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 5
+ARM GAS  /tmp/ccJhexEu.s 			page 5
 
 
  204:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   __IO uint32_t  tmp = SysTick->CTRL;  /* Clear the COUNTFLAG first */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****              (++) |-----------------|-------------------|------------------|
  259:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****              (++) |4WS(5 CPU cycles)|  80 < HCLK <= 100 | 16 < HCLK <= 26  |
  260:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****              (++) |-----------------|-------------------|------------------|
-ARM GAS  /tmp/cc9Nu3oX.s 			page 6
+ARM GAS  /tmp/ccJhexEu.s 			page 6
 
 
  261:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****              (++) |5WS(6 CPU cycles)| 100 < HCLK <= 120 | 16 < HCLK <= 26  |
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  315:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****                                          LL_UTILS_ClkInitTypeDef *UTILS_ClkInitStruct)
  316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** {
  317:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
-ARM GAS  /tmp/cc9Nu3oX.s 			page 7
+ARM GAS  /tmp/ccJhexEu.s 			page 7
 
 
  318:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   uint32_t pllfreq = 0U, msi_range = 0U;
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****     {
  373:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       /* Calculate the new PLL output frequency */
  374:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       pllfreq = UTILS_GetPLLOutputFrequency(__LL_RCC_CALC_MSI_FREQ(LL_RCC_MSI_IsEnabledRangeSelect(
-ARM GAS  /tmp/cc9Nu3oX.s 			page 8
+ARM GAS  /tmp/ccJhexEu.s 			page 8
 
 
  375:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****                                             UTILS_PLLInitStruct);
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   *         - PLLM: ensure that the VCO input frequency ranges from 4 to 16 MHz (PLLVCO_input = HSI
  430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   *         - PLLN: ensure that the VCO output frequency is between 64 and 344 MHz (PLLVCO_output =
  431:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   *         - PLLR: ensure that max frequency at 120000000 Hz is reach (PLLVCO_output / PLLR)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 9
+ARM GAS  /tmp/ccJhexEu.s 			page 9
 
 
  432:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * @param  UTILS_PLLInitStruct pointer to a @ref LL_UTILS_PLLInitTypeDef structure that contains
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****     {
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       UTILS_ClkInitStruct->AHBCLKDivider = LL_RCC_SYSCLK_DIV_1;
  488:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       LL_RCC_SetAHBPrescaler(UTILS_ClkInitStruct->AHBCLKDivider);
-ARM GAS  /tmp/cc9Nu3oX.s 			page 10
+ARM GAS  /tmp/ccJhexEu.s 			page 10
 
 
  489:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****     }
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  543:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       /* Check if need to enable HSE bypass feature or not */
  544:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       if(HSEBypass == LL_UTILS_HSEBYPASS_ON)
  545:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 11
+ARM GAS  /tmp/ccJhexEu.s 			page 11
 
 
  546:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****         LL_RCC_HSE_EnableBypass();
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  600:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** /**
  602:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * @}
-ARM GAS  /tmp/cc9Nu3oX.s 			page 12
+ARM GAS  /tmp/ccJhexEu.s 			page 12
 
 
  603:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   */
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   22:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
   23:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
   24:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-ARM GAS  /tmp/cc9Nu3oX.s 			page 13
+ARM GAS  /tmp/ccJhexEu.s 			page 13
 
 
   25:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   79:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** #define LL_PWR_SCR_CWUF2                   PWR_SCR_CWUF2
   80:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** #define LL_PWR_SCR_CWUF1                   PWR_SCR_CWUF1
   81:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 14
+ARM GAS  /tmp/ccJhexEu.s 			page 14
 
 
   82:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * @}
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  136:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** 
  137:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** /** @defgroup PWR_LL_EC_PVM_VDDUSB_1 Peripheral voltage monitoring
  138:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * @{
-ARM GAS  /tmp/cc9Nu3oX.s 			page 15
+ARM GAS  /tmp/ccJhexEu.s 			page 15
 
 
  139:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   */
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  193:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * @{
  194:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   */
  195:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** #define LL_PWR_GPIO_A                      ((uint32_t)(&(PWR->PUCRA)))
-ARM GAS  /tmp/cc9Nu3oX.s 			page 16
+ARM GAS  /tmp/ccJhexEu.s 			page 16
 
 
  196:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** #define LL_PWR_GPIO_B                      ((uint32_t)(&(PWR->PUCRB)))
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  250:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   */
  251:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** 
  252:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 17
+ARM GAS  /tmp/ccJhexEu.s 			page 17
 
 
  253:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * @brief  Write a value in PWR register
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  307:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   * @retval None
  308:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h ****   */
  309:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** __STATIC_INLINE void LL_PWR_EnterLowPowerRunMode(void)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 18
+ARM GAS  /tmp/ccJhexEu.s 			page 18
 
 
  310:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_pwr.h **** {
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  624:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   {
  625:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****     status = ERROR;
  626:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   }
-ARM GAS  /tmp/cc9Nu3oX.s 			page 19
+ARM GAS  /tmp/ccJhexEu.s 			page 19
 
 
  627:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   else
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  678:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       {
  679:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****         if(HCLK_Frequency > UTILS_SCALE1_LATENCY1_FREQ)
  680:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****         {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 20
+ARM GAS  /tmp/ccJhexEu.s 			page 20
 
 
  681:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****           /* 16 < HCLK <= 32 => 1WS (2 CPU cycles) */
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   63              	.L14:
  662:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       {
   64              		.loc 1 662 0
-ARM GAS  /tmp/cc9Nu3oX.s 			page 21
+ARM GAS  /tmp/ccJhexEu.s 			page 21
 
 
   65 0028 194B     		ldr	r3, .L16+16
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
    4:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @author  MCD Application Team
    5:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @brief   Header file of SYSTEM LL module.
    6:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   @verbatim
-ARM GAS  /tmp/cc9Nu3oX.s 			page 22
+ARM GAS  /tmp/ccJhexEu.s 			page 22
 
 
    7:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   ==============================================================================
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   61:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @{
   62:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
   63:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 23
+ARM GAS  /tmp/ccJhexEu.s 			page 23
 
 
   64:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #if defined (FLASH) || defined (SYSCFG) || defined (DBGMCU) || defined (VREFBUF)
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  118:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****                                                                       and Flash Bank1 mapped at 0x0
  119:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
  120:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @}
-ARM GAS  /tmp/cc9Nu3oX.s 			page 24
+ARM GAS  /tmp/ccJhexEu.s 			page 24
 
 
  121:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  175:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_EXTI_LINE3               (uint32_t)(0xF000U << 16U | 0U)  /* !< EXTI_POSITION_12 
  176:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_EXTI_LINE4               (uint32_t)(0x000FU << 16U | 1U)  /* !< EXTI_POSITION_0  
  177:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_EXTI_LINE5               (uint32_t)(0x00F0U << 16U | 1U)  /* !< EXTI_POSITION_4  
-ARM GAS  /tmp/cc9Nu3oX.s 			page 25
+ARM GAS  /tmp/ccJhexEu.s 			page 25
 
 
  178:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_EXTI_LINE6               (uint32_t)(0x0F00U << 16U | 1U)  /* !< EXTI_POSITION_8  
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  232:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_SRAM2WRP_PAGE20          SYSCFG_SWPR_PAGE20 /*!< SRAM2 Write protection page 20 *
  233:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_SRAM2WRP_PAGE21          SYSCFG_SWPR_PAGE21 /*!< SRAM2 Write protection page 21 *
  234:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_SRAM2WRP_PAGE22          SYSCFG_SWPR_PAGE22 /*!< SRAM2 Write protection page 22 *
-ARM GAS  /tmp/cc9Nu3oX.s 			page 26
+ARM GAS  /tmp/ccJhexEu.s 			page 26
 
 
  235:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_SYSCFG_SRAM2WRP_PAGE23          SYSCFG_SWPR_PAGE23 /*!< SRAM2 Write protection page 23 *
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  289:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_DBGMCU_TRACE_SYNCH_SIZE2        (DBGMCU_CR_TRACE_IOEN | DBGMCU_CR_TRACE_MODE_1) /*!< TRA
  290:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_DBGMCU_TRACE_SYNCH_SIZE4        (DBGMCU_CR_TRACE_IOEN | DBGMCU_CR_TRACE_MODE)   /*!< TRA
  291:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 27
+ARM GAS  /tmp/ccJhexEu.s 			page 27
 
 
  292:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @}
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  346:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #endif /* TIM8 */
  347:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_DBGMCU_APB2_GRP1_TIM15_STOP     DBGMCU_APB2FZ_DBG_TIM15_STOP    /*!< The counter clock o
  348:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #define LL_DBGMCU_APB2_GRP1_TIM16_STOP     DBGMCU_APB2FZ_DBG_TIM16_STOP    /*!< The counter clock o
-ARM GAS  /tmp/cc9Nu3oX.s 			page 28
+ARM GAS  /tmp/ccJhexEu.s 			page 28
 
 
  349:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** #if defined(TIM17)
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  403:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /** @defgroup SYSTEM_LL_EF_SYSCFG SYSCFG
  404:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @{
  405:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 29
+ARM GAS  /tmp/ccJhexEu.s 			page 29
 
 
  406:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  460:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_BANKMODE_BANK1
  461:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_BANKMODE_BANK2
  462:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 30
+ARM GAS  /tmp/ccJhexEu.s 			page 30
 
 
  463:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_GetFlashBankMode(void)
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  517:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         Therefore, the voltage booster is mainly intended for
  518:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         usage with ADC.
  519:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @rmtoll SYSCFG_CFGR1 BOOSTEN       LL_SYSCFG_DisableAnalogBooster
-ARM GAS  /tmp/cc9Nu3oX.s 			page 31
+ARM GAS  /tmp/ccJhexEu.s 			page 31
 
 
  520:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @retval None
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  574:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @retval None
  575:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
  576:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** __STATIC_INLINE void LL_SYSCFG_EnableIT_FPU_IOC(void)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 32
+ARM GAS  /tmp/ccJhexEu.s 			page 32
 
 
  577:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** {
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  631:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
  632:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @brief  Disable Floating Point Unit Invalid operation Interrupt
  633:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @rmtoll SYSCFG_CFGR1 FPU_IE_0      LL_SYSCFG_DisableIT_FPU_IOC
-ARM GAS  /tmp/cc9Nu3oX.s 			page 33
+ARM GAS  /tmp/ccJhexEu.s 			page 33
 
 
  634:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @retval None
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  688:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   CLEAR_BIT(SYSCFG->CFGR1, SYSCFG_CFGR1_FPU_IE_5);
  689:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** }
  690:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 34
+ARM GAS  /tmp/ccJhexEu.s 			page 34
 
 
  691:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  745:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
  746:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** __STATIC_INLINE uint32_t LL_SYSCFG_IsEnabledIT_FPU_IXC(void)
  747:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 35
+ARM GAS  /tmp/ccJhexEu.s 			page 35
 
 
  748:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   return (READ_BIT(SYSCFG->CFGR1, SYSCFG_CFGR1_FPU_IE_5) == (SYSCFG_CFGR1_FPU_IE_5));
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  802:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_EXTI_LINE2
  803:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_EXTI_LINE3
  804:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_EXTI_LINE4
-ARM GAS  /tmp/cc9Nu3oX.s 			page 36
+ARM GAS  /tmp/ccJhexEu.s 			page 36
 
 
  805:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_EXTI_LINE5
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  859:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
  860:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @brief  Set connections to TIM1/8/15/16/17 Break inputs
  861:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @rmtoll SYSCFG_CFGR2 CLL           LL_SYSCFG_SetTIMBreakInputs\n
-ARM GAS  /tmp/cc9Nu3oX.s 			page 37
+ARM GAS  /tmp/ccJhexEu.s 			page 37
 
 
  862:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         SYSCFG_CFGR2 SPL           LL_SYSCFG_SetTIMBreakInputs\n
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  916:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @note Write protection is cleared only by a system reset
  917:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @rmtoll SYSCFG_SWPR  PxWP         LL_SYSCFG_EnableSRAM2PageWRP_0_31
  918:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @param  SRAM2WRP This parameter can be a combination of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 38
+ARM GAS  /tmp/ccJhexEu.s 			page 38
 
 
  919:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_SRAM2WRP_PAGE0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  973:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_SRAM2WRP_PAGE37 (*)
  974:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_SRAM2WRP_PAGE38 (*)
  975:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_SRAM2WRP_PAGE39 (*)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 39
+ARM GAS  /tmp/ccJhexEu.s 			page 39
 
 
  976:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_SYSCFG_SRAM2WRP_PAGE40 (*)
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1030:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   WRITE_REG(SYSCFG->SKR, 0x53);
 1031:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** }
 1032:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 40
+ARM GAS  /tmp/ccJhexEu.s 			page 40
 
 
 1033:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1087:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   */
 1088:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** __STATIC_INLINE void LL_DBGMCU_EnableDBGStopMode(void)
 1089:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 41
+ARM GAS  /tmp/ccJhexEu.s 			page 41
 
 
 1090:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   SET_BIT(DBGMCU->CR, DBGMCU_CR_DBG_STOP);
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1144:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @retval Returned value can be one of the following values:
 1145:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_DBGMCU_TRACE_NONE
 1146:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_DBGMCU_TRACE_ASYNCH
-ARM GAS  /tmp/cc9Nu3oX.s 			page 42
+ARM GAS  /tmp/ccJhexEu.s 			page 42
 
 
 1147:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_DBGMCU_TRACE_SYNCH_SIZE1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1201:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @rmtoll DBGMCU_APB1FZR1 DBG_xxxx_STOP  LL_DBGMCU_APB1_GRP1_UnFreezePeriph
 1202:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @param  Periphs This parameter can be a combination of the following values:
 1203:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_DBGMCU_APB1_GRP1_TIM2_STOP
-ARM GAS  /tmp/cc9Nu3oX.s 			page 43
+ARM GAS  /tmp/ccJhexEu.s 			page 43
 
 
 1204:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   *         @arg @ref LL_DBGMCU_APB1_GRP1_TIM3_STOP (*)
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1258:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** }
 1259:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
 1260:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 44
+ARM GAS  /tmp/ccJhexEu.s 			page 44
 
 
 1261:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @brief  Unfreeze APB2 peripherals
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1315:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** }
 1316:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
 1317:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 45
+ARM GAS  /tmp/ccJhexEu.s 			page 45
 
 
 1318:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @brief  Disable high impedance (VREF+pin is internally connected to the voltage reference buffe
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1372:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
 1373:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @brief  Set the trimming code for VREFBUF calibration (Tune the internal reference buffer volta
 1374:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @rmtoll VREFBUF_CCR  TRIM          LL_VREFBUF_SetTrimming
-ARM GAS  /tmp/cc9Nu3oX.s 			page 46
+ARM GAS  /tmp/ccJhexEu.s 			page 46
 
 
 1375:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h ****   * @param  Value Between 0 and 0x3F
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  117              	.LBB73:
 1419:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** }
 1420:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 47
+ARM GAS  /tmp/ccJhexEu.s 			page 47
 
 
 1421:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_system.h **** /**
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  736:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   }
  737:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   return status;
  738:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** }
-ARM GAS  /tmp/cc9Nu3oX.s 			page 48
+ARM GAS  /tmp/ccJhexEu.s 			page 48
 
 
  129              		.loc 1 738 0
@@ -2861,7 +2861,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  162 009c 0024F400 		.word	16000000
  163 00a0 00200240 		.word	1073881088
  164              		.cfi_endproc
- 165              	.LFE1505:
+ 165              	.LFE1430:
  167              		.section	.text.UTILS_GetPLLOutputFrequency,"ax",%progbits
  168              		.align	1
  169              		.syntax unified
@@ -2869,7 +2869,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  171              		.thumb_func
  172              		.fpu fpv4-sp-d16
  174              	UTILS_GetPLLOutputFrequency:
- 175              	.LFB1506:
+ 175              	.LFB1431:
  739:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  740:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** /**
  741:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * @brief  Function to check that PLL can be modified
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  744:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   *                             the configuration information for the PLL.
  745:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * @retval PLL output frequency (in Hz)
  746:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 49
+ARM GAS  /tmp/ccJhexEu.s 			page 49
 
 
  747:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** static uint32_t UTILS_GetPLLOutputFrequency(uint32_t PLL_InputFrequency, LL_UTILS_PLLInitTypeDef *U
@@ -2933,18 +2933,18 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  201              	.LVL13:
  202 0020 7047     		bx	lr
  203              		.cfi_endproc
- 204              	.LFE1506:
+ 204              	.LFE1431:
  206              		.section	.text.UTILS_PLL_IsBusy,"ax",%progbits
  207              		.align	1
  208              		.syntax unified
  209              		.thumb
-ARM GAS  /tmp/cc9Nu3oX.s 			page 50
+ARM GAS  /tmp/ccJhexEu.s 			page 50
 
 
  210              		.thumb_func
  211              		.fpu fpv4-sp-d16
  213              	UTILS_PLL_IsBusy:
- 214              	.LFB1507:
+ 214              	.LFB1432:
  771:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  772:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** /**
  773:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * @brief  Function to check that PLL can be modified
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   33:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   ******************************************************************************
   34:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
   35:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 51
+ARM GAS  /tmp/ccJhexEu.s 			page 51
 
 
   36:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /* Define to prevent recursive inclusion -------------------------------------*/
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   90:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @}
   91:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
   92:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /*USE_FULL_LL_DRIVER*/
-ARM GAS  /tmp/cc9Nu3oX.s 			page 52
+ARM GAS  /tmp/ccJhexEu.s 			page 52
 
 
   93:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  147:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if !defined  (LSI_VALUE)
  148:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LSI_VALUE    32000U     /*!< Value of the LSI oscillator in Hz */
  149:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /* LSI_VALUE */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 53
+ARM GAS  /tmp/ccJhexEu.s 			page 53
 
 
  150:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_HSI48_SUPPORT)
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  204:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_CSR_OBLRSTF                 RCC_CSR_OBLRSTF    /*!< OBL reset flag */
  205:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_CSR_PINRSTF                 RCC_CSR_PINRSTF    /*!< PIN reset flag */
  206:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_CSR_SFTRSTF                 RCC_CSR_SFTRSTF    /*!< Software Reset flag */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 54
+ARM GAS  /tmp/ccJhexEu.s 			page 54
 
 
  207:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_CSR_IWDGRSTF                RCC_CSR_IWDGRSTF   /*!< Independent Watchdog reset flag 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  261:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_MSIRANGE_11                 RCC_CR_MSIRANGE_11 /*!< MSI = 48 MHz   */
  262:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
  263:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @}
-ARM GAS  /tmp/cc9Nu3oX.s 			page 55
+ARM GAS  /tmp/ccJhexEu.s 			page 55
 
 
  264:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  318:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_SYSCLK_DIV_256              RCC_CFGR_HPRE_DIV256 /*!< SYSCLK divided by 256 */
  319:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_SYSCLK_DIV_512              RCC_CFGR_HPRE_DIV512 /*!< SYSCLK divided by 512 */
  320:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 56
+ARM GAS  /tmp/ccJhexEu.s 			page 56
 
 
  321:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @}
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  375:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_MCO1_DIV  MCO1 prescaler
  376:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @{
  377:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 57
+ARM GAS  /tmp/ccJhexEu.s 			page 57
 
 
  378:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_MCO1_DIV_1                  RCC_CFGR_MCOPRE_DIV1       /*!< MCO not divided */
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  432:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_UART5_CLKSOURCE_HSI         ((RCC_CCIPR_UART5SEL << 16U) | RCC_CCIPR_UART5SEL_1)  /*
  433:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_UART5_CLKSOURCE_LSE         ((RCC_CCIPR_UART5SEL << 16U) | RCC_CCIPR_UART5SEL)    /*
  434:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /* RCC_CCIPR_UART5SEL */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 58
+ARM GAS  /tmp/ccJhexEu.s 			page 58
 
 
  435:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  489:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_SAI1_CLKSOURCE  Peripheral SAI clock source selection
  490:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @{
  491:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 59
+ARM GAS  /tmp/ccJhexEu.s 			page 59
 
 
  492:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_CCIPR2_SAI1SEL)
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  546:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @{
  547:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
  548:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_HSI48_SUPPORT)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 60
+ARM GAS  /tmp/ccJhexEu.s 			page 60
 
 
  549:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_RNG_CLKSOURCE_HSI48         0x00000000U          /*!< HSI48 clock used as RNG clock 
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  603:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_CCIPR2_ADFSDM1SEL)
  604:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_DFSDM1_AUDIO_CLKSOURCE  Peripheral DFSDM1 Audio clock source selection
  605:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @{
-ARM GAS  /tmp/cc9Nu3oX.s 			page 61
+ARM GAS  /tmp/ccJhexEu.s 			page 61
 
 
  606:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  660:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_OCTOSPI_CLKSOURCE_PLL       RCC_CCIPR2_OSPISEL_1  /*!< PLL used as OctoSPI clock sou
  661:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
  662:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @}
-ARM GAS  /tmp/cc9Nu3oX.s 			page 62
+ARM GAS  /tmp/ccJhexEu.s 			page 62
 
 
  663:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  717:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @{
  718:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
  719:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_LPTIM1_CLKSOURCE            RCC_CCIPR_LPTIM1SEL /*!< LPTIM1 Clock source selection *
-ARM GAS  /tmp/cc9Nu3oX.s 			page 63
+ARM GAS  /tmp/ccJhexEu.s 			page 63
 
 
  720:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_LPTIM2_CLKSOURCE            RCC_CCIPR_LPTIM2SEL /*!< LPTIM2 Clock source selection *
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  774:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
  775:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_ADC_CLKSOURCE               RCC_CCIPR_ADCSEL /*!< ADC Clock source selection */
  776:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 64
+ARM GAS  /tmp/ccJhexEu.s 			page 64
 
 
  777:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @}
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  831:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
  832:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /* LTDC */
  833:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 65
+ARM GAS  /tmp/ccJhexEu.s 			page 65
 
 
  834:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(OCTOSPI1)
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  888:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /* RCC_PLLM_DIV_1_16_SUPPORT */
  889:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
  890:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @}
-ARM GAS  /tmp/cc9Nu3oX.s 			page 66
+ARM GAS  /tmp/ccJhexEu.s 			page 66
 
 
  891:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  945:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
  946:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /** @defgroup RCC_LL_EC_PLLQ_DIV  PLL division factor (PLLQ)
  947:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @{
-ARM GAS  /tmp/cc9Nu3oX.s 			page 67
+ARM GAS  /tmp/ccJhexEu.s 			page 67
 
 
  948:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1002:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI1P_DIV_7              (RCC_PLLSAI1CFGR_PLLSAI1PDIV_2|RCC_PLLSAI1CFGR_PLLSAI1PD
 1003:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI1P_DIV_8              (RCC_PLLSAI1CFGR_PLLSAI1PDIV_3)                         
 1004:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI1P_DIV_9              (RCC_PLLSAI1CFGR_PLLSAI1PDIV_3|RCC_PLLSAI1CFGR_PLLSAI1PD
-ARM GAS  /tmp/cc9Nu3oX.s 			page 68
+ARM GAS  /tmp/ccJhexEu.s 			page 68
 
 
 1005:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI1P_DIV_10             (RCC_PLLSAI1CFGR_PLLSAI1PDIV_3|RCC_PLLSAI1CFGR_PLLSAI1PD
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1059:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2M_DIV_9              (RCC_PLLSAI2CFGR_PLLSAI2M_3)                            
 1060:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2M_DIV_10             (RCC_PLLSAI2CFGR_PLLSAI2M_3|RCC_PLLSAI2CFGR_PLLSAI2M_0) 
 1061:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2M_DIV_11             (RCC_PLLSAI2CFGR_PLLSAI2M_3|RCC_PLLSAI2CFGR_PLLSAI2M_1) 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 69
+ARM GAS  /tmp/ccJhexEu.s 			page 69
 
 
 1062:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2M_DIV_12             (RCC_PLLSAI2CFGR_PLLSAI2M_3|RCC_PLLSAI2CFGR_PLLSAI2M_1|R
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1116:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2P_DIV_29             (RCC_PLLSAI2CFGR_PLLSAI2PDIV_4|RCC_PLLSAI2CFGR_PLLSAI2PD
 1117:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2P_DIV_30             (RCC_PLLSAI2CFGR_PLLSAI2PDIV_4|RCC_PLLSAI2CFGR_PLLSAI2PD
 1118:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define LL_RCC_PLLSAI2P_DIV_31             (RCC_PLLSAI2CFGR_PLLSAI2PDIV_4|RCC_PLLSAI2CFGR_PLLSAI2PD
-ARM GAS  /tmp/cc9Nu3oX.s 			page 70
+ARM GAS  /tmp/ccJhexEu.s 			page 70
 
 
 1119:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #else
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1173:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
 1174:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** @endcond
 1175:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 71
+ARM GAS  /tmp/ccJhexEu.s 			page 71
 
 
 1176:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1230:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_13 (*)
 1231:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_14 (*)
 1232:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_15 (*)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 72
+ARM GAS  /tmp/ccJhexEu.s 			page 72
 
 
 1233:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_16 (*)
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1287:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_15
 1288:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_16
 1289:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_17
-ARM GAS  /tmp/cc9Nu3oX.s 			page 73
+ARM GAS  /tmp/ccJhexEu.s 			page 73
 
 
 1290:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_18
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1344:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_4
 1345:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_5
 1346:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_6
-ARM GAS  /tmp/cc9Nu3oX.s 			page 74
+ARM GAS  /tmp/ccJhexEu.s 			page 74
 
 
 1347:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_7
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1401:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_8
 1402:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_9
 1403:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_10
-ARM GAS  /tmp/cc9Nu3oX.s 			page 75
+ARM GAS  /tmp/ccJhexEu.s 			page 75
 
 
 1404:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_11
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1458:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_12
 1459:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_13
 1460:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_14
-ARM GAS  /tmp/cc9Nu3oX.s 			page 76
+ARM GAS  /tmp/ccJhexEu.s 			page 76
 
 
 1461:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_15
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1515:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *             @ref LL_RCC_PLLSAI1_GetN (), @ref LL_RCC_PLLSAI1_GetQ ());
 1516:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  __INPUTFREQ__ PLL Input frequency (based on MSI/HSE/HSI)
 1517:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  __PLLSAI1M__ This parameter can be one of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 77
+ARM GAS  /tmp/ccJhexEu.s 			page 77
 
 
 1518:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1M_DIV_1
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1572:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 1573:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /* RCC_PLLSAI1M_DIV_1_16_SUPPORT */
 1574:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 78
+ARM GAS  /tmp/ccJhexEu.s 			page 78
 
 
 1575:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_PLLSAI1M_DIV_1_16_SUPPORT)
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1629:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1R_DIV_6
 1630:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1R_DIV_8
 1631:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval PLLSAI1 clock frequency (in Hz)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 79
+ARM GAS  /tmp/ccJhexEu.s 			page 79
 
 
 1632:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1686:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_24
 1687:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_25
 1688:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_26
-ARM GAS  /tmp/cc9Nu3oX.s 			page 80
+ARM GAS  /tmp/ccJhexEu.s 			page 80
 
 
 1689:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_27
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1743:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_28
 1744:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_29
 1745:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_30
-ARM GAS  /tmp/cc9Nu3oX.s 			page 81
+ARM GAS  /tmp/ccJhexEu.s 			page 81
 
 
 1746:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2P_DIV_31
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1800:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_14
 1801:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_15
 1802:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_16
-ARM GAS  /tmp/cc9Nu3oX.s 			page 82
+ARM GAS  /tmp/ccJhexEu.s 			page 82
 
 
 1803:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  __PLLSAI2N__ Between 8 and 86
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1857:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_3
 1858:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_4
 1859:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_5
-ARM GAS  /tmp/cc9Nu3oX.s 			page 83
+ARM GAS  /tmp/ccJhexEu.s 			page 83
 
 
 1860:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI2M_DIV_6
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1914:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #define __LL_RCC_CALC_PCLK1_FREQ(__HCLKFREQ__, __APB1PRESCALER__) ((__HCLKFREQ__) >> APBPrescTable[
 1915:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 1916:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 84
+ARM GAS  /tmp/ccJhexEu.s 			page 84
 
 
 1917:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Helper macro to calculate the PCLK2 frequency (ABP2)
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 1971:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 1972:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 1973:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /* Exported functions --------------------------------------------------------*/
-ARM GAS  /tmp/cc9Nu3oX.s 			page 85
+ARM GAS  /tmp/ccJhexEu.s 			page 85
 
 
 1974:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /** @defgroup RCC_LL_Exported_Functions RCC Exported Functions
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2028:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
 2029:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   CLEAR_BIT(RCC->CR, RCC_CR_HSEON);
 2030:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
-ARM GAS  /tmp/cc9Nu3oX.s 			page 86
+ARM GAS  /tmp/ccJhexEu.s 			page 86
 
 
 2031:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2085:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 2086:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_HSI_Disable(void)
 2087:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 87
+ARM GAS  /tmp/ccJhexEu.s 			page 87
 
 
 2088:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   CLEAR_BIT(RCC->CR, RCC_CR_HSION);
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2142:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
 2143:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   MODIFY_REG(RCC->ICSCR, RCC_ICSCR_HSITRIM, Value << RCC_ICSCR_HSITRIM_Pos);
 2144:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
-ARM GAS  /tmp/cc9Nu3oX.s 			page 88
+ARM GAS  /tmp/ccJhexEu.s 			page 88
 
 
 2145:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2199:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 2200:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_HSI48_GetCalibration(void)
 2201:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 89
+ARM GAS  /tmp/ccJhexEu.s 			page 89
 
 
 2202:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   return (uint32_t)(READ_BIT(RCC->CRRCR, RCC_CRRCR_HSI48CAL) >> RCC_CRRCR_HSI48CAL_Pos);
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2256:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note The oscillator is in Xtal mode when it is not in bypass mode.
 2257:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll BDCR         LSEDRV        LL_RCC_LSE_SetDriveCapability
 2258:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  LSEDrive This parameter can be one of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 90
+ARM GAS  /tmp/ccJhexEu.s 			page 90
 
 
 2259:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LSEDRIVE_LOW
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2313:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   return (READ_BIT(RCC->BDCR, RCC_BDCR_LSERDY) == (RCC_BDCR_LSERDY));
 2314:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
 2315:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 91
+ARM GAS  /tmp/ccJhexEu.s 			page 91
 
 
 2316:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2370:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 2371:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 2372:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 92
+ARM GAS  /tmp/ccJhexEu.s 			page 92
 
 
 2373:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Enable MSI oscillator
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2427:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 2428:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
 2429:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Enable MSI clock range selection with MSIRANGE register
-ARM GAS  /tmp/cc9Nu3oX.s 			page 93
+ARM GAS  /tmp/ccJhexEu.s 			page 93
 
 
 2430:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note Write 0 has no effect. After a standby or a reset
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2484:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_MSIRANGE_6
 2485:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_MSIRANGE_7
 2486:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_MSIRANGE_8
-ARM GAS  /tmp/cc9Nu3oX.s 			page 94
+ARM GAS  /tmp/ccJhexEu.s 			page 94
 
 
 2487:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_MSIRANGE_9
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2541:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  Value Between Min_Data = 0 and Max_Data = 255
 2542:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval None
 2543:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 95
+ARM GAS  /tmp/ccJhexEu.s 			page 95
 
 
 2544:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_MSI_SetCalibTrimming(uint32_t Value)
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2598:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
 2599:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 2600:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 96
+ARM GAS  /tmp/ccJhexEu.s 			page 96
 
 
 2601:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Get Low speed clock selection
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2655:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SYSCLK_DIV_4
 2656:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SYSCLK_DIV_8
 2657:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SYSCLK_DIV_16
-ARM GAS  /tmp/cc9Nu3oX.s 			page 97
+ARM GAS  /tmp/ccJhexEu.s 			page 97
 
 
 2658:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SYSCLK_DIV_64
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2712:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SYSCLK_DIV_256
 2713:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SYSCLK_DIV_512
 2714:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
-ARM GAS  /tmp/cc9Nu3oX.s 			page 98
+ARM GAS  /tmp/ccJhexEu.s 			page 98
 
 
 2715:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_GetAHBPrescaler(void)
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2769:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 2770:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_GetClkAfterWakeFromStop(void)
 2771:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 99
+ARM GAS  /tmp/ccJhexEu.s 			page 99
 
 
 2772:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   return (uint32_t)(READ_BIT(RCC->CFGR, RCC_CFGR_STOPWUCK));
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2826:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART1_CLKSOURCE_HSI
 2827:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART1_CLKSOURCE_LSE
 2828:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART2_CLKSOURCE_PCLK1
-ARM GAS  /tmp/cc9Nu3oX.s 			page 100
+ARM GAS  /tmp/ccJhexEu.s 			page 100
 
 
 2829:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USART2_CLKSOURCE_SYSCLK
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2883:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll CCIPR        I2CxSEL       LL_RCC_SetI2CClockSource
 2884:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  I2CxSource This parameter can be one of the following values:
 2885:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_I2C1_CLKSOURCE_PCLK1
-ARM GAS  /tmp/cc9Nu3oX.s 			page 101
+ARM GAS  /tmp/ccJhexEu.s 			page 101
 
 
 2886:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_I2C1_CLKSOURCE_SYSCLK
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2940:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SAI2_CLKSOURCE_PLL (*)
 2941:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_SAI2_CLKSOURCE_PIN (*)
 2942:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *
-ARM GAS  /tmp/cc9Nu3oX.s 			page 102
+ARM GAS  /tmp/ccJhexEu.s 			page 102
 
 
 2943:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         (*) value not defined in all devices.
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 2997:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   MODIFY_REG(RCC->CCIPR, RCC_CCIPR_CLK48SEL, RNGxSource);
 2998:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
 2999:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 103
+ARM GAS  /tmp/ccJhexEu.s 			page 103
 
 
 3000:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(USB_OTG_FS) || defined(USB)
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3054:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
 3055:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Configure DFSDM Audio clock source
 3056:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll CCIPR2        ADFSDM1SEL        LL_RCC_SetDFSDMAudioClockSource
-ARM GAS  /tmp/cc9Nu3oX.s 			page 104
+ARM GAS  /tmp/ccJhexEu.s 			page 104
 
 
 3057:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  Source This parameter can be one of the following values:
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3111:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LTDC_CLKSOURCE_PLLSAI2R_DIV2
 3112:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LTDC_CLKSOURCE_PLLSAI2R_DIV4
 3113:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LTDC_CLKSOURCE_PLLSAI2R_DIV8
-ARM GAS  /tmp/cc9Nu3oX.s 			page 105
+ARM GAS  /tmp/ccJhexEu.s 			page 105
 
 
 3114:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LTDC_CLKSOURCE_PLLSAI2R_DIV16
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3168:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 3169:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(UART4) || defined(UART5)
 3170:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 106
+ARM GAS  /tmp/ccJhexEu.s 			page 106
 
 
 3171:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Get UARTx clock source
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3225:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_I2C3_CLKSOURCE_PCLK1
 3226:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_I2C3_CLKSOURCE_SYSCLK
 3227:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_I2C3_CLKSOURCE_HSI
-ARM GAS  /tmp/cc9Nu3oX.s 			page 107
+ARM GAS  /tmp/ccJhexEu.s 			page 107
 
 
 3228:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_I2C4_CLKSOURCE_PCLK1 (*)
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3282:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
 3283:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_CCIPR2_SAI1SEL)
 3284:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   return (uint32_t)(READ_BIT(RCC->CCIPR2, SAIx) | (SAIx << 16U));
-ARM GAS  /tmp/cc9Nu3oX.s 			page 108
+ARM GAS  /tmp/ccJhexEu.s 			page 108
 
 
 3285:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #else
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3339:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Get USBx clock source
 3340:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll CCIPR        CLK48SEL      LL_RCC_GetUSBClockSource
 3341:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  USBx This parameter can be one of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 109
+ARM GAS  /tmp/ccJhexEu.s 			page 109
 
 
 3342:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_USB_CLKSOURCE
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3396:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll CCIPR2         ADFSDM1SEL        LL_RCC_GetDFSDMAudioClockSource
 3397:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  DFSDMx This parameter can be one of the following values:
 3398:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_DFSDM1_AUDIO_CLKSOURCE
-ARM GAS  /tmp/cc9Nu3oX.s 			page 110
+ARM GAS  /tmp/ccJhexEu.s 			page 110
 
 
 3399:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval Returned value can be one of the following values:
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3453:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @param  LTDCx This parameter can be one of the following values:
 3454:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LTDC_CLKSOURCE
 3455:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval Returned value can be one of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 111
+ARM GAS  /tmp/ccJhexEu.s 			page 111
 
 
 3456:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_LTDC_CLKSOURCE_PLLSAI2R_DIV2
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3510:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Get RTC Clock Source
 3511:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll BDCR         RTCSEL        LL_RCC_GetRTCClockSource
 3512:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval Returned value can be one of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 112
+ARM GAS  /tmp/ccJhexEu.s 			page 112
 
 
 3513:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_RTC_CLKSOURCE_NONE
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3567:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 3568:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_ReleaseBackupDomainReset(void)
 3569:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 113
+ARM GAS  /tmp/ccJhexEu.s 			page 113
 
 
 3570:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   CLEAR_BIT(RCC->BDCR, RCC_BDCR_BDRST);
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  232              		.loc 1 780 0
  233 000a 0120     		movs	r0, #1
  234              	.L20:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 114
+ARM GAS  /tmp/ccJhexEu.s 			page 114
 
 
  235              	.LVL15:
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3662:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Configure PLL used for SAI domain clock
 3663:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note PLL Source and PLLM Divider can be written only when PLL,
 3664:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *       PLLSAI1 and PLLSAI2 (*) are disabled.
-ARM GAS  /tmp/cc9Nu3oX.s 			page 115
+ARM GAS  /tmp/ccJhexEu.s 			page 115
 
 
 3665:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note PLLN/PLLP can be written only when PLL is disabled.
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3719:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_24
 3720:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_25
 3721:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_26
-ARM GAS  /tmp/cc9Nu3oX.s 			page 116
+ARM GAS  /tmp/ccJhexEu.s 			page 116
 
 
 3722:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_27
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3776:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note PLLN/PLLQ can be written only when PLL is disabled.
 3777:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note This  can be selected for USB, RNG, SDMMC
 3778:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll PLLCFGR      PLLSRC        LL_RCC_PLL_ConfigDomain_48M\n
-ARM GAS  /tmp/cc9Nu3oX.s 			page 117
+ARM GAS  /tmp/ccJhexEu.s 			page 117
 
 
 3779:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         PLLCFGR      PLLM          LL_RCC_PLL_ConfigDomain_48M\n
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3833:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note Used for PLLSAI3CLK (SAI1 and SAI2 clock)
 3834:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll PLLCFGR      PLLPDIV       LL_RCC_PLL_GetP
 3835:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval Returned value can be one of the following values:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 118
+ARM GAS  /tmp/ccJhexEu.s 			page 118
 
 
 3836:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLP_DIV_2
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3890:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval Returned value can be one of the following values:
 3891:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLQ_DIV_2
 3892:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLQ_DIV_4
-ARM GAS  /tmp/cc9Nu3oX.s 			page 119
+ARM GAS  /tmp/ccJhexEu.s 			page 119
 
 
 3893:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLQ_DIV_6
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 3947:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_14 (*)
 3948:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_15 (*)
 3949:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLM_DIV_16 (*)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 120
+ARM GAS  /tmp/ccJhexEu.s 			page 120
 
 
 3950:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4004:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
 4005:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 4006:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 121
+ARM GAS  /tmp/ccJhexEu.s 			page 121
 
 
 4007:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Enable PLL output mapped on SYSCLK domain
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4061:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @retval State of bit (1 or 0).
 4062:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 4063:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE uint32_t LL_RCC_PLLSAI1_IsReady(void)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 122
+ARM GAS  /tmp/ccJhexEu.s 			page 122
 
 
 4064:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4094:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1M_DIV_11
 4095:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1M_DIV_12
 4096:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1M_DIV_13
-ARM GAS  /tmp/cc9Nu3oX.s 			page 123
+ARM GAS  /tmp/ccJhexEu.s 			page 123
 
 
 4097:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1M_DIV_14
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4151:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
 4152:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #endif /* RCC_PLLSAI1M_DIV_1_16_SUPPORT */
 4153:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 124
+ARM GAS  /tmp/ccJhexEu.s 			page 124
 
 
 4154:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_PLLSAI1M_DIV_1_16_SUPPORT) && defined(RCC_PLLSAI1P_DIV_2_31_SUPPORT)
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4208:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_22
 4209:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_23
 4210:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_24
-ARM GAS  /tmp/cc9Nu3oX.s 			page 125
+ARM GAS  /tmp/ccJhexEu.s 			page 125
 
 
 4211:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_25
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4265:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_14
 4266:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_15
 4267:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_16
-ARM GAS  /tmp/cc9Nu3oX.s 			page 126
+ARM GAS  /tmp/ccJhexEu.s 			page 126
 
 
 4268:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_17
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4322:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** __STATIC_INLINE void LL_RCC_PLLSAI1_ConfigDomain_SAI(uint32_t Source, uint32_t PLLM, uint32_t PLLN,
 4323:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** {
 4324:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   MODIFY_REG(RCC->PLLCFGR, RCC_PLLCFGR_PLLSRC | RCC_PLLCFGR_PLLM, Source | PLLM);
-ARM GAS  /tmp/cc9Nu3oX.s 			page 127
+ARM GAS  /tmp/ccJhexEu.s 			page 127
 
 
 4325:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   MODIFY_REG(RCC->PLLSAI1CFGR, RCC_PLLSAI1CFGR_PLLSAI1N | RCC_PLLSAI1CFGR_PLLSAI1P, PLLN << RCC_PLL
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4379:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *       PLLSAI1 and PLLSAI2 (*) are disabled.
 4380:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note PLLN/PLLR can be written only when PLLSAI1 is disabled.
 4381:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note This  can be selected for ADC
-ARM GAS  /tmp/cc9Nu3oX.s 			page 128
+ARM GAS  /tmp/ccJhexEu.s 			page 128
 
 
 4382:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll PLLCFGR      PLLSRC        LL_RCC_PLLSAI1_ConfigDomain_ADC\n
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4436:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_7
 4437:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_8
 4438:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_9
-ARM GAS  /tmp/cc9Nu3oX.s 			page 129
+ARM GAS  /tmp/ccJhexEu.s 			page 129
 
 
 4439:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *         @arg @ref LL_RCC_PLLSAI1P_DIV_10
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4493:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   return (uint32_t)(READ_BIT(RCC->PLLSAI1CFGR, RCC_PLLSAI1CFGR_PLLSAI1Q));
 4494:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** }
 4495:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
-ARM GAS  /tmp/cc9Nu3oX.s 			page 130
+ARM GAS  /tmp/ccJhexEu.s 			page 130
 
 
 4496:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /**
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4550:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @brief  Disable PLLSAI1 output mapped on SAI domain clock
 4551:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @note In order to save power, when  of the PLLSAI1 is
 4552:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   *       not used,  should be 0
-ARM GAS  /tmp/cc9Nu3oX.s 			page 131
+ARM GAS  /tmp/ccJhexEu.s 			page 131
 
 
 4553:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   * @rmtoll PLLSAI1CFGR  PLLSAI1PEN    LL_RCC_PLLSAI1_DisableDomain_SAI
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
 4607:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h ****   */
 4608:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** 
 4609:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** #if defined(RCC_PLLSAI2_SUPPORT)
-ARM GAS  /tmp/cc9Nu3oX.s 			page 132
+ARM GAS  /tmp/ccJhexEu.s 			page 132
 
 
 4610:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_rcc.h **** /** @defgroup RCC_LL_EF_PLLSAI2 PLLSAI2
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  804:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  805:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   return status;
  806:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** }
-ARM GAS  /tmp/cc9Nu3oX.s 			page 133
+ARM GAS  /tmp/ccJhexEu.s 			page 133
 
 
  264              		.loc 1 806 0
@@ -7934,7 +7934,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  273              	.L26:
  274 002c 00100240 		.word	1073876992
  275              		.cfi_endproc
- 276              	.LFE1507:
+ 276              	.LFE1432:
  278              		.section	.text.LL_Init1msTick,"ax",%progbits
  279              		.align	1
  280              		.global	LL_Init1msTick
@@ -7943,7 +7943,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  283              		.thumb_func
  284              		.fpu fpv4-sp-d16
  286              	LL_Init1msTick:
- 287              	.LFB1499:
+ 287              	.LFB1424:
  187:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   /* Use frequency provided in argument */
  288              		.loc 1 187 0
  289              		.cfi_startproc
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   22:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   *
   23:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   * Redistribution and use in source and binary forms, with or without modification,
   24:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   * are permitted provided that the following conditions are met:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 134
+ARM GAS  /tmp/ccJhexEu.s 			page 134
 
 
   25:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   *   1. Redistributions of source code must retain the above copyright notice,
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
   79:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****  * @brief Unique device ID register base address
   80:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****  */
   81:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** #define UID_BASE_ADDRESS              UID_BASE
-ARM GAS  /tmp/cc9Nu3oX.s 			page 135
+ARM GAS  /tmp/ccJhexEu.s 			page 135
 
 
   82:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** 
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  136:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** {
  137:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   uint32_t AHBCLKDivider;         /*!< The AHB clock (HCLK) divider. This clock is derived from the
  138:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****                                        This parameter can be a value of @ref RCC_LL_EC_SYSCLK_DIV
-ARM GAS  /tmp/cc9Nu3oX.s 			page 136
+ARM GAS  /tmp/ccJhexEu.s 			page 136
 
 
  139:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** 
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  193:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** #define LL_UTILS_PACKAGETYPE_UFBGA169_DSI   0x00000014U /*!< UFBGA169 with DSI package type        
  194:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** #define LL_UTILS_PACKAGETYPE_LQFP144_DSI    0x00000015U /*!< LQFP144 with DSI package type         
  195:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 137
+ARM GAS  /tmp/ccJhexEu.s 			page 137
 
 
  196:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   * @}
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  250:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** }
  251:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** 
  252:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h **** /**
-ARM GAS  /tmp/cc9Nu3oX.s 			page 138
+ARM GAS  /tmp/ccJhexEu.s 			page 138
 
 
  253:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   * @brief  Get Package type
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  299:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_utils.h ****   SysTick->VAL   = 0UL;                                       /* Load the SysTick Counter Value */
  305              		.loc 5 299 0
  306 000e 0022     		movs	r2, #0
-ARM GAS  /tmp/cc9Nu3oX.s 			page 139
+ARM GAS  /tmp/ccJhexEu.s 			page 139
 
 
  307 0010 9A60     		str	r2, [r3, #8]
@@ -8296,7 +8296,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  318              	.LBE81:
  319              	.LBE80:
  320              		.cfi_endproc
- 321              	.LFE1499:
+ 321              	.LFE1424:
  323              		.section	.text.LL_mDelay,"ax",%progbits
  324              		.align	1
  325              		.global	LL_mDelay
@@ -8305,7 +8305,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  328              		.thumb_func
  329              		.fpu fpv4-sp-d16
  331              	LL_mDelay:
- 332              	.LFB1500:
+ 332              	.LFB1425:
  203:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   __IO uint32_t  tmp = SysTick->CTRL;  /* Clear the COUNTFLAG first */
  333              		.loc 1 203 0
  334              		.cfi_startproc
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  356 0012 30B1     		cbz	r0, .L37
  216:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****     {
  357              		.loc 1 216 0
-ARM GAS  /tmp/cc9Nu3oX.s 			page 140
+ARM GAS  /tmp/ccJhexEu.s 			page 140
 
 
  358 0014 044B     		ldr	r3, .L38
@@ -8363,7 +8363,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  375              	.L38:
  376 0028 10E000E0 		.word	-536813552
  377              		.cfi_endproc
- 378              	.LFE1500:
+ 378              	.LFE1425:
  380              		.section	.text.LL_SetSystemCoreClock,"ax",%progbits
  381              		.align	1
  382              		.global	LL_SetSystemCoreClock
@@ -8372,7 +8372,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  385              		.thumb_func
  386              		.fpu fpv4-sp-d16
  388              	LL_SetSystemCoreClock:
- 389              	.LFB1501:
+ 389              	.LFB1426:
  293:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   /* HCLK clock frequency */
  390              		.loc 1 293 0
  391              		.cfi_startproc
@@ -8390,7 +8390,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  402              	.L41:
  403 0008 00000000 		.word	SystemCoreClock
  404              		.cfi_endproc
- 405              	.LFE1501:
+ 405              	.LFE1426:
  407              		.section	.text.UTILS_EnablePLLAndSwitchSystem,"ax",%progbits
  408              		.align	1
  409              		.syntax unified
@@ -8398,10 +8398,10 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  411              		.thumb_func
  412              		.fpu fpv4-sp-d16
  414              	UTILS_EnablePLLAndSwitchSystem:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 141
+ARM GAS  /tmp/ccJhexEu.s 			page 141
 
 
- 415              	.LFB1508:
+ 415              	.LFB1433:
  807:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  808:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** /**
  809:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   * @brief  Function to enable PLL and switch system clock to PLL
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  444              	.LVL29:
  445              	.L44:
  831:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   {
-ARM GAS  /tmp/cc9Nu3oX.s 			page 142
+ARM GAS  /tmp/ccJhexEu.s 			page 142
 
 
  832:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****     /* Set FLASH latency to highest latency */
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  872:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** 
  873:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   return status;
  874:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c **** }
-ARM GAS  /tmp/cc9Nu3oX.s 			page 143
+ARM GAS  /tmp/ccJhexEu.s 			page 143
 
 
  460              		.loc 1 874 0
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  507              		.loc 4 2666 0
  508 0058 154B     		ldr	r3, .L56+8
  509 005a 9968     		ldr	r1, [r3, #8]
-ARM GAS  /tmp/cc9Nu3oX.s 			page 144
+ARM GAS  /tmp/ccJhexEu.s 			page 144
 
 
  510 005c 21F0F001 		bic	r1, r1, #240
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  557              		.loc 4 2698 0
  558 0088 9968     		ldr	r1, [r3, #8]
  559 008a 21F46051 		bic	r1, r1, #14336
-ARM GAS  /tmp/cc9Nu3oX.s 			page 145
+ARM GAS  /tmp/ccJhexEu.s 			page 145
 
 
  560 008e 0A43     		orrs	r2, r2, r1
@@ -8672,7 +8672,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  586 00ac 00000000 		.word	SystemCoreClock
  587 00b0 00100240 		.word	1073876992
  588              		.cfi_endproc
- 589              	.LFE1508:
+ 589              	.LFE1433:
  591              		.section	.text.LL_PLL_ConfigSystemClock_MSI,"ax",%progbits
  592              		.align	1
  593              		.global	LL_PLL_ConfigSystemClock_MSI
@@ -8681,7 +8681,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  596              		.thumb_func
  597              		.fpu fpv4-sp-d16
  599              	LL_PLL_ConfigSystemClock_MSI:
- 600              	.LFB1502:
+ 600              	.LFB1427:
  316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
  601              		.loc 1 316 0
  602              		.cfi_startproc
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  613              		.cfi_offset 7, -8
  614              		.cfi_offset 14, -4
  615 0002 0446     		mov	r4, r0
-ARM GAS  /tmp/cc9Nu3oX.s 			page 146
+ARM GAS  /tmp/ccJhexEu.s 			page 146
 
 
  616 0004 0D46     		mov	r5, r1
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  663 003a 102B     		cmp	r3, #16
  664 003c 00D1     		bne	.L62
  665              	.L70:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 147
+ARM GAS  /tmp/ccJhexEu.s 			page 147
 
 
  339:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****           break;
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  711              	.L68:
  712              	.LBE107:
  713              	.LBE106:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 148
+ARM GAS  /tmp/ccJhexEu.s 			page 148
 
 
  714              	.LBB108:
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  762              	.LBE112:
  355:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****       {
  763              		.loc 1 355 0
-ARM GAS  /tmp/cc9Nu3oX.s 			page 149
+ARM GAS  /tmp/ccJhexEu.s 			page 149
 
 
  764 00a8 B3F5806F 		cmp	r3, #1024
@@ -8907,7 +8907,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  785 00c8 00000000 		.word	MSIRangeTable
  786 00cc 8C80FFF9 		.word	-100695924
  787              		.cfi_endproc
- 788              	.LFE1502:
+ 788              	.LFE1427:
  790              		.section	.text.LL_PLL_ConfigSystemClock_HSI,"ax",%progbits
  791              		.align	1
  792              		.global	LL_PLL_ConfigSystemClock_HSI
@@ -8916,7 +8916,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  795              		.thumb_func
  796              		.fpu fpv4-sp-d16
  798              	LL_PLL_ConfigSystemClock_HSI:
- 799              	.LFB1503:
+ 799              	.LFB1428:
  442:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
  800              		.loc 1 442 0
  801              		.cfi_startproc
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  450:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   {
  817              		.loc 1 450 0
  818 0006 FFF7FEFF 		bl	UTILS_PLL_IsBusy
-ARM GAS  /tmp/cc9Nu3oX.s 			page 150
+ARM GAS  /tmp/ccJhexEu.s 			page 150
 
 
  819              	.LVL69:
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  466:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****                                 UTILS_PLLInitStruct->PLLR);
  865              		.loc 1 466 0
  866 0038 2268     		ldr	r2, [r4]
-ARM GAS  /tmp/cc9Nu3oX.s 			page 151
+ARM GAS  /tmp/ccJhexEu.s 			page 151
 
 
  867 003a 6668     		ldr	r6, [r4, #4]
@@ -9036,7 +9036,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  897 0060 00100240 		.word	1073876992
  898 0064 8C80FFF9 		.word	-100695924
  899              		.cfi_endproc
- 900              	.LFE1503:
+ 900              	.LFE1428:
  902              		.section	.text.LL_PLL_ConfigSystemClock_HSE,"ax",%progbits
  903              		.align	1
  904              		.global	LL_PLL_ConfigSystemClock_HSE
@@ -9045,7 +9045,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  907              		.thumb_func
  908              		.fpu fpv4-sp-d16
  910              	LL_PLL_ConfigSystemClock_HSE:
- 911              	.LFB1504:
+ 911              	.LFB1429:
  523:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c ****   ErrorStatus status = SUCCESS;
  912              		.loc 1 523 0
  913              		.cfi_startproc
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  920              		.cfi_offset 3, -24
  921              		.cfi_offset 4, -20
  922              		.cfi_offset 5, -16
-ARM GAS  /tmp/cc9Nu3oX.s 			page 152
+ARM GAS  /tmp/ccJhexEu.s 			page 152
 
 
  923              		.cfi_offset 6, -12
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  969              	.LBE125:
  970              	.LBE124:
  971              	.LBB126:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 153
+ARM GAS  /tmp/ccJhexEu.s 			page 153
 
 
  972              	.LBB127:
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  1020 006c F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  1021              	.LVL92:
  1022              	.L95:
-ARM GAS  /tmp/cc9Nu3oX.s 			page 154
+ARM GAS  /tmp/ccJhexEu.s 			page 154
 
 
  1023              	.LBB132:
@@ -9198,7 +9198,7 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  1036              	.LBE133:
  1037              	.LBE132:
  1038              		.cfi_endproc
- 1039              	.LFE1504:
+ 1039              	.LFE1429:
  1041              		.text
  1042              	.Letext0:
  1043              		.file 6 "/usr/arm-none-eabi/include/machine/_default_types.h"
@@ -9213,40 +9213,40 @@ ARM GAS  /tmp/cc9Nu3oX.s 			page 1
  1052              		.file 15 "/usr/arm-none-eabi/include/sys/_types.h"
  1053              		.file 16 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
  1054              		.file 17 "/usr/arm-none-eabi/include/sys/reent.h"
-ARM GAS  /tmp/cc9Nu3oX.s 			page 155
+ARM GAS  /tmp/ccJhexEu.s 			page 155
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_ll_utils.c
-     /tmp/cc9Nu3oX.s:18     .text.UTILS_SetFlashLatency:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:24     .text.UTILS_SetFlashLatency:0000000000000000 UTILS_SetFlashLatency
-     /tmp/cc9Nu3oX.s:155    .text.UTILS_SetFlashLatency:0000000000000080 $d
-     /tmp/cc9Nu3oX.s:168    .text.UTILS_GetPLLOutputFrequency:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:174    .text.UTILS_GetPLLOutputFrequency:0000000000000000 UTILS_GetPLLOutputFrequency
-     /tmp/cc9Nu3oX.s:207    .text.UTILS_PLL_IsBusy:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:213    .text.UTILS_PLL_IsBusy:0000000000000000 UTILS_PLL_IsBusy
-     /tmp/cc9Nu3oX.s:274    .text.UTILS_PLL_IsBusy:000000000000002c $d
-     /tmp/cc9Nu3oX.s:279    .text.LL_Init1msTick:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:286    .text.LL_Init1msTick:0000000000000000 LL_Init1msTick
-     /tmp/cc9Nu3oX.s:316    .text.LL_Init1msTick:0000000000000018 $d
-     /tmp/cc9Nu3oX.s:324    .text.LL_mDelay:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:331    .text.LL_mDelay:0000000000000000 LL_mDelay
-     /tmp/cc9Nu3oX.s:376    .text.LL_mDelay:0000000000000028 $d
-     /tmp/cc9Nu3oX.s:381    .text.LL_SetSystemCoreClock:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:388    .text.LL_SetSystemCoreClock:0000000000000000 LL_SetSystemCoreClock
-     /tmp/cc9Nu3oX.s:403    .text.LL_SetSystemCoreClock:0000000000000008 $d
-     /tmp/cc9Nu3oX.s:408    .text.UTILS_EnablePLLAndSwitchSystem:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:414    .text.UTILS_EnablePLLAndSwitchSystem:0000000000000000 UTILS_EnablePLLAndSwitchSystem
-     /tmp/cc9Nu3oX.s:585    .text.UTILS_EnablePLLAndSwitchSystem:00000000000000a8 $d
-     /tmp/cc9Nu3oX.s:592    .text.LL_PLL_ConfigSystemClock_MSI:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:599    .text.LL_PLL_ConfigSystemClock_MSI:0000000000000000 LL_PLL_ConfigSystemClock_MSI
-     /tmp/cc9Nu3oX.s:784    .text.LL_PLL_ConfigSystemClock_MSI:00000000000000c4 $d
-     /tmp/cc9Nu3oX.s:791    .text.LL_PLL_ConfigSystemClock_HSI:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:798    .text.LL_PLL_ConfigSystemClock_HSI:0000000000000000 LL_PLL_ConfigSystemClock_HSI
-     /tmp/cc9Nu3oX.s:896    .text.LL_PLL_ConfigSystemClock_HSI:000000000000005c $d
-     /tmp/cc9Nu3oX.s:903    .text.LL_PLL_ConfigSystemClock_HSE:0000000000000000 $t
-     /tmp/cc9Nu3oX.s:910    .text.LL_PLL_ConfigSystemClock_HSE:0000000000000000 LL_PLL_ConfigSystemClock_HSE
-     /tmp/cc9Nu3oX.s:1034   .text.LL_PLL_ConfigSystemClock_HSE:000000000000007c $d
+     /tmp/ccJhexEu.s:18     .text.UTILS_SetFlashLatency:0000000000000000 $t
+     /tmp/ccJhexEu.s:24     .text.UTILS_SetFlashLatency:0000000000000000 UTILS_SetFlashLatency
+     /tmp/ccJhexEu.s:155    .text.UTILS_SetFlashLatency:0000000000000080 $d
+     /tmp/ccJhexEu.s:168    .text.UTILS_GetPLLOutputFrequency:0000000000000000 $t
+     /tmp/ccJhexEu.s:174    .text.UTILS_GetPLLOutputFrequency:0000000000000000 UTILS_GetPLLOutputFrequency
+     /tmp/ccJhexEu.s:207    .text.UTILS_PLL_IsBusy:0000000000000000 $t
+     /tmp/ccJhexEu.s:213    .text.UTILS_PLL_IsBusy:0000000000000000 UTILS_PLL_IsBusy
+     /tmp/ccJhexEu.s:274    .text.UTILS_PLL_IsBusy:000000000000002c $d
+     /tmp/ccJhexEu.s:279    .text.LL_Init1msTick:0000000000000000 $t
+     /tmp/ccJhexEu.s:286    .text.LL_Init1msTick:0000000000000000 LL_Init1msTick
+     /tmp/ccJhexEu.s:316    .text.LL_Init1msTick:0000000000000018 $d
+     /tmp/ccJhexEu.s:324    .text.LL_mDelay:0000000000000000 $t
+     /tmp/ccJhexEu.s:331    .text.LL_mDelay:0000000000000000 LL_mDelay
+     /tmp/ccJhexEu.s:376    .text.LL_mDelay:0000000000000028 $d
+     /tmp/ccJhexEu.s:381    .text.LL_SetSystemCoreClock:0000000000000000 $t
+     /tmp/ccJhexEu.s:388    .text.LL_SetSystemCoreClock:0000000000000000 LL_SetSystemCoreClock
+     /tmp/ccJhexEu.s:403    .text.LL_SetSystemCoreClock:0000000000000008 $d
+     /tmp/ccJhexEu.s:408    .text.UTILS_EnablePLLAndSwitchSystem:0000000000000000 $t
+     /tmp/ccJhexEu.s:414    .text.UTILS_EnablePLLAndSwitchSystem:0000000000000000 UTILS_EnablePLLAndSwitchSystem
+     /tmp/ccJhexEu.s:585    .text.UTILS_EnablePLLAndSwitchSystem:00000000000000a8 $d
+     /tmp/ccJhexEu.s:592    .text.LL_PLL_ConfigSystemClock_MSI:0000000000000000 $t
+     /tmp/ccJhexEu.s:599    .text.LL_PLL_ConfigSystemClock_MSI:0000000000000000 LL_PLL_ConfigSystemClock_MSI
+     /tmp/ccJhexEu.s:784    .text.LL_PLL_ConfigSystemClock_MSI:00000000000000c4 $d
+     /tmp/ccJhexEu.s:791    .text.LL_PLL_ConfigSystemClock_HSI:0000000000000000 $t
+     /tmp/ccJhexEu.s:798    .text.LL_PLL_ConfigSystemClock_HSI:0000000000000000 LL_PLL_ConfigSystemClock_HSI
+     /tmp/ccJhexEu.s:896    .text.LL_PLL_ConfigSystemClock_HSI:000000000000005c $d
+     /tmp/ccJhexEu.s:903    .text.LL_PLL_ConfigSystemClock_HSE:0000000000000000 $t
+     /tmp/ccJhexEu.s:910    .text.LL_PLL_ConfigSystemClock_HSE:0000000000000000 LL_PLL_ConfigSystemClock_HSE
+     /tmp/ccJhexEu.s:1034   .text.LL_PLL_ConfigSystemClock_HSE:000000000000007c $d
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

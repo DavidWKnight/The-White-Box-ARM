@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccGq777X.s 			page 1
+ARM GAS  /tmp/ccwdr9lq.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -24,7 +24,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   21              		.thumb_func
   22              		.fpu fpv4-sp-d16
   24              	OC1Config:
-  25              	.LFB1512:
+  25              	.LFB1437:
   26              		.file 1 "Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c"
    1:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
    2:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   ******************************************************************************
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   30:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   31:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   32:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   *
-ARM GAS  /tmp/ccGq777X.s 			page 2
+ARM GAS  /tmp/ccwdr9lq.s 			page 2
 
 
   33:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   ******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   87:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****                                   || ((__VALUE__) == LL_TIM_OCMODE_ASSYMETRIC_PWM2))
   88:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
   89:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** #define IS_LL_TIM_OCSTATE(__VALUE__) (((__VALUE__) == LL_TIM_OCSTATE_DISABLE) \
-ARM GAS  /tmp/ccGq777X.s 			page 3
+ARM GAS  /tmp/ccwdr9lq.s 			page 3
 
 
   90:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****                                    || ((__VALUE__) == LL_TIM_OCSTATE_ENABLE))
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  144:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****                                       || ((__VALUE__) == LL_TIM_LOCKLEVEL_3))
  145:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  146:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** #define IS_LL_TIM_BREAK_STATE(__VALUE__) (((__VALUE__) == LL_TIM_BREAK_DISABLE) \
-ARM GAS  /tmp/ccGq777X.s 			page 4
+ARM GAS  /tmp/ccwdr9lq.s 			page 4
 
 
  147:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****                                        || ((__VALUE__) == LL_TIM_BREAK_ENABLE))
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  201:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @{
  202:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   */
  203:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** static ErrorStatus OC1Config(TIM_TypeDef *TIMx, LL_TIM_OC_InitTypeDef *TIM_OCInitStruct);
-ARM GAS  /tmp/ccGq777X.s 			page 5
+ARM GAS  /tmp/ccwdr9lq.s 			page 5
 
 
  204:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** static ErrorStatus OC2Config(TIM_TypeDef *TIMx, LL_TIM_OC_InitTypeDef *TIM_OCInitStruct);
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   else if (TIMx == TIM4)
  259:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   {
  260:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     LL_APB1_GRP1_ForceReset(LL_APB1_GRP1_PERIPH_TIM4);
-ARM GAS  /tmp/ccGq777X.s 			page 6
+ARM GAS  /tmp/ccwdr9lq.s 			page 6
 
 
  261:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     LL_APB1_GRP1_ReleaseReset(LL_APB1_GRP1_PERIPH_TIM4);
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  315:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
  316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Set the fields of the time base unit configuration data structure
  317:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   *         to their default values.
-ARM GAS  /tmp/ccGq777X.s 			page 7
+ARM GAS  /tmp/ccwdr9lq.s 			page 7
 
 
  318:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @param  TIM_InitStruct pointer to a @ref LL_TIM_InitTypeDef structure (time base unit configura
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  372:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   {
  373:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     /* Set the Repetition Counter value */
  374:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     LL_TIM_SetRepetitionCounter(TIMx, TIM_InitStruct->RepetitionCounter);
-ARM GAS  /tmp/ccGq777X.s 			page 8
+ARM GAS  /tmp/ccwdr9lq.s 			page 8
 
 
  375:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   }
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****       break;
  430:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     case LL_TIM_CHANNEL_CH3:
  431:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****       result = OC3Config(TIMx, TIM_OC_InitStruct);
-ARM GAS  /tmp/ccGq777X.s 			page 9
+ARM GAS  /tmp/ccwdr9lq.s 			page 9
 
 
  432:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****       break;
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  486:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     case LL_TIM_CHANNEL_CH2:
  487:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****       result = IC2Config(TIMx, TIM_IC_InitStruct);
  488:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****       break;
-ARM GAS  /tmp/ccGq777X.s 			page 10
+ARM GAS  /tmp/ccwdr9lq.s 			page 10
 
 
  489:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     case LL_TIM_CHANNEL_CH3:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  543:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   assert_param(IS_LL_TIM_ICPSC(TIM_EncoderInitStruct->IC2Prescaler));
  544:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   assert_param(IS_LL_TIM_IC_FILTER(TIM_EncoderInitStruct->IC2Filter));
  545:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
-ARM GAS  /tmp/ccGq777X.s 			page 11
+ARM GAS  /tmp/ccwdr9lq.s 			page 11
 
 
  546:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Disable the CC1 and CC2: Reset the CC1E and CC2E Bits */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  600:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
  601:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the Hall sensor interface of the timer instance.
  602:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @note TIMx CH1, CH2 and CH3 inputs connected through a XOR
-ARM GAS  /tmp/ccGq777X.s 			page 12
+ARM GAS  /tmp/ccwdr9lq.s 			page 12
 
 
  603:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   *       to the TI1 input channel
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  657:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   tmpsmcr |= LL_TIM_SLAVEMODE_RESET;
  658:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  659:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Configure input channel 1 */
-ARM GAS  /tmp/ccGq777X.s 			page 13
+ARM GAS  /tmp/ccwdr9lq.s 			page 13
 
 
  660:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   tmpccmr1 &= (uint32_t)~(TIM_CCMR1_CC1S | TIM_CCMR1_IC1F  | TIM_CCMR1_IC1PSC);
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  714:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
  715:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the Break and Dead Time feature of the timer instance.
  716:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @note As the bits BK2P, BK2E, BK2F[3:0], BKF[3:0], AOE, BKP, BKE, OSSI, OSSR
-ARM GAS  /tmp/ccGq777X.s 			page 14
+ARM GAS  /tmp/ccwdr9lq.s 			page 14
 
 
  717:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   *  and DTG[7:0] can be write-locked depending on the LOCK configuration, it
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  771:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   }
  772:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  773:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set TIMx_BDTR */
-ARM GAS  /tmp/ccGq777X.s 			page 15
+ARM GAS  /tmp/ccwdr9lq.s 			page 15
 
 
  774:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   LL_TIM_WriteReg(TIMx, BDTR, tmpbdtr);
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   41 0004 23F00103 		bic	r3, r3, #1
   42 0008 0362     		str	r3, [r0, #32]
  814:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
-ARM GAS  /tmp/ccGq777X.s 			page 16
+ARM GAS  /tmp/ccwdr9lq.s 			page 16
 
 
  815:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Get the TIMx CCER register value */
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   75              		.loc 1 836 0 is_stmt 0 discriminator 1
   76 0032 05F50065 		add	r5, r5, #2048
   77 0036 A842     		cmp	r0, r5
-ARM GAS  /tmp/ccGq777X.s 			page 17
+ARM GAS  /tmp/ccwdr9lq.s 			page 17
 
 
   78 0038 0BD0     		beq	.L2
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  852:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   }
  853:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  854:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Write to TIMx CR2 */
-ARM GAS  /tmp/ccGq777X.s 			page 18
+ARM GAS  /tmp/ccwdr9lq.s 			page 18
 
 
  855:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   LL_TIM_WriteReg(TIMx, CR2, tmpcr2);
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   38:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define __STM32L4xx_LL_TIM_H
   39:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
   40:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #ifdef __cplusplus
-ARM GAS  /tmp/ccGq777X.s 			page 19
+ARM GAS  /tmp/ccwdr9lq.s 			page 19
 
 
   41:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** extern "C" {
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   95:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   0U,            /* 5: - NA */
   96:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   8U,            /* 6: CC4S, IC4PSC, IC4F */
   97:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   0U,            /* 7: - NA */
-ARM GAS  /tmp/ccGq777X.s 			page 20
+ARM GAS  /tmp/ccwdr9lq.s 			page 20
 
 
   98:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   0U             /* 8: - NA */
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  152:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define TIMx_OR3_BK2INE    TIM1_OR3_BK2INE      /*!< BRK2 BKIN2 input enable */
  153:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define TIMx_OR3_BK2COMP1E TIM1_OR3_BK2CMP1E    /*!< BRK2 COMP1 enable */
  154:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define TIMx_OR3_BK2COMP2E TIM1_OR3_BK2CMP2E    /*!< BRK2 COMP2 enable */
-ARM GAS  /tmp/ccGq777X.s 			page 21
+ARM GAS  /tmp/ccwdr9lq.s 			page 21
 
 
  155:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #if defined(DFSDM1_Channel0)
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  209:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_Private_Macros TIM Private Macros
  210:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @{
  211:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGq777X.s 			page 22
+ARM GAS  /tmp/ccwdr9lq.s 			page 22
 
 
  212:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @brief  Convert channel id into channel index.
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  266:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                    This feature can be modified afterwards using unitary function @
  267:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
  268:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   uint32_t CounterMode;       /*!< Specifies the counter mode.
-ARM GAS  /tmp/ccGq777X.s 			page 23
+ARM GAS  /tmp/ccwdr9lq.s 			page 23
 
 
  269:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                    This parameter can be a value of @ref TIM_LL_EC_COUNTERMODE.
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  323:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
  324:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                This feature can be modified afterwards using unitary function @ref 
  325:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 24
+ARM GAS  /tmp/ccwdr9lq.s 			page 24
 
 
  326:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   uint32_t OCNPolarity;   /*!< Specifies the complementary output polarity.
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  380:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                  This feature can be modified afterwards using unitary function @re
  381:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
  382:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   uint32_t IC1Polarity;     /*!< Specifies the active edge of TI1 input.
-ARM GAS  /tmp/ccGq777X.s 			page 25
+ARM GAS  /tmp/ccwdr9lq.s 			page 25
 
 
  383:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                  This parameter can be a value of @ref TIM_LL_EC_IC_POLARITY.
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  437:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                     time interval between 2 consecutive changes on the Hall inputs.
  438:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                     This parameter can be a value of @ref TIM_LL_EC_ICPSC.
  439:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 26
+ARM GAS  /tmp/ccwdr9lq.s 			page 26
 
 
  440:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                     This feature can be modified afterwards using unitary function 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  494:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
  495:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   uint32_t BreakPolarity;        /*!< Specifies the TIM Break Input pin polarity.
  496:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****                                       This parameter can be a value of @ref TIM_LL_EC_BREAK_POLARIT
-ARM GAS  /tmp/ccGq777X.s 			page 27
+ARM GAS  /tmp/ccwdr9lq.s 			page 27
 
 
  497:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  551:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
  552:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_SR_UIF                          TIM_SR_UIF           /*!< Update interrupt flag */
  553:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_SR_CC1IF                        TIM_SR_CC1IF         /*!< Capture/compare 1 interrup
-ARM GAS  /tmp/ccGq777X.s 			page 28
+ARM GAS  /tmp/ccwdr9lq.s 			page 28
 
 
  554:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_SR_CC2IF                        TIM_SR_CC2IF         /*!< Capture/compare 2 interrup
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  608:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DIER_CC3IE                      TIM_DIER_CC3IE       /*!< Capture/compare 3 interrup
  609:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DIER_CC4IE                      TIM_DIER_CC4IE       /*!< Capture/compare 4 interrup
  610:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DIER_COMIE                      TIM_DIER_COMIE       /*!< COM interrupt enable */
-ARM GAS  /tmp/ccGq777X.s 			page 29
+ARM GAS  /tmp/ccwdr9lq.s 			page 29
 
 
  611:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DIER_TIE                        TIM_DIER_TIE         /*!< Trigger interrupt enable *
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  665:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
  666:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_CCUPDATESOURCE Capture Compare  Update Source
  667:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @{
-ARM GAS  /tmp/ccGq777X.s 			page 30
+ARM GAS  /tmp/ccwdr9lq.s 			page 30
 
 
  668:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  722:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_OCMODE Output Configuration Mode
  723:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @{
  724:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGq777X.s 			page 31
+ARM GAS  /tmp/ccwdr9lq.s 			page 31
 
 
  725:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_OCMODE_FROZEN                   0x00000000U                                         
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  779:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @}
  780:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
  781:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 32
+ARM GAS  /tmp/ccwdr9lq.s 			page 32
 
 
  782:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_ICPSC Input Configuration Prescaler
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  836:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_ENCODERMODE Encoder Mode
  837:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @{
  838:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGq777X.s 			page 33
+ARM GAS  /tmp/ccwdr9lq.s 			page 33
 
 
  839:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_ENCODERMODE_X2_TI1              TIM_SMCR_SMS_0                    /*!< Encoder mode 
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  893:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @}
  894:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
  895:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 34
+ARM GAS  /tmp/ccwdr9lq.s 			page 34
 
 
  896:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_TS Trigger Selection
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  950:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
  951:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @}
  952:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGq777X.s 			page 35
+ARM GAS  /tmp/ccwdr9lq.s 			page 35
 
 
  953:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1007:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 1008:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_BREAK2_FILTER_FDIV1             0x00000000U   /*!< No filter, BRK acts asynchronousl
 1009:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_BREAK2_FILTER_FDIV1_N2          0x00100000U   /*!< fSAMPLING=fCK_INT, N=2 */
-ARM GAS  /tmp/ccGq777X.s 			page 36
+ARM GAS  /tmp/ccwdr9lq.s 			page 36
 
 
 1010:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_BREAK2_FILTER_FDIV1_N4          0x00200000U   /*!< fSAMPLING=fCK_INT, N=4 */
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1064:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 1065:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 1066:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EC_BKIN_POLARITY BKIN POLARITY
-ARM GAS  /tmp/ccGq777X.s 			page 37
+ARM GAS  /tmp/ccwdr9lq.s 			page 37
 
 
 1067:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @{
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1121:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_13TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2)                     
 1122:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_14TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2 | TIM_DCR_DBL_0)     
 1123:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_15TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2 | TIM_DCR_DBL_1)     
-ARM GAS  /tmp/ccGq777X.s 			page 38
+ARM GAS  /tmp/ccwdr9lq.s 			page 38
 
 
 1124:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_DMABURST_LENGTH_16TRANSFERS     (TIM_DCR_DBL_3 | TIM_DCR_DBL_2 | TIM_DCR_DBL_1 | TIM
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1178:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_TIM2_ETR_RMP_GPIO TIM2_OR1_RMP_MASK                                                 
 1179:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_TIM2_ETR_RMP_LSE  (TIM2_OR1_ETR1_RMP | TIM2_OR1_RMP_MASK)                           
 1180:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccGq777X.s 			page 39
+ARM GAS  /tmp/ccwdr9lq.s 			page 39
 
 
 1181:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @}
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1235:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_TIM8_TI1_RMP_COMP2 (TIM8_OR1_TI1_RMP | TIM8_OR1_RMP_MASK)                           
 1236:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 1237:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @}
-ARM GAS  /tmp/ccGq777X.s 			page 40
+ARM GAS  /tmp/ccwdr9lq.s 			page 40
 
 
 1238:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1292:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 1293:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_OCREF_CLR_INT_NC     0x00000000U         /*!< OCREF_CLR_INT is not connected */
 1294:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define LL_TIM_OCREF_CLR_INT_ETR    TIM_SMCR_OCCS       /*!< OCREF_CLR_INT is connected to ETRF */
-ARM GAS  /tmp/ccGq777X.s 			page 41
+ARM GAS  /tmp/ccwdr9lq.s 			page 41
 
 
 1295:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1349:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** #define __LL_TIM_GETFLAG_UIFCPY(__CNT__)  \
 1350:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****    (READ_BIT((__CNT__), TIM_CNT_UIFCPY) >> TIM_CNT_UIFCPY_Pos)
 1351:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 42
+ARM GAS  /tmp/ccwdr9lq.s 			page 42
 
 
 1352:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1406:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  __TIMCLK__ timer input clock frequency (in Hz)
 1407:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  __PSC__ prescaler
 1408:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  __DELAY__ timer output compare active/inactive delay (in us)
-ARM GAS  /tmp/ccGq777X.s 			page 43
+ARM GAS  /tmp/ccwdr9lq.s 			page 43
 
 
 1409:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  __PULSE__ pulse duration (in us)
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1463:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 1464:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_DisableCounter(TIM_TypeDef *TIMx)
 1465:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccGq777X.s 			page 44
+ARM GAS  /tmp/ccwdr9lq.s 			page 44
 
 
 1466:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   CLEAR_BIT(TIMx->CR1, TIM_CR1_CEN);
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1520:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @note Update event source set to LL_TIM_UPDATESOURCE_COUNTER: only counter
 1521:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *       overflow/underflow generates an update interrupt or DMA request if enabled.
 1522:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll CR1          URS           LL_TIM_SetUpdateSource
-ARM GAS  /tmp/ccGq777X.s 			page 45
+ARM GAS  /tmp/ccwdr9lq.s 			page 45
 
 
 1523:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1577:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *       check whether or not the counter mode selection feature is supported
 1578:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *       by a timer instance.
 1579:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll CR1          DIR           LL_TIM_SetCounterMode\n
-ARM GAS  /tmp/ccGq777X.s 			page 46
+ARM GAS  /tmp/ccwdr9lq.s 			page 46
 
 
 1580:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CR1          CMS           LL_TIM_SetCounterMode
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1634:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   CLEAR_BIT(TIMx->CR1, TIM_CR1_ARPE);
 1635:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
 1636:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 47
+ARM GAS  /tmp/ccwdr9lq.s 			page 47
 
 
 1637:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1691:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 1692:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_SetCounter(TIM_TypeDef *TIMx, uint32_t Counter)
 1693:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccGq777X.s 			page 48
+ARM GAS  /tmp/ccwdr9lq.s 			page 48
 
 
 1694:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   WRITE_REG(TIMx->CNT, Counter);
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1748:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
 1749:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 1750:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccGq777X.s 			page 49
+ARM GAS  /tmp/ccwdr9lq.s 			page 49
 
 
 1751:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Set the auto-reload value.
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1805:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
 1806:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 1807:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccGq777X.s 			page 50
+ARM GAS  /tmp/ccwdr9lq.s 			page 50
 
 
 1808:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Force a continuous copy of the update interrupt flag (UIF) into the timer counter regis
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1862:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
 1863:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   CLEAR_BIT(TIMx->CR2, TIM_CR2_CCPC);
 1864:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
-ARM GAS  /tmp/ccGq777X.s 			page 51
+ARM GAS  /tmp/ccwdr9lq.s 			page 51
 
 
 1865:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1919:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_LOCKLEVEL_2
 1920:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_LOCKLEVEL_3
 1921:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/ccGq777X.s 			page 52
+ARM GAS  /tmp/ccwdr9lq.s 			page 52
 
 
 1922:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1976:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
 1977:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH5
 1978:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH6
-ARM GAS  /tmp/ccGq777X.s 			page 53
+ARM GAS  /tmp/ccwdr9lq.s 			page 53
 
 
 1979:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2033:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCER         CC4P          LL_TIM_OC_ConfigOutput\n
 2034:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCER         CC5P          LL_TIM_OC_ConfigOutput\n
 2035:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCER         CC6P          LL_TIM_OC_ConfigOutput\n
-ARM GAS  /tmp/ccGq777X.s 			page 54
+ARM GAS  /tmp/ccwdr9lq.s 			page 54
 
 
 2036:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CR2          OIS1          LL_TIM_OC_ConfigOutput\n
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2090:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_PWM1
 2091:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_PWM2
 2092:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_RETRIG_OPM1
-ARM GAS  /tmp/ccGq777X.s 			page 55
+ARM GAS  /tmp/ccwdr9lq.s 			page 55
 
 
 2093:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_OCMODE_RETRIG_OPM2
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2147:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Set the polarity of an output channel.
 2148:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll CCER         CC1P          LL_TIM_OC_SetPolarity\n
 2149:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCER         CC1NP         LL_TIM_OC_SetPolarity\n
-ARM GAS  /tmp/ccGq777X.s 			page 56
+ARM GAS  /tmp/ccwdr9lq.s 			page 56
 
 
 2150:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCER         CC2P          LL_TIM_OC_SetPolarity\n
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2204:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 2205:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_OC_GetPolarity(TIM_TypeDef *TIMx, uint32_t Channel)
 2206:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccGq777X.s 			page 57
+ARM GAS  /tmp/ccwdr9lq.s 			page 57
 
 
 2207:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   register uint8_t iChannel = TIM_GET_CHANNEL_INDEX(Channel);
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2261:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1
 2262:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH1N
 2263:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
-ARM GAS  /tmp/ccGq777X.s 			page 58
+ARM GAS  /tmp/ccwdr9lq.s 			page 58
 
 
 2264:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2N
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2318:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
 2319:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
 2320:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
-ARM GAS  /tmp/ccGq777X.s 			page 59
+ARM GAS  /tmp/ccwdr9lq.s 			page 59
 
 
 2321:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH5
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2375:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
 2376:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 2377:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_EnablePreload(TIM_TypeDef *TIMx, uint32_t Channel)
-ARM GAS  /tmp/ccGq777X.s 			page 60
+ARM GAS  /tmp/ccwdr9lq.s 			page 60
 
 
 2378:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2432:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   return (READ_BIT(*pReg, bitfield) == bitfield);
 2433:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
 2434:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 61
+ARM GAS  /tmp/ccwdr9lq.s 			page 61
 
 
 2435:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2489:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 2490:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 2491:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Indicates clearing the output channel on an external event is enabled for the output ch
-ARM GAS  /tmp/ccGq777X.s 			page 62
+ARM GAS  /tmp/ccwdr9lq.s 			page 62
 
 
 2492:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @note This function enables clearing the output channel on an external event.
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2546:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 2547:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_OC_SetCompareCH1(TIM_TypeDef *TIMx, uint32_t CompareValue)
 2548:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccGq777X.s 			page 63
+ARM GAS  /tmp/ccwdr9lq.s 			page 63
 
 
 2549:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   WRITE_REG(TIMx->CCR1, CompareValue);
@@ -3750,7 +3750,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  146              	.L5:
  147 0088 002C0140 		.word	1073818624
  148              		.cfi_endproc
- 149              	.LFE1512:
+ 149              	.LFE1437:
  151              		.section	.text.OC2Config,"ax",%progbits
  152              		.align	1
  153              		.syntax unified
@@ -3758,7 +3758,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  155              		.thumb_func
  156              		.fpu fpv4-sp-d16
  158              	OC2Config:
- 159              	.LFB1513:
+ 159              	.LFB1438:
  868:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  869:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
  870:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx output channel 2.
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  165              	.LVL23:
  166 0000 30B4     		push	{r4, r5}
  167              	.LCFI2:
-ARM GAS  /tmp/ccGq777X.s 			page 64
+ARM GAS  /tmp/ccwdr9lq.s 			page 64
 
 
  168              		.cfi_def_cfa_offset 8
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  909:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the Output Compare Polarity */
  910:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   MODIFY_REG(tmpccer, TIM_CCER_CC2P, TIM_OCInitStruct->OCPolarity << 4U);
  192              		.loc 1 910 0
-ARM GAS  /tmp/ccGq777X.s 			page 65
+ARM GAS  /tmp/ccwdr9lq.s 			page 65
 
 
  193 001e 23F02003 		bic	r3, r3, #32
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  233              	.LVL36:
  234 0066 8D68     		ldr	r5, [r1, #8]
  235 0068 43EA8513 		orr	r3, r3, r5, lsl #6
-ARM GAS  /tmp/ccGq777X.s 			page 66
+ARM GAS  /tmp/ccwdr9lq.s 			page 66
 
 
  236              	.LVL37:
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2565:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
 2566:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   WRITE_REG(TIMx->CCR2, CompareValue);
  259              		.loc 2 2566 0
-ARM GAS  /tmp/ccGq777X.s 			page 67
+ARM GAS  /tmp/ccwdr9lq.s 			page 67
 
 
  260 0086 8263     		str	r2, [r0, #56]
@@ -3988,7 +3988,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  278              	.L11:
  279 0090 002C0140 		.word	1073818624
  280              		.cfi_endproc
- 281              	.LFE1513:
+ 281              	.LFE1438:
  283              		.section	.text.OC3Config,"ax",%progbits
  284              		.align	1
  285              		.syntax unified
@@ -3996,7 +3996,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  287              		.thumb_func
  288              		.fpu fpv4-sp-d16
  290              	OC3Config:
- 291              	.LFB1514:
+ 291              	.LFB1439:
  947:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  948:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
  949:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx output channel 3.
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  299              	.LCFI4:
  300              		.cfi_def_cfa_offset 8
  301              		.cfi_offset 4, -8
-ARM GAS  /tmp/ccGq777X.s 			page 68
+ARM GAS  /tmp/ccwdr9lq.s 			page 68
 
 
  302              		.cfi_offset 5, -4
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  324              		.loc 1 989 0
  325 001c 23F40073 		bic	r3, r3, #512
  326              	.LVL53:
-ARM GAS  /tmp/ccGq777X.s 			page 69
+ARM GAS  /tmp/ccwdr9lq.s 			page 69
 
 
  327 0020 0D69     		ldr	r5, [r1, #16]
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  367 0066 43EA8523 		orr	r3, r3, r5, lsl #10
  368              	.LVL60:
 1004:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
-ARM GAS  /tmp/ccGq777X.s 			page 70
+ARM GAS  /tmp/ccwdr9lq.s 			page 70
 
 
 1005:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     /* Set the Output Idle state */
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  391              		.loc 2 2583 0
  392 0084 C263     		str	r2, [r0, #60]
  393              	.LVL66:
-ARM GAS  /tmp/ccGq777X.s 			page 71
+ARM GAS  /tmp/ccwdr9lq.s 			page 71
 
 
  394              	.LBE75:
@@ -4226,7 +4226,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  410              	.L17:
  411 0090 002C0140 		.word	1073818624
  412              		.cfi_endproc
- 413              	.LFE1514:
+ 413              	.LFE1439:
  415              		.section	.text.OC4Config,"ax",%progbits
  416              		.align	1
  417              		.syntax unified
@@ -4234,7 +4234,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  419              		.thumb_func
  420              		.fpu fpv4-sp-d16
  422              	OC4Config:
- 423              	.LFB1515:
+ 423              	.LFB1440:
 1026:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1027:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1028:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx output channel 4.
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  433              		.cfi_offset 4, -8
  434              		.cfi_offset 5, -4
  435              	.LVL70:
-ARM GAS  /tmp/ccGq777X.s 			page 72
+ARM GAS  /tmp/ccwdr9lq.s 			page 72
 
 
 1037:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   uint32_t tmpccmr2 = 0U;
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  458              	.LVL76:
  459 0022 0D69     		ldr	r5, [r1, #16]
  460 0024 43EA0533 		orr	r3, r3, r5, lsl #12
-ARM GAS  /tmp/ccGq777X.s 			page 73
+ARM GAS  /tmp/ccwdr9lq.s 			page 73
 
 
  461              	.LVL77:
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1086:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   LL_TIM_WriteReg(TIMx, CCMR2, tmpccmr2);
  498              		.loc 1 1086 0
  499 0064 C261     		str	r2, [r0, #28]
-ARM GAS  /tmp/ccGq777X.s 			page 74
+ARM GAS  /tmp/ccwdr9lq.s 			page 74
 
 
 1087:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
@@ -4434,18 +4434,18 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  524              	.L23:
  525 0074 002C0140 		.word	1073818624
  526              		.cfi_endproc
- 527              	.LFE1515:
+ 527              	.LFE1440:
  529              		.section	.text.OC5Config,"ax",%progbits
  530              		.align	1
  531              		.syntax unified
-ARM GAS  /tmp/ccGq777X.s 			page 75
+ARM GAS  /tmp/ccwdr9lq.s 			page 75
 
 
  532              		.thumb
  533              		.thumb_func
  534              		.fpu fpv4-sp-d16
  536              	OC5Config:
- 537              	.LFB1516:
+ 537              	.LFB1441:
 1096:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1097:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1098:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx output channel 5.
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  557              		.loc 1 1125 0
  558 000c 426D     		ldr	r2, [r0, #84]
  559              	.LVL89:
-ARM GAS  /tmp/ccGq777X.s 			page 76
+ARM GAS  /tmp/ccwdr9lq.s 			page 76
 
 
 1126:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1140:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1141:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     /* Set the Output Idle state */
 1142:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     MODIFY_REG(TIMx->CR2, TIM_CR2_OIS5, TIM_OCInitStruct->OCIdleState << 8U);
-ARM GAS  /tmp/ccGq777X.s 			page 77
+ARM GAS  /tmp/ccwdr9lq.s 			page 77
 
 
  600              		.loc 1 1142 0 is_stmt 1
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  626              		.cfi_restore 5
  627              		.cfi_restore 4
  628              		.cfi_def_cfa_offset 0
-ARM GAS  /tmp/ccGq777X.s 			page 78
+ARM GAS  /tmp/ccwdr9lq.s 			page 78
 
 
  629 006e 7047     		bx	lr
@@ -4627,7 +4627,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  632              	.L29:
  633 0070 002C0140 		.word	1073818624
  634              		.cfi_endproc
- 635              	.LFE1516:
+ 635              	.LFE1441:
  637              		.section	.text.OC6Config,"ax",%progbits
  638              		.align	1
  639              		.syntax unified
@@ -4635,7 +4635,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  641              		.thumb_func
  642              		.fpu fpv4-sp-d16
  644              	OC6Config:
- 645              	.LFB1517:
+ 645              	.LFB1442:
 1157:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1158:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1159:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx output channel 6.
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  661 0008 0362     		str	r3, [r0, #32]
 1181:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1182:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Get the TIMx CCER register value */
-ARM GAS  /tmp/ccGq777X.s 			page 79
+ARM GAS  /tmp/ccwdr9lq.s 			page 79
 
 
 1183:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   tmpccer = LL_TIM_ReadReg(TIMx, CCER);
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  701 004a A042     		cmp	r0, r4
  702 004c 03D0     		beq	.L32
  703              		.loc 1 1197 0 discriminator 4
-ARM GAS  /tmp/ccGq777X.s 			page 80
+ARM GAS  /tmp/ccwdr9lq.s 			page 80
 
 
  704 004e 04F58064 		add	r4, r4, #1024
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  728 006a 0362     		str	r3, [r0, #32]
 1214:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1215:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   return SUCCESS;
-ARM GAS  /tmp/ccGq777X.s 			page 81
+ARM GAS  /tmp/ccwdr9lq.s 			page 81
 
 
 1216:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** }
@@ -4816,7 +4816,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  740              	.L35:
  741 0074 002C0140 		.word	1073818624
  742              		.cfi_endproc
- 743              	.LFE1517:
+ 743              	.LFE1442:
  745              		.section	.text.IC1Config,"ax",%progbits
  746              		.align	1
  747              		.syntax unified
@@ -4824,7 +4824,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  749              		.thumb_func
  750              		.fpu fpv4-sp-d16
  752              	IC1Config:
- 753              	.LFB1518:
+ 753              	.LFB1443:
 1217:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1218:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1219:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx input channel 1.
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  764              		.loc 1 1236 0
  765 0002 036A     		ldr	r3, [r0, #32]
  766 0004 23F00103 		bic	r3, r3, #1
-ARM GAS  /tmp/ccGq777X.s 			page 82
+ARM GAS  /tmp/ccwdr9lq.s 			page 82
 
 
  767 0008 0362     		str	r3, [r0, #32]
@@ -4901,7 +4901,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  791              		.cfi_def_cfa_offset 0
  792 0036 7047     		bx	lr
  793              		.cfi_endproc
- 794              	.LFE1518:
+ 794              	.LFE1443:
  796              		.section	.text.IC2Config,"ax",%progbits
  797              		.align	1
  798              		.syntax unified
@@ -4909,7 +4909,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  800              		.thumb_func
  801              		.fpu fpv4-sp-d16
  803              	IC2Config:
- 804              	.LFB1519:
+ 804              	.LFB1444:
 1250:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1251:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1252:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx input channel 2.
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1255:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @retval An ErrorStatus enumeration value:
 1256:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   *          - SUCCESS: TIMx registers are de-initialized
 1257:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   *          - ERROR: not applicable
-ARM GAS  /tmp/ccGq777X.s 			page 83
+ARM GAS  /tmp/ccwdr9lq.s 			page 83
 
 
 1258:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   */
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1281:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   return SUCCESS;
 1282:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** }
  836              		.loc 1 1282 0
-ARM GAS  /tmp/ccGq777X.s 			page 84
+ARM GAS  /tmp/ccwdr9lq.s 			page 84
 
 
  837 0032 0120     		movs	r0, #1
@@ -4989,7 +4989,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  842              		.cfi_def_cfa_offset 0
  843 0038 7047     		bx	lr
  844              		.cfi_endproc
- 845              	.LFE1519:
+ 845              	.LFE1444:
  847              		.section	.text.IC3Config,"ax",%progbits
  848              		.align	1
  849              		.syntax unified
@@ -4997,7 +4997,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  851              		.thumb_func
  852              		.fpu fpv4-sp-d16
  854              	IC3Config:
- 855              	.LFB1520:
+ 855              	.LFB1445:
 1283:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1284:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1285:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx input channel 3.
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  870              		.loc 1 1305 0
  871 000a C369     		ldr	r3, [r0, #28]
  872 000c 23F0FF03 		bic	r3, r3, #255
-ARM GAS  /tmp/ccGq777X.s 			page 85
+ARM GAS  /tmp/ccwdr9lq.s 			page 85
 
 
  873 0010 4A68     		ldr	r2, [r1, #4]
@@ -5074,7 +5074,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  893              		.cfi_def_cfa_offset 0
  894 0038 7047     		bx	lr
  895              		.cfi_endproc
- 896              	.LFE1520:
+ 896              	.LFE1445:
  898              		.section	.text.IC4Config,"ax",%progbits
  899              		.align	1
  900              		.syntax unified
@@ -5082,7 +5082,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  902              		.thumb_func
  903              		.fpu fpv4-sp-d16
  905              	IC4Config:
- 906              	.LFB1521:
+ 906              	.LFB1446:
 1316:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
 1317:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** /**
 1318:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   * @brief  Configure the TIMx input channel 4.
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  908              		.cfi_startproc
  909              		@ args = 0, pretend = 0, frame = 0
  910              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccGq777X.s 			page 86
+ARM GAS  /tmp/ccwdr9lq.s 			page 86
 
 
  911              		@ link register save eliminated.
@@ -5158,11 +5158,11 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  943              		.cfi_restore 4
  944              		.cfi_def_cfa_offset 0
  945 0038 7047     		bx	lr
-ARM GAS  /tmp/ccGq777X.s 			page 87
+ARM GAS  /tmp/ccwdr9lq.s 			page 87
 
 
  946              		.cfi_endproc
- 947              	.LFE1521:
+ 947              	.LFE1446:
  949              		.section	.text.LL_TIM_DeInit,"ax",%progbits
  950              		.align	1
  951              		.global	LL_TIM_DeInit
@@ -5171,7 +5171,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  954              		.thumb_func
  955              		.fpu fpv4-sp-d16
  957              	LL_TIM_DeInit:
- 958              	.LFB1499:
+ 958              	.LFB1424:
  234:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   ErrorStatus result = SUCCESS;
  959              		.loc 1 234 0
  960              		.cfi_startproc
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  993 002a 4E4B     		ldr	r3, .L69+24
  994 002c 9842     		cmp	r0, r3
  995 002e 5DD0     		beq	.L65
-ARM GAS  /tmp/ccGq777X.s 			page 88
+ARM GAS  /tmp/ccwdr9lq.s 			page 88
 
 
  290:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   {
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   28:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * Redistribution and use in source and binary forms, with or without modification,
   29:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * are permitted provided that the following conditions are met:
   30:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *   1. Redistributions of source code must retain the above copyright notice,
-ARM GAS  /tmp/ccGq777X.s 			page 89
+ARM GAS  /tmp/ccwdr9lq.s 			page 89
 
 
   31:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *      this list of conditions and the following disclaimer.
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
   85:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
   86:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
   87:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /** @defgroup BUS_LL_EC_AHB1_GRP1_PERIPH  AHB1 GRP1 PERIPH
-ARM GAS  /tmp/ccGq777X.s 			page 90
+ARM GAS  /tmp/ccwdr9lq.s 			page 90
 
 
   88:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @{
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  142:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #endif /* AES */
  143:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #if defined(HASH)
  144:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #define LL_AHB2_GRP1_PERIPH_HASH           RCC_AHB2ENR_HASHEN
-ARM GAS  /tmp/ccGq777X.s 			page 91
+ARM GAS  /tmp/ccwdr9lq.s 			page 91
 
 
  145:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #endif /* HASH */
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  199:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #endif /* LCD */
  200:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #if defined(RCC_APB1ENR1_RTCAPBEN)
  201:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #define LL_APB1_GRP1_PERIPH_RTCAPB         RCC_APB1ENR1_RTCAPBEN
-ARM GAS  /tmp/ccGq777X.s 			page 92
+ARM GAS  /tmp/ccwdr9lq.s 			page 92
 
 
  202:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** #endif /* RCC_APB1ENR1_RTCAPBEN */
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  256:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
  257:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
  258:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /** @defgroup BUS_LL_EC_APB2_GRP1_PERIPH  APB2 GRP1 PERIPH
-ARM GAS  /tmp/ccGq777X.s 			page 93
+ARM GAS  /tmp/ccwdr9lq.s 			page 93
 
 
  259:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @{
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  313:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
  314:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
  315:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /** @defgroup BUS_LL_EF_AHB1 AHB1
-ARM GAS  /tmp/ccGq777X.s 			page 94
+ARM GAS  /tmp/ccwdr9lq.s 			page 94
 
 
  316:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @{
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  370:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
  371:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
  372:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @retval State of Periphs (1 or 0).
-ARM GAS  /tmp/ccGq777X.s 			page 95
+ARM GAS  /tmp/ccwdr9lq.s 			page 95
 
 
  373:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** */
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  427:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
  428:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
  429:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @retval None
-ARM GAS  /tmp/ccGq777X.s 			page 96
+ARM GAS  /tmp/ccwdr9lq.s 			page 96
 
 
  430:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** */
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  484:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_DMA2D (*)
  485:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB1_GRP1_PERIPH_GFXMMU (*)
  486:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
-ARM GAS  /tmp/ccGq777X.s 			page 97
+ARM GAS  /tmp/ccwdr9lq.s 			page 97
 
 
  487:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  541:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOCEN       LL_AHB2_GRP1_EnableClock\n
  542:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIODEN       LL_AHB2_GRP1_EnableClock\n
  543:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOEEN       LL_AHB2_GRP1_EnableClock\n
-ARM GAS  /tmp/ccGq777X.s 			page 98
+ARM GAS  /tmp/ccwdr9lq.s 			page 98
 
 
  544:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      GPIOFEN       LL_AHB2_GRP1_EnableClock\n
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  598:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      OTGFSEN       LL_AHB2_GRP1_IsEnabledClock\n
  599:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      ADCEN         LL_AHB2_GRP1_IsEnabledClock\n
  600:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      DCMIEN        LL_AHB2_GRP1_IsEnabledClock\n
-ARM GAS  /tmp/ccGq777X.s 			page 99
+ARM GAS  /tmp/ccwdr9lq.s 			page 99
 
 
  601:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         AHB2ENR      AESEN         LL_AHB2_GRP1_IsEnabledClock\n
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  655:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOC
  656:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOD (*)
  657:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOE (*)
-ARM GAS  /tmp/ccGq777X.s 			page 100
+ARM GAS  /tmp/ccwdr9lq.s 			page 100
 
 
  658:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_GPIOF (*)
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  712:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_AES (*)
  713:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_HASH (*)
  714:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_RNG
-ARM GAS  /tmp/ccGq777X.s 			page 101
+ARM GAS  /tmp/ccwdr9lq.s 			page 101
 
 
  715:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB2_GRP1_PERIPH_OSPIM (*)
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  769:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** {
  770:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   CLEAR_BIT(RCC->AHB2RSTR, Periphs);
  771:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** }
-ARM GAS  /tmp/ccGq777X.s 			page 102
+ARM GAS  /tmp/ccwdr9lq.s 			page 102
 
 
  772:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  826:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
  827:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
  828:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable AHB2 peripheral clocks in Sleep and Stop modes
-ARM GAS  /tmp/ccGq777X.s 			page 103
+ARM GAS  /tmp/ccwdr9lq.s 			page 103
 
 
  829:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll AHB2SMENR    GPIOASMEN     LL_AHB2_GRP1_DisableClockStopSleep\n
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  883:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   */
  884:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
  885:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
-ARM GAS  /tmp/ccGq777X.s 			page 104
+ARM GAS  /tmp/ccwdr9lq.s 			page 104
 
 
  886:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Enable AHB3 peripherals clock.
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  940:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
  941:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         (*) value not defined in all devices.
  942:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @retval None
-ARM GAS  /tmp/ccGq777X.s 			page 105
+ARM GAS  /tmp/ccwdr9lq.s 			page 105
 
 
  943:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** */
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  997:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
  998:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB3_GRP1_PERIPH_FMC (*)
  999:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB3_GRP1_PERIPH_QSPI (*)
-ARM GAS  /tmp/ccGq777X.s 			page 106
+ARM GAS  /tmp/ccwdr9lq.s 			page 106
 
 
 1000:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_AHB3_GRP1_PERIPH_OSPI1 (*)
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1054:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     SPI2EN        LL_APB1_GRP1_EnableClock\n
 1055:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     SPI3EN        LL_APB1_GRP1_EnableClock\n
 1056:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     USART2EN      LL_APB1_GRP1_EnableClock\n
-ARM GAS  /tmp/ccGq777X.s 			page 107
+ARM GAS  /tmp/ccwdr9lq.s 			page 107
 
 
 1057:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     USART3EN      LL_APB1_GRP1_EnableClock\n
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1111:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
 1112:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Enable APB1 peripherals clock.
 1113:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll APB1ENR2     LPUART1EN     LL_APB1_GRP2_EnableClock\n
-ARM GAS  /tmp/ccGq777X.s 			page 108
+ARM GAS  /tmp/ccwdr9lq.s 			page 108
 
 
 1114:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR2     I2C4EN        LL_APB1_GRP2_EnableClock\n
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1168:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM6
 1169:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_TIM7
 1170:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_LCD (*)
-ARM GAS  /tmp/ccGq777X.s 			page 109
+ARM GAS  /tmp/ccwdr9lq.s 			page 109
 
 
 1171:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_RTCAPB (*)
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1225:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     TIM6EN        LL_APB1_GRP1_DisableClock\n
 1226:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     TIM7EN        LL_APB1_GRP1_DisableClock\n
 1227:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     LCDEN         LL_APB1_GRP1_DisableClock\n
-ARM GAS  /tmp/ccGq777X.s 			page 110
+ARM GAS  /tmp/ccwdr9lq.s 			page 110
 
 
 1228:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1ENR1     RTCAPBEN      LL_APB1_GRP1_DisableClock\n
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1282:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
 1283:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
 1284:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable APB1 peripherals clock.
-ARM GAS  /tmp/ccGq777X.s 			page 111
+ARM GAS  /tmp/ccwdr9lq.s 			page 111
 
 
 1285:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll APB1ENR2     LPUART1EN     LL_APB1_GRP2_DisableClock\n
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1339:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_SPI3
 1340:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_USART2
 1341:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_USART3 (*)
-ARM GAS  /tmp/ccGq777X.s 			page 112
+ARM GAS  /tmp/ccwdr9lq.s 			page 112
 
 
 1342:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_UART4 (*)
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1396:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    USART2RST     LL_APB1_GRP1_ReleaseReset\n
 1397:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    USART3RST     LL_APB1_GRP1_ReleaseReset\n
 1398:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    UART4RST      LL_APB1_GRP1_ReleaseReset\n
-ARM GAS  /tmp/ccGq777X.s 			page 113
+ARM GAS  /tmp/ccwdr9lq.s 			page 113
 
 
 1399:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1RSTR1    UART5RST      LL_APB1_GRP1_ReleaseReset\n
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1453:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_ALL
 1454:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_LPUART1
 1455:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_I2C4 (*)
-ARM GAS  /tmp/ccGq777X.s 			page 114
+ARM GAS  /tmp/ccwdr9lq.s 			page 114
 
 
 1456:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP2_PERIPH_SWPMI1 (*)
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1510:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_UART5 (*)
 1511:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_I2C1
 1512:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_I2C2 (*)
-ARM GAS  /tmp/ccGq777X.s 			page 115
+ARM GAS  /tmp/ccwdr9lq.s 			page 115
 
 
 1513:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB1_GRP1_PERIPH_I2C3
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1567:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   LCDSMEN       LL_APB1_GRP1_DisableClockStopSleep\n
 1568:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   RTCAPBSMEN    LL_APB1_GRP1_DisableClockStopSleep\n
 1569:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   WWDGSMEN      LL_APB1_GRP1_DisableClockStopSleep\n
-ARM GAS  /tmp/ccGq777X.s 			page 116
+ARM GAS  /tmp/ccwdr9lq.s 			page 116
 
 
 1570:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR1   SPI2SMEN      LL_APB1_GRP1_DisableClockStopSleep\n
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1624:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable APB1 peripheral clocks in Sleep and Stop modes
 1625:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll APB1SMENR2   LPUART1SMEN   LL_APB1_GRP2_DisableClockStopSleep\n
 1626:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR2   I2C4SMEN      LL_APB1_GRP2_DisableClockStopSleep\n
-ARM GAS  /tmp/ccGq777X.s 			page 117
+ARM GAS  /tmp/ccwdr9lq.s 			page 117
 
 
 1627:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         APB1SMENR2   SWPMI1SMEN    LL_APB1_GRP2_DisableClockStopSleep\n
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1681:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_DFSDM1 (*)
 1682:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_LTDC (*)
 1683:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_DSI (*)
-ARM GAS  /tmp/ccGq777X.s 			page 118
+ARM GAS  /tmp/ccwdr9lq.s 			page 118
 
 
 1684:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1738:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** 
 1739:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** /**
 1740:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @brief  Disable APB2 peripherals clock.
-ARM GAS  /tmp/ccGq777X.s 			page 119
+ARM GAS  /tmp/ccwdr9lq.s 			page 119
 
 
 1741:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @rmtoll APB2ENR      SYSCFGEN      LL_APB2_GRP1_DisableClock\n
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1795:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   * @param  Periphs This parameter can be a combination of the following values:
 1796:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_ALL
 1797:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_SYSCFG
-ARM GAS  /tmp/ccGq777X.s 			page 120
+ARM GAS  /tmp/ccwdr9lq.s 			page 120
 
 
 1798:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_SDMMC1 (*)
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 1842:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_TIM8 (*)
 1843:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_USART1
 1844:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_TIM15
-ARM GAS  /tmp/ccGq777X.s 			page 121
+ARM GAS  /tmp/ccwdr9lq.s 			page 121
 
 
 1845:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h ****   *         @arg @ref LL_APB2_GRP1_PERIPH_TIM16
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1064              	.LBB90:
  1065              	.LBB91:
 1361:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_bus.h **** }
-ARM GAS  /tmp/ccGq777X.s 			page 122
+ARM GAS  /tmp/ccwdr9lq.s 			page 122
 
 
  1066              		.loc 3 1361 0
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1114              		.loc 3 1361 0
  1115 00a4 03F50133 		add	r3, r3, #132096
  1116 00a8 9A6B     		ldr	r2, [r3, #56]
-ARM GAS  /tmp/ccGq777X.s 			page 123
+ARM GAS  /tmp/ccwdr9lq.s 			page 123
 
 
  1117 00aa 42F00802 		orr	r2, r2, #8
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1165 00da 42F02002 		orr	r2, r2, #32
  1166 00de 9A63     		str	r2, [r3, #56]
  1167              	.LVL141:
-ARM GAS  /tmp/ccGq777X.s 			page 124
+ARM GAS  /tmp/ccwdr9lq.s 			page 124
 
 
  1168              	.LBE107:
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1217              	.LBE114:
  1218              	.LBB116:
  1219              	.LBB117:
-ARM GAS  /tmp/ccGq777X.s 			page 125
+ARM GAS  /tmp/ccwdr9lq.s 			page 125
 
 
  1220              		.loc 3 1858 0
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1270 0142 22F48022 		bic	r2, r2, #262144
  1271 0146 1A64     		str	r2, [r3, #64]
  1272              	.LBE125:
-ARM GAS  /tmp/ccGq777X.s 			page 126
+ARM GAS  /tmp/ccwdr9lq.s 			page 126
 
 
  1273              	.LBE124:
@@ -7522,7 +7522,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1290 0170 00480140 		.word	1073825792
  1291 0174 00100240 		.word	1073876992
  1292              		.cfi_endproc
- 1293              	.LFE1499:
+ 1293              	.LFE1424:
  1295              		.section	.text.LL_TIM_StructInit,"ax",%progbits
  1296              		.align	1
  1297              		.global	LL_TIM_StructInit
@@ -7531,7 +7531,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1300              		.thumb_func
  1301              		.fpu fpv4-sp-d16
  1303              	LL_TIM_StructInit:
- 1304              	.LFB1500:
+ 1304              	.LFB1425:
  322:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the default configuration */
  1305              		.loc 1 322 0
  1306              		.cfi_startproc
@@ -7558,10 +7558,10 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1322 000e 0374     		strb	r3, [r0, #16]
  1323 0010 7047     		bx	lr
  1324              		.cfi_endproc
-ARM GAS  /tmp/ccGq777X.s 			page 127
+ARM GAS  /tmp/ccwdr9lq.s 			page 127
 
 
- 1325              	.LFE1500:
+ 1325              	.LFE1425:
  1327              		.section	.text.LL_TIM_Init,"ax",%progbits
  1328              		.align	1
  1329              		.global	LL_TIM_Init
@@ -7570,7 +7570,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1332              		.thumb_func
  1333              		.fpu fpv4-sp-d16
  1335              	LL_TIM_Init:
- 1336              	.LFB1501:
+ 1336              	.LFB1426:
  340:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   uint32_t tmpcr1 = 0U;
  1337              		.loc 1 340 0
  1338              		.cfi_startproc
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1372              	.LVL158:
  1373 0032 4A68     		ldr	r2, [r1, #4]
  1374 0034 1343     		orrs	r3, r3, r2
-ARM GAS  /tmp/ccGq777X.s 			page 128
+ARM GAS  /tmp/ccwdr9lq.s 			page 128
 
 
  1375              	.LVL159:
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1419              	.L76:
  363:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  1420              		.loc 1 363 0
-ARM GAS  /tmp/ccGq777X.s 			page 129
+ARM GAS  /tmp/ccwdr9lq.s 			page 129
 
 
  1421 0082 0360     		str	r3, [r0]
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1465              	.LVL166:
  1466              	.LBB130:
  1467              	.LBB131:
-ARM GAS  /tmp/ccGq777X.s 			page 130
+ARM GAS  /tmp/ccwdr9lq.s 			page 130
 
 
 1791:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2674:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_OC_GetCompareCH3(TIM_TypeDef *TIMx)
 2675:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
 2676:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   return (uint32_t)(READ_REG(TIMx->CCR3));
-ARM GAS  /tmp/ccGq777X.s 			page 131
+ARM GAS  /tmp/ccwdr9lq.s 			page 131
 
 
 2677:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2731:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_GROUPCH5_OC1REFC
 2732:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_GROUPCH5_OC2REFC
 2733:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_GROUPCH5_OC3REFC
-ARM GAS  /tmp/ccGq777X.s 			page 132
+ARM GAS  /tmp/ccwdr9lq.s 			page 132
 
 
 2734:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2788:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****              ((Configuration >> 16U) & (TIM_CCMR1_IC1F | TIM_CCMR1_IC1PSC | TIM_CCMR1_CC1S))  << SH
 2789:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   MODIFY_REG(TIMx->CCER, ((TIM_CCER_CC1NP | TIM_CCER_CC1P) << SHIFT_TAB_CCxP[iChannel]),
 2790:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****              (Configuration & (TIM_CCER_CC1NP | TIM_CCER_CC1P)) << SHIFT_TAB_CCxP[iChannel]);
-ARM GAS  /tmp/ccGq777X.s 			page 133
+ARM GAS  /tmp/ccwdr9lq.s 			page 133
 
 
 2791:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2845:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCMR1        IC2PSC        LL_TIM_IC_SetPrescaler\n
 2846:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCMR2        IC3PSC        LL_TIM_IC_SetPrescaler\n
 2847:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         CCMR2        IC4PSC        LL_TIM_IC_SetPrescaler
-ARM GAS  /tmp/ccGq777X.s 			page 134
+ARM GAS  /tmp/ccwdr9lq.s 			page 134
 
 
 2848:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2902:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH2
 2903:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH3
 2904:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CHANNEL_CH4
-ARM GAS  /tmp/ccGq777X.s 			page 135
+ARM GAS  /tmp/ccwdr9lq.s 			page 135
 
 
 2905:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  ICFilter This parameter can be one of the following values:
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 2959:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_IC_FILTER_FDIV32_N8
 2960:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 2961:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IC_GetFilter(TIM_TypeDef *TIMx, uint32_t Channel)
-ARM GAS  /tmp/ccGq777X.s 			page 136
+ARM GAS  /tmp/ccwdr9lq.s 			page 136
 
 
 2962:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3016:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_IC_POLARITY_BOTHEDGE
 3017:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 3018:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IC_GetPolarity(TIM_TypeDef *TIMx, uint32_t Channel)
-ARM GAS  /tmp/ccGq777X.s 			page 137
+ARM GAS  /tmp/ccwdr9lq.s 			page 137
 
 
 3019:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3073:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval CapturedValue (between Min_Data=0 and Max_Data=65535)
 3074:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 3075:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IC_GetCaptureCH1(TIM_TypeDef *TIMx)
-ARM GAS  /tmp/ccGq777X.s 			page 138
+ARM GAS  /tmp/ccwdr9lq.s 			page 138
 
 
 3076:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3130:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 3131:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 3132:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EF_Clock_Selection Counter clock selection
-ARM GAS  /tmp/ccGq777X.s 			page 139
+ARM GAS  /tmp/ccwdr9lq.s 			page 139
 
 
 3133:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @{
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3187:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
 3188:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  ClockSource This parameter can be one of the following values:
 3189:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKSOURCE_INTERNAL
-ARM GAS  /tmp/ccGq777X.s 			page 140
+ARM GAS  /tmp/ccwdr9lq.s 			page 140
 
 
 3190:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_CLOCKSOURCE_EXT_MODE1
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3244:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 3245:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 3246:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Set the trigger output 2 (TRGO2) used for ADC synchronization .
-ARM GAS  /tmp/ccGq777X.s 			page 141
+ARM GAS  /tmp/ccwdr9lq.s 			page 141
 
 
 3247:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @note Macro @ref IS_TIM_TRGO2_INSTANCE(TIMx) can be used to check
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3301:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_TS_ITR0
 3302:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_TS_ITR1
 3303:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_TS_ITR2
-ARM GAS  /tmp/ccGq777X.s 			page 142
+ARM GAS  /tmp/ccwdr9lq.s 			page 142
 
 
 3304:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_TS_ITR3
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3358:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *       a timer instance provides an external trigger input.
 3359:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll SMCR         ETP           LL_TIM_ConfigETR\n
 3360:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         SMCR         ETPS          LL_TIM_ConfigETR\n
-ARM GAS  /tmp/ccGq777X.s 			page 143
+ARM GAS  /tmp/ccwdr9lq.s 			page 143
 
 
 3361:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         SMCR         ETF           LL_TIM_ConfigETR
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3415:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @}
 3416:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 3417:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 144
+ARM GAS  /tmp/ccwdr9lq.s 			page 144
 
 
 3418:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /** @defgroup TIM_LL_EF_Break_Function Break function configuration
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3472:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_BREAK_FILTER_FDIV32_N6
 3473:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_BREAK_FILTER_FDIV32_N8
 3474:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/ccGq777X.s 			page 145
+ARM GAS  /tmp/ccwdr9lq.s 			page 145
 
 
 3475:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3529:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_BREAK2_FILTER_FDIV16_N6
 3530:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_BREAK2_FILTER_FDIV16_N8
 3531:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_BREAK2_FILTER_FDIV32_N5
-ARM GAS  /tmp/ccGq777X.s 			page 146
+ARM GAS  /tmp/ccwdr9lq.s 			page 146
 
 
 3532:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_BREAK2_FILTER_FDIV32_N6
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3586:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 3587:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 3588:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Indicate whether automatic output is enabled.
-ARM GAS  /tmp/ccGq777X.s 			page 147
+ARM GAS  /tmp/ccwdr9lq.s 			page 147
 
 
 3589:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @note Macro @ref IS_TIM_BREAK_INSTANCE(TIMx) can be used to check whether or not
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3643:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 3644:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Enable the signals connected to the designated timer break input.
 3645:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @note Macro @ref IS_TIM_BREAKSOURCE_INSTANCE(TIMx) can be used to check whether
-ARM GAS  /tmp/ccGq777X.s 			page 148
+ARM GAS  /tmp/ccwdr9lq.s 			page 148
 
 
 3646:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *       or not a timer instance allows for break input selection.
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3700:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 3701:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 3702:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Set the polarity of the break signal for the timer break input.
-ARM GAS  /tmp/ccGq777X.s 			page 149
+ARM GAS  /tmp/ccwdr9lq.s 			page 149
 
 
 3703:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @note Macro @ref IS_TIM_BREAKSOURCE_INSTANCE(TIMx) can be used to check whether
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3757:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_BASEADDR_PSC
 3758:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_BASEADDR_ARR
 3759:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_BASEADDR_RCR
-ARM GAS  /tmp/ccGq777X.s 			page 150
+ARM GAS  /tmp/ccwdr9lq.s 			page 150
 
 
 3760:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         @arg @ref LL_TIM_DMABURST_BASEADDR_CCR1
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3814:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         TIM8_OR1    TI1_RMP           LL_TIM_SetRemap\n
 3815:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         TIM2_OR1    ITR1_RMP          LL_TIM_SetRemap\n
 3816:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         TIM2_OR1    TI4_RMP           LL_TIM_SetRemap\n
-ARM GAS  /tmp/ccGq777X.s 			page 151
+ARM GAS  /tmp/ccwdr9lq.s 			page 151
 
 
 3817:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *         TIM2_OR1    TI1_RMP           LL_TIM_SetRemap\n
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3871:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *            . . TI4_RMP can be one of the following values
 3872:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM2_TI4_RMP_GPIO
 3873:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM2_TI4_RMP_COMP1
-ARM GAS  /tmp/ccGq777X.s 			page 152
+ARM GAS  /tmp/ccwdr9lq.s 			page 152
 
 
 3874:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM2_TI4_RMP_COMP2
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3928:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM17_TI1_RMP_HSE_32
 3929:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   *            @arg @ref LL_TIM_TIM17_TI1_RMP_MCO
 3930:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****    @endif
-ARM GAS  /tmp/ccGq777X.s 			page 153
+ARM GAS  /tmp/ccwdr9lq.s 			page 153
 
 
 3931:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   @if STM32L443xx
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 3985:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
 3986:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   MODIFY_REG(TIMx->OR1, (Remap >> TIMx_OR1_RMP_SHIFT), (Remap & TIMx_OR1_RMP_MASK));
 3987:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
-ARM GAS  /tmp/ccGq777X.s 			page 154
+ARM GAS  /tmp/ccwdr9lq.s 			page 154
 
 
 3988:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4042:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll SR           CC1IF         LL_TIM_ClearFlag_CC1
 4043:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
 4044:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/ccGq777X.s 			page 155
+ARM GAS  /tmp/ccwdr9lq.s 			page 155
 
 
 4045:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4099:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval State of bit (1 or 0).
 4100:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 4101:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsActiveFlag_CC3(TIM_TypeDef *TIMx)
-ARM GAS  /tmp/ccGq777X.s 			page 156
+ARM GAS  /tmp/ccwdr9lq.s 			page 156
 
 
 4102:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4156:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_ClearFlag_CC6(TIM_TypeDef *TIMx)
 4157:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
 4158:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   WRITE_REG(TIMx->SR, ~(TIM_SR_CC6IF));
-ARM GAS  /tmp/ccGq777X.s 			page 157
+ARM GAS  /tmp/ccwdr9lq.s 			page 157
 
 
 4159:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4213:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   return (READ_BIT(TIMx->SR, TIM_SR_TIF) == (TIM_SR_TIF));
 4214:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
 4215:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
-ARM GAS  /tmp/ccGq777X.s 			page 158
+ARM GAS  /tmp/ccwdr9lq.s 			page 158
 
 
 4216:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4270:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 4271:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 4272:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Indicate whether Capture/Compare 1 over-capture interrupt flag (CC1OF) is set (Capture/
-ARM GAS  /tmp/ccGq777X.s 			page 159
+ARM GAS  /tmp/ccwdr9lq.s 			page 159
 
 
 4273:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll SR           CC1OF         LL_TIM_IsActiveFlag_CC1OVR
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4327:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Clear the Capture/Compare 4 over-capture interrupt flag (CC4OF).
 4328:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll SR           CC4OF         LL_TIM_ClearFlag_CC4OVR
 4329:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
-ARM GAS  /tmp/ccGq777X.s 			page 160
+ARM GAS  /tmp/ccwdr9lq.s 			page 160
 
 
 4330:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4384:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
 4385:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   SET_BIT(TIMx->DIER, TIM_DIER_UIE);
 4386:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
-ARM GAS  /tmp/ccGq777X.s 			page 161
+ARM GAS  /tmp/ccwdr9lq.s 			page 161
 
 
 4387:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4441:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** }
 4442:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 4443:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
-ARM GAS  /tmp/ccGq777X.s 			page 162
+ARM GAS  /tmp/ccwdr9lq.s 			page 162
 
 
 4444:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Enable capture/compare 2 interrupt (CC2IE).
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4498:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 4499:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Indicates whether the capture/compare 3 interrupt (CC3IE) is enabled.
 4500:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll DIER         CC3IE         LL_TIM_IsEnabledIT_CC3
-ARM GAS  /tmp/ccGq777X.s 			page 163
+ARM GAS  /tmp/ccwdr9lq.s 			page 163
 
 
 4501:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4555:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll DIER         COMIE         LL_TIM_DisableIT_COM
 4556:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
 4557:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
-ARM GAS  /tmp/ccGq777X.s 			page 164
+ARM GAS  /tmp/ccwdr9lq.s 			page 164
 
 
 4558:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4612:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
 4613:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 4614:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_EnableIT_BRK(TIM_TypeDef *TIMx)
-ARM GAS  /tmp/ccGq777X.s 			page 165
+ARM GAS  /tmp/ccwdr9lq.s 			page 165
 
 
 4615:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4669:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** 
 4670:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** /**
 4671:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Indicates whether the update DMA request  (UDE) is enabled.
-ARM GAS  /tmp/ccGq777X.s 			page 166
+ARM GAS  /tmp/ccwdr9lq.s 			page 166
 
 
 4672:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll DIER         UDE           LL_TIM_IsEnabledDMAReq_UPDATE
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4726:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @brief  Disable capture/compare 2  DMA request (CC2DE).
 4727:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @rmtoll DIER         CC2DE         LL_TIM_DisableDMAReq_CC2
 4728:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
-ARM GAS  /tmp/ccGq777X.s 			page 167
+ARM GAS  /tmp/ccwdr9lq.s 			page 167
 
 
 4729:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4783:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @param  TIMx Timer instance
 4784:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   * @retval None
 4785:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
-ARM GAS  /tmp/ccGq777X.s 			page 168
+ARM GAS  /tmp/ccwdr9lq.s 			page 168
 
 
 4786:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE void LL_TIM_EnableDMAReq_CC4(TIM_TypeDef *TIMx)
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
 4840:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   */
 4841:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** __STATIC_INLINE uint32_t LL_TIM_IsEnabledDMAReq_COM(TIM_TypeDef *TIMx)
 4842:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h **** {
-ARM GAS  /tmp/ccGq777X.s 			page 169
+ARM GAS  /tmp/ccwdr9lq.s 			page 169
 
 
 4843:Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_tim.h ****   return (READ_BIT(TIMx->DIER, TIM_DIER_COMDE) == (TIM_DIER_COMDE));
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1478 00b8 43F00103 		orr	r3, r3, #1
  1479 00bc 4361     		str	r3, [r0, #20]
  1480              	.LVL168:
-ARM GAS  /tmp/ccGq777X.s 			page 170
+ARM GAS  /tmp/ccwdr9lq.s 			page 170
 
 
  1481              	.LBE133:
@@ -10153,7 +10153,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1489              	.L79:
  1490 00c4 002C0140 		.word	1073818624
  1491              		.cfi_endproc
- 1492              	.LFE1501:
+ 1492              	.LFE1426:
  1494              		.section	.text.LL_TIM_OC_StructInit,"ax",%progbits
  1495              		.align	1
  1496              		.global	LL_TIM_OC_StructInit
@@ -10162,7 +10162,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1499              		.thumb_func
  1500              		.fpu fpv4-sp-d16
  1502              	LL_TIM_OC_StructInit:
- 1503              	.LFB1502:
+ 1503              	.LFB1427:
  391:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the default configuration */
  1504              		.loc 1 391 0
  1505              		.cfi_startproc
@@ -10197,8 +10197,8 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1526 0010 C361     		str	r3, [r0, #28]
  1527 0012 7047     		bx	lr
  1528              		.cfi_endproc
- 1529              	.LFE1502:
-ARM GAS  /tmp/ccGq777X.s 			page 171
+ 1529              	.LFE1427:
+ARM GAS  /tmp/ccwdr9lq.s 			page 171
 
 
  1531              		.section	.text.LL_TIM_OC_Init,"ax",%progbits
@@ -10209,7 +10209,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1536              		.thumb_func
  1537              		.fpu fpv4-sp-d16
  1539              	LL_TIM_OC_Init:
- 1540              	.LFB1503:
+ 1540              	.LFB1428:
  419:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   ErrorStatus result = ERROR;
  1541              		.loc 1 419 0
  1542              		.cfi_startproc
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  429:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     case LL_TIM_CHANNEL_CH3:
  1580              		.loc 1 429 0
  1581 002e 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/ccGq777X.s 			page 172
+ARM GAS  /tmp/ccwdr9lq.s 			page 172
 
 
  1582              	.LVL177:
@@ -10317,8 +10317,8 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1625              		.loc 1 441 0
  1626 0056 08BD     		pop	{r3, pc}
  1627              		.cfi_endproc
- 1628              	.LFE1503:
-ARM GAS  /tmp/ccGq777X.s 			page 173
+ 1628              	.LFE1428:
+ARM GAS  /tmp/ccwdr9lq.s 			page 173
 
 
  1630              		.section	.text.LL_TIM_IC_StructInit,"ax",%progbits
@@ -10329,7 +10329,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1635              		.thumb_func
  1636              		.fpu fpv4-sp-d16
  1638              	LL_TIM_IC_StructInit:
- 1639              	.LFB1504:
+ 1639              	.LFB1429:
  456:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the default configuration */
  1640              		.loc 1 456 0
  1641              		.cfi_startproc
@@ -10353,7 +10353,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1655 000c C360     		str	r3, [r0, #12]
  1656 000e 7047     		bx	lr
  1657              		.cfi_endproc
- 1658              	.LFE1504:
+ 1658              	.LFE1429:
  1660              		.section	.text.LL_TIM_IC_Init,"ax",%progbits
  1661              		.align	1
  1662              		.global	LL_TIM_IC_Init
@@ -10362,7 +10362,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1665              		.thumb_func
  1666              		.fpu fpv4-sp-d16
  1668              	LL_TIM_IC_Init:
- 1669              	.LFB1505:
+ 1669              	.LFB1430:
  478:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   ErrorStatus result = ERROR;
  1670              		.loc 1 478 0
  1671              		.cfi_startproc
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  481:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   {
  1681              		.loc 1 481 0
  1682 0002 1029     		cmp	r1, #16
-ARM GAS  /tmp/ccGq777X.s 			page 174
+ARM GAS  /tmp/ccwdr9lq.s 			page 174
 
 
  1683 0004 10D0     		beq	.L98
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  479:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  1728              		.loc 1 479 0
  1729 0038 0020     		movs	r0, #0
-ARM GAS  /tmp/ccGq777X.s 			page 175
+ARM GAS  /tmp/ccwdr9lq.s 			page 175
 
 
  1730              	.LVL207:
@@ -10446,7 +10446,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1731              		.loc 1 500 0
  1732 003a 08BD     		pop	{r3, pc}
  1733              		.cfi_endproc
- 1734              	.LFE1505:
+ 1734              	.LFE1430:
  1736              		.section	.text.LL_TIM_ENCODER_StructInit,"ax",%progbits
  1737              		.align	1
  1738              		.global	LL_TIM_ENCODER_StructInit
@@ -10455,7 +10455,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1741              		.thumb_func
  1742              		.fpu fpv4-sp-d16
  1744              	LL_TIM_ENCODER_StructInit:
- 1745              	.LFB1506:
+ 1745              	.LFB1431:
  508:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the default configuration */
  1746              		.loc 1 508 0
  1747              		.cfi_startproc
@@ -10495,10 +10495,10 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1772 0018 0362     		str	r3, [r0, #32]
  1773 001a 7047     		bx	lr
  1774              		.cfi_endproc
- 1775              	.LFE1506:
+ 1775              	.LFE1431:
  1777              		.section	.text.LL_TIM_ENCODER_Init,"ax",%progbits
  1778              		.align	1
-ARM GAS  /tmp/ccGq777X.s 			page 176
+ARM GAS  /tmp/ccwdr9lq.s 			page 176
 
 
  1779              		.global	LL_TIM_ENCODER_Init
@@ -10507,7 +10507,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1782              		.thumb_func
  1783              		.fpu fpv4-sp-d16
  1785              	LL_TIM_ENCODER_Init:
- 1786              	.LFB1507:
+ 1786              	.LFB1432:
  530:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   uint32_t tmpccmr1 = 0U;
  1787              		.loc 1 530 0
  1788              		.cfi_startproc
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1825              	.LVL217:
  563:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   tmpccmr1 |= (uint32_t)(TIM_EncoderInitStruct->IC2Filter >> 8U);
  1826              		.loc 1 563 0
-ARM GAS  /tmp/ccGq777X.s 			page 177
+ARM GAS  /tmp/ccwdr9lq.s 			page 177
 
 
  1827 0022 8C69     		ldr	r4, [r1, #24]
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  583:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  1871              		.loc 1 583 0
  1872 005a 0120     		movs	r0, #1
-ARM GAS  /tmp/ccGq777X.s 			page 178
+ARM GAS  /tmp/ccwdr9lq.s 			page 178
 
 
  1873              	.LVL228:
@@ -10628,7 +10628,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1877              		.cfi_def_cfa_offset 0
  1878 0060 7047     		bx	lr
  1879              		.cfi_endproc
- 1880              	.LFE1507:
+ 1880              	.LFE1432:
  1882              		.section	.text.LL_TIM_HALLSENSOR_StructInit,"ax",%progbits
  1883              		.align	1
  1884              		.global	LL_TIM_HALLSENSOR_StructInit
@@ -10637,7 +10637,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1887              		.thumb_func
  1888              		.fpu fpv4-sp-d16
  1890              	LL_TIM_HALLSENSOR_StructInit:
- 1891              	.LFB1508:
+ 1891              	.LFB1433:
  592:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the default configuration */
  1892              		.loc 1 592 0
  1893              		.cfi_startproc
@@ -10660,7 +10660,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1906 0008 C360     		str	r3, [r0, #12]
  1907 000a 7047     		bx	lr
  1908              		.cfi_endproc
- 1909              	.LFE1508:
+ 1909              	.LFE1433:
  1911              		.section	.text.LL_TIM_HALLSENSOR_Init,"ax",%progbits
  1912              		.align	1
  1913              		.global	LL_TIM_HALLSENSOR_Init
@@ -10669,7 +10669,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1916              		.thumb_func
  1917              		.fpu fpv4-sp-d16
  1919              	LL_TIM_HALLSENSOR_Init:
- 1920              	.LFB1509:
+ 1920              	.LFB1434:
  621:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   uint32_t tmpcr2 = 0U;
  1921              		.loc 1 621 0
  1922              		.cfi_startproc
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  1925              		@ link register save eliminated.
  1926              	.LVL230:
  1927 0000 70B4     		push	{r4, r5, r6}
-ARM GAS  /tmp/ccGq777X.s 			page 179
+ARM GAS  /tmp/ccwdr9lq.s 			page 179
 
 
  1928              	.LCFI24:
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  663:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c **** 
  1971              		.loc 1 663 0
  1972 002e CE88     		ldrh	r6, [r1, #6]
-ARM GAS  /tmp/ccGq777X.s 			page 180
+ARM GAS  /tmp/ccwdr9lq.s 			page 180
 
 
  1973 0030 3343     		orrs	r3, r3, r6
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2015              	.LCFI25:
  2016              		.cfi_restore 6
  2017              		.cfi_restore 5
-ARM GAS  /tmp/ccGq777X.s 			page 181
+ARM GAS  /tmp/ccwdr9lq.s 			page 181
 
 
  2018              		.cfi_restore 4
@@ -10806,7 +10806,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2020              	.LVL253:
  2021 005a 7047     		bx	lr
  2022              		.cfi_endproc
- 2023              	.LFE1509:
+ 2023              	.LFE1434:
  2025              		.section	.text.LL_TIM_BDTR_StructInit,"ax",%progbits
  2026              		.align	1
  2027              		.global	LL_TIM_BDTR_StructInit
@@ -10815,7 +10815,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2030              		.thumb_func
  2031              		.fpu fpv4-sp-d16
  2033              	LL_TIM_BDTR_StructInit:
- 2034              	.LFB1510:
+ 2034              	.LFB1435:
  699:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   /* Set the default configuration */
  2035              		.loc 1 699 0
  2036              		.cfi_startproc
@@ -10858,11 +10858,11 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2062              		.loc 1 711 0
  2063 0016 4362     		str	r3, [r0, #36]
  2064 0018 7047     		bx	lr
-ARM GAS  /tmp/ccGq777X.s 			page 182
+ARM GAS  /tmp/ccwdr9lq.s 			page 182
 
 
  2065              		.cfi_endproc
- 2066              	.LFE1510:
+ 2066              	.LFE1435:
  2068              		.section	.text.LL_TIM_BDTR_Init,"ax",%progbits
  2069              		.align	1
  2070              		.global	LL_TIM_BDTR_Init
@@ -10871,7 +10871,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2073              		.thumb_func
  2074              		.fpu fpv4-sp-d16
  2076              	LL_TIM_BDTR_Init:
- 2077              	.LFB1511:
+ 2077              	.LFB1436:
  731:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   uint32_t tmpbdtr = 0;
  2078              		.loc 1 731 0
  2079              		.cfi_startproc
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2115              	.LVL268:
  2116 0024 1343     		orrs	r3, r3, r2
  2117              	.LVL269:
-ARM GAS  /tmp/ccGq777X.s 			page 183
+ARM GAS  /tmp/ccwdr9lq.s 			page 183
 
 
  753:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****   MODIFY_REG(tmpbdtr, TIM_BDTR_MOE, TIM_BDTRInitStruct->AutomaticOutput);
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2163              	.L116:
  768:Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_tim.c ****     MODIFY_REG(tmpbdtr, TIM_BDTR_BK2E, TIM_BDTRInitStruct->Break2State);
  2164              		.loc 1 768 0
-ARM GAS  /tmp/ccGq777X.s 			page 184
+ARM GAS  /tmp/ccwdr9lq.s 			page 184
 
 
  2165 0060 23F47003 		bic	r3, r3, #15728640
@@ -11006,7 +11006,7 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2185              	.L118:
  2186 007c 002C0140 		.word	1073818624
  2187              		.cfi_endproc
- 2188              	.LFE1511:
+ 2188              	.LFE1436:
  2190              		.text
  2191              	.Letext0:
  2192              		.file 4 "/usr/arm-none-eabi/include/machine/_default_types.h"
@@ -11020,67 +11020,67 @@ ARM GAS  /tmp/ccGq777X.s 			page 1
  2200              		.file 12 "/usr/lib/gcc/arm-none-eabi/6.3.1/include/stddef.h"
  2201              		.file 13 "/usr/arm-none-eabi/include/sys/reent.h"
  2202              		.file 14 "Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_ll_dma.h"
-ARM GAS  /tmp/ccGq777X.s 			page 185
+ARM GAS  /tmp/ccwdr9lq.s 			page 185
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32l4xx_ll_tim.c
-     /tmp/ccGq777X.s:18     .text.OC1Config:0000000000000000 $t
-     /tmp/ccGq777X.s:24     .text.OC1Config:0000000000000000 OC1Config
-     /tmp/ccGq777X.s:147    .text.OC1Config:0000000000000088 $d
-     /tmp/ccGq777X.s:152    .text.OC2Config:0000000000000000 $t
-     /tmp/ccGq777X.s:158    .text.OC2Config:0000000000000000 OC2Config
-     /tmp/ccGq777X.s:279    .text.OC2Config:0000000000000090 $d
-     /tmp/ccGq777X.s:284    .text.OC3Config:0000000000000000 $t
-     /tmp/ccGq777X.s:290    .text.OC3Config:0000000000000000 OC3Config
-     /tmp/ccGq777X.s:411    .text.OC3Config:0000000000000090 $d
-     /tmp/ccGq777X.s:416    .text.OC4Config:0000000000000000 $t
-     /tmp/ccGq777X.s:422    .text.OC4Config:0000000000000000 OC4Config
-     /tmp/ccGq777X.s:525    .text.OC4Config:0000000000000074 $d
-     /tmp/ccGq777X.s:530    .text.OC5Config:0000000000000000 $t
-     /tmp/ccGq777X.s:536    .text.OC5Config:0000000000000000 OC5Config
-     /tmp/ccGq777X.s:633    .text.OC5Config:0000000000000070 $d
-     /tmp/ccGq777X.s:638    .text.OC6Config:0000000000000000 $t
-     /tmp/ccGq777X.s:644    .text.OC6Config:0000000000000000 OC6Config
-     /tmp/ccGq777X.s:741    .text.OC6Config:0000000000000074 $d
-     /tmp/ccGq777X.s:746    .text.IC1Config:0000000000000000 $t
-     /tmp/ccGq777X.s:752    .text.IC1Config:0000000000000000 IC1Config
-     /tmp/ccGq777X.s:797    .text.IC2Config:0000000000000000 $t
-     /tmp/ccGq777X.s:803    .text.IC2Config:0000000000000000 IC2Config
-     /tmp/ccGq777X.s:848    .text.IC3Config:0000000000000000 $t
-     /tmp/ccGq777X.s:854    .text.IC3Config:0000000000000000 IC3Config
-     /tmp/ccGq777X.s:899    .text.IC4Config:0000000000000000 $t
-     /tmp/ccGq777X.s:905    .text.IC4Config:0000000000000000 IC4Config
-     /tmp/ccGq777X.s:950    .text.LL_TIM_DeInit:0000000000000000 $t
-     /tmp/ccGq777X.s:957    .text.LL_TIM_DeInit:0000000000000000 LL_TIM_DeInit
-     /tmp/ccGq777X.s:1281   .text.LL_TIM_DeInit:000000000000014c $d
-     /tmp/ccGq777X.s:1296   .text.LL_TIM_StructInit:0000000000000000 $t
-     /tmp/ccGq777X.s:1303   .text.LL_TIM_StructInit:0000000000000000 LL_TIM_StructInit
-     /tmp/ccGq777X.s:1328   .text.LL_TIM_Init:0000000000000000 $t
-     /tmp/ccGq777X.s:1335   .text.LL_TIM_Init:0000000000000000 LL_TIM_Init
-     /tmp/ccGq777X.s:1490   .text.LL_TIM_Init:00000000000000c4 $d
-     /tmp/ccGq777X.s:1495   .text.LL_TIM_OC_StructInit:0000000000000000 $t
-     /tmp/ccGq777X.s:1502   .text.LL_TIM_OC_StructInit:0000000000000000 LL_TIM_OC_StructInit
-     /tmp/ccGq777X.s:1532   .text.LL_TIM_OC_Init:0000000000000000 $t
-     /tmp/ccGq777X.s:1539   .text.LL_TIM_OC_Init:0000000000000000 LL_TIM_OC_Init
-     /tmp/ccGq777X.s:1631   .text.LL_TIM_IC_StructInit:0000000000000000 $t
-     /tmp/ccGq777X.s:1638   .text.LL_TIM_IC_StructInit:0000000000000000 LL_TIM_IC_StructInit
-     /tmp/ccGq777X.s:1661   .text.LL_TIM_IC_Init:0000000000000000 $t
-     /tmp/ccGq777X.s:1668   .text.LL_TIM_IC_Init:0000000000000000 LL_TIM_IC_Init
-     /tmp/ccGq777X.s:1737   .text.LL_TIM_ENCODER_StructInit:0000000000000000 $t
-     /tmp/ccGq777X.s:1744   .text.LL_TIM_ENCODER_StructInit:0000000000000000 LL_TIM_ENCODER_StructInit
-     /tmp/ccGq777X.s:1778   .text.LL_TIM_ENCODER_Init:0000000000000000 $t
-     /tmp/ccGq777X.s:1785   .text.LL_TIM_ENCODER_Init:0000000000000000 LL_TIM_ENCODER_Init
-     /tmp/ccGq777X.s:1883   .text.LL_TIM_HALLSENSOR_StructInit:0000000000000000 $t
-     /tmp/ccGq777X.s:1890   .text.LL_TIM_HALLSENSOR_StructInit:0000000000000000 LL_TIM_HALLSENSOR_StructInit
-     /tmp/ccGq777X.s:1912   .text.LL_TIM_HALLSENSOR_Init:0000000000000000 $t
-     /tmp/ccGq777X.s:1919   .text.LL_TIM_HALLSENSOR_Init:0000000000000000 LL_TIM_HALLSENSOR_Init
-     /tmp/ccGq777X.s:2026   .text.LL_TIM_BDTR_StructInit:0000000000000000 $t
-     /tmp/ccGq777X.s:2033   .text.LL_TIM_BDTR_StructInit:0000000000000000 LL_TIM_BDTR_StructInit
-     /tmp/ccGq777X.s:2069   .text.LL_TIM_BDTR_Init:0000000000000000 $t
-     /tmp/ccGq777X.s:2076   .text.LL_TIM_BDTR_Init:0000000000000000 LL_TIM_BDTR_Init
-     /tmp/ccGq777X.s:2186   .text.LL_TIM_BDTR_Init:000000000000007c $d
-ARM GAS  /tmp/ccGq777X.s 			page 186
+     /tmp/ccwdr9lq.s:18     .text.OC1Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:24     .text.OC1Config:0000000000000000 OC1Config
+     /tmp/ccwdr9lq.s:147    .text.OC1Config:0000000000000088 $d
+     /tmp/ccwdr9lq.s:152    .text.OC2Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:158    .text.OC2Config:0000000000000000 OC2Config
+     /tmp/ccwdr9lq.s:279    .text.OC2Config:0000000000000090 $d
+     /tmp/ccwdr9lq.s:284    .text.OC3Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:290    .text.OC3Config:0000000000000000 OC3Config
+     /tmp/ccwdr9lq.s:411    .text.OC3Config:0000000000000090 $d
+     /tmp/ccwdr9lq.s:416    .text.OC4Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:422    .text.OC4Config:0000000000000000 OC4Config
+     /tmp/ccwdr9lq.s:525    .text.OC4Config:0000000000000074 $d
+     /tmp/ccwdr9lq.s:530    .text.OC5Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:536    .text.OC5Config:0000000000000000 OC5Config
+     /tmp/ccwdr9lq.s:633    .text.OC5Config:0000000000000070 $d
+     /tmp/ccwdr9lq.s:638    .text.OC6Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:644    .text.OC6Config:0000000000000000 OC6Config
+     /tmp/ccwdr9lq.s:741    .text.OC6Config:0000000000000074 $d
+     /tmp/ccwdr9lq.s:746    .text.IC1Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:752    .text.IC1Config:0000000000000000 IC1Config
+     /tmp/ccwdr9lq.s:797    .text.IC2Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:803    .text.IC2Config:0000000000000000 IC2Config
+     /tmp/ccwdr9lq.s:848    .text.IC3Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:854    .text.IC3Config:0000000000000000 IC3Config
+     /tmp/ccwdr9lq.s:899    .text.IC4Config:0000000000000000 $t
+     /tmp/ccwdr9lq.s:905    .text.IC4Config:0000000000000000 IC4Config
+     /tmp/ccwdr9lq.s:950    .text.LL_TIM_DeInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:957    .text.LL_TIM_DeInit:0000000000000000 LL_TIM_DeInit
+     /tmp/ccwdr9lq.s:1281   .text.LL_TIM_DeInit:000000000000014c $d
+     /tmp/ccwdr9lq.s:1296   .text.LL_TIM_StructInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1303   .text.LL_TIM_StructInit:0000000000000000 LL_TIM_StructInit
+     /tmp/ccwdr9lq.s:1328   .text.LL_TIM_Init:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1335   .text.LL_TIM_Init:0000000000000000 LL_TIM_Init
+     /tmp/ccwdr9lq.s:1490   .text.LL_TIM_Init:00000000000000c4 $d
+     /tmp/ccwdr9lq.s:1495   .text.LL_TIM_OC_StructInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1502   .text.LL_TIM_OC_StructInit:0000000000000000 LL_TIM_OC_StructInit
+     /tmp/ccwdr9lq.s:1532   .text.LL_TIM_OC_Init:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1539   .text.LL_TIM_OC_Init:0000000000000000 LL_TIM_OC_Init
+     /tmp/ccwdr9lq.s:1631   .text.LL_TIM_IC_StructInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1638   .text.LL_TIM_IC_StructInit:0000000000000000 LL_TIM_IC_StructInit
+     /tmp/ccwdr9lq.s:1661   .text.LL_TIM_IC_Init:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1668   .text.LL_TIM_IC_Init:0000000000000000 LL_TIM_IC_Init
+     /tmp/ccwdr9lq.s:1737   .text.LL_TIM_ENCODER_StructInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1744   .text.LL_TIM_ENCODER_StructInit:0000000000000000 LL_TIM_ENCODER_StructInit
+     /tmp/ccwdr9lq.s:1778   .text.LL_TIM_ENCODER_Init:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1785   .text.LL_TIM_ENCODER_Init:0000000000000000 LL_TIM_ENCODER_Init
+     /tmp/ccwdr9lq.s:1883   .text.LL_TIM_HALLSENSOR_StructInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1890   .text.LL_TIM_HALLSENSOR_StructInit:0000000000000000 LL_TIM_HALLSENSOR_StructInit
+     /tmp/ccwdr9lq.s:1912   .text.LL_TIM_HALLSENSOR_Init:0000000000000000 $t
+     /tmp/ccwdr9lq.s:1919   .text.LL_TIM_HALLSENSOR_Init:0000000000000000 LL_TIM_HALLSENSOR_Init
+     /tmp/ccwdr9lq.s:2026   .text.LL_TIM_BDTR_StructInit:0000000000000000 $t
+     /tmp/ccwdr9lq.s:2033   .text.LL_TIM_BDTR_StructInit:0000000000000000 LL_TIM_BDTR_StructInit
+     /tmp/ccwdr9lq.s:2069   .text.LL_TIM_BDTR_Init:0000000000000000 $t
+     /tmp/ccwdr9lq.s:2076   .text.LL_TIM_BDTR_Init:0000000000000000 LL_TIM_BDTR_Init
+     /tmp/ccwdr9lq.s:2186   .text.LL_TIM_BDTR_Init:000000000000007c $d
+ARM GAS  /tmp/ccwdr9lq.s 			page 186
 
 
                      .debug_frame:0000000000000010 $d
