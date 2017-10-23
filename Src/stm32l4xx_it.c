@@ -195,14 +195,14 @@ void ADC1_2_IRQHandler(void)
   
   /* USER CODE BEGIN ADC1_2_IRQn 1 */
 
-  // <Untested>
+  // <Placeholder Code>
   int left_channel = LL_ADC_REG_ReadConversionData12(ADC1);
   delay_sample(left_channel);
   left_channel = flange(left_channel, 10, 20);
   left_channel = tanh_OD(left_channel, 5, 50);
   LL_DAC_ConvertData12LeftAligned(DAC1, LL_DAC_CHANNEL_2, left_channel);
   LL_DAC_TrigSWConversion(DAC1 , LL_DAC_CHANNEL_2);
-  // </Untested>
+  // </Placeholder Code>
 
   /* USER CODE END ADC1_2_IRQn 1 */
 }
