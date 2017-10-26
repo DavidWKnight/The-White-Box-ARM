@@ -53,7 +53,7 @@ short flange(short sample, char speed, char depth){
     unsigned int time_delay = 0;
     float speed_float = ((float)speed)/10.0f;
 
-    time_delay = depth*(1.0f-taylor_cos(2.0f*PI*speed_float*index/((float)SAMPLES_PER_SECOND)));
+    time_delay = depth*(1.0f-fcos(2.0f*PI*speed_float*index/((float)SAMPLES_PER_SECOND)));
 
     if(index > SAMPLES_PER_SECOND/speed){
         index_add = -1;
@@ -119,40 +119,3 @@ short tanh_OD(short sample, char gain, char mix){
 //    return (int)(sample_out*temp);
 //}
 
-float taylor_cos(float x){
-    //// Range Reduction
-    //if(x < 0){
-    //    x = -x;
-    //}
-    //x = float_mod(x, _2PI);
-    //if(x > PI){
-    //    x -= _2PI;
-    //}
-
-    return 1.0f + x*x*(0.0416667f*x*x - 0.5f);
-}
-
-float taylor_sin(float x){
-    //// Range Reduction
-    //if(x < 0){
-    //    return -taylor_sin(-x);
-    //}
-    //x = float_mod(x, _2PI) - PI;
-    //if(x > PI){
-    //    x -= _2PI;
-    //}
-
-    return x*(0.9996949f + x*x*(0.0083333f*x*x - 0.1666667f));
-}
-
-float taylor_exp(float x){
-    return 1 + x*(1.5f + .166667f*x);
-}
-
-float taylor_tanh(float x){
-    return x*(1.0f + x*x*(0.1333333f*x*x - .3333333f));
-}
-
-float float_mod(float a, float b){
-    return (a - b*(int)(a/b));
-}
