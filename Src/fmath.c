@@ -6,6 +6,8 @@
  */
 #include <fmath.h>
 
+static float cos_32(float x);
+static float sin_32(float x);
 
 /*
  * Calculate cos(x) using floating point numbers
