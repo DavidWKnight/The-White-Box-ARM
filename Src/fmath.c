@@ -12,10 +12,15 @@
  *
  */
 float fcos(float x){
-	if (x < 0){
+	// reduce range of x to [0, infinity)
+	if (x < 0){ 
 		x *= -1;
 	}
-	x -= ((int)(x*inv_2PI))*_2PI;
+
+	// reduce range of x to [0, 2PI]
+	x -= ((int)(x*inv_2PI))*_2PI; // x = x % _2PI;
+
+	// reduce range of x to [-PI/2, PI/2]
 	if(x < PI_2){
 		return cos_32(x);
 	}
@@ -38,10 +43,15 @@ static float cos_32(float x){
  *
  */
 float fsin(float x){
+	// reduce range of x to [0, infinity)
 	if (x < 0){
 		return -fsin(-x);
 	}
-	x -= ((int)(x*inv_2PI))*_2PI;
+
+	// reduce range of x to [0, 2PI]
+	x -= ((int)(x*inv_2PI))*_2PI; // x = x % _2PI;
+
+	// reduce range of x to [-PI/2, PI/2]
 	if(x < PI_2){
 		return sin_32(x);
 	}
