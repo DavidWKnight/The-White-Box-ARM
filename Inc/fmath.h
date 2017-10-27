@@ -17,9 +17,7 @@
 #define inv_2PI 0.15915494309189533577f
 
 float fcos(float x);
-static float cos_32(float x);
 float fsin(float x);
-static float sin_32(float x);
 float taylor_exp(float x);
 float taylor_tanh(float x);
 float float_mod(float a, float b);
